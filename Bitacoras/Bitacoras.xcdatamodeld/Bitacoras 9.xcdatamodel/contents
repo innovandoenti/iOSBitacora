@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Automatic">
+    <entity name="Ajustes" representedClassName="Bitacoras.Ajustes" syncable="YES">
+        <attribute name="clave" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="correo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idpiloto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="licencia" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="perfil" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="registrado" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telefono" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tokenregistrado" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ultimasincronizacion" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="AvionesAsignados" representedClassName="Bitacoras.AvionesAsignados" syncable="YES">
+        <attribute name="matricula" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usuario" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Bitacoras" representedClassName="Bitacoras.Bitacoras" syncable="YES">
+        <attribute name="accioncorrectiva" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aterrizajes" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="capitan" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="capitannombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ciclos" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ciclosapu" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="cliente" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="copiloto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="copilotonombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fecharegistro" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="fechavuelo" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="horometroapu" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="horometrollegada" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="horometrosalida" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hoy" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="idbitacora" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="idservidor" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="ifr" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="legid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="licenciatecnico" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mantenimientodgac" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mantenimientointerno" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="matricula" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nocturno" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombretecnico" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numbitacora" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="quienprevuelo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reportes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="serie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sincronizado" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="totalaterrizajes" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="tv" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="BitacorasDatos" representedClassName="Bitacoras.BitacorasDatos" syncable="YES">
+        <attribute name="ciclos" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="dato" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idtramo" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="matricula" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numbitacora" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="serie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="turm" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="BitacorasInstrumentos" representedClassName="Bitacoras.BitacorasInstrumentos" syncable="YES">
+        <attribute name="idbitacora" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="idlectura" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="idservidor" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="idtramo" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="jet_amp" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_amp_motor2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_apu_ciclos" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_apu_serie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jet_apu_tt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_apu_turm" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_avion_ciclos" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_avion_serie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jet_avion_tt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_avion_turm" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_dcac" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_dcac_motor2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_fflow" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_fflow_motor2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_fueltemp" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_fueltemp_motor2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_hydvol" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_hydvol_motor2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_ias" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_itt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_itt_motor2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_lecturaaltimetro_capitan" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_lecturaaltimetro_primeroficial" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_motor1_ciclos" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_motor1_serie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jet_motor1_tt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_motor1_turm" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_motor2_ciclos" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_motor2_serie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jet_motor2_tt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_motor2_turm" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_n1" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_n1_motor2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_n2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_n2_motor2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_oat" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_oilpress" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_oilpress_motor2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_oiltemp" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jet_oiltemp_motor2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="matricula" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numbitacora" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="piston_aceite_mas" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="piston_aceite_mas_motor2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="piston_ampers" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="piston_ampers_motor2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="piston_cht" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="piston_cht_motor2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="piston_crucero" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="piston_crucero_motor2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="piston_egt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="piston_egt_motor2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="piston_flow" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="piston_flow_motor2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="piston_fuelpress" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="piston_fuelpress_motor2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="piston_manpress" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="piston_manpress_motor2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="piston_oat" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="piston_oilpress" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="piston_oilpress_motor2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="piston_rpm" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="piston_rpm_motor2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="piston_temp" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="piston_temp_motor2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="piston_volts" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="piston_volts_motor2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="turbo_amp" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="turbo_avion_ciclos" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="turbo_avion_serie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="turbo_avion_tt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="turbo_avion_turm" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="turbo_dcac" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="turbo_fflow" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="turbo_helice_ciclos" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="turbo_helice_serie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="turbo_helice_tt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="turbo_helice_turm" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="turbo_helicerpm" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="turbo_ias" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="turbo_itt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="turbo_motor_ciclos" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="turbo_motor_serie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="turbo_motor_tt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="turbo_motor_turm" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="turbo_ng" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="turbo_nivelvuelo" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="turbo_oat" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="turbo_oilpress" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="turbo_oiltemp" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="turbo_torque" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="turbo_vi" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="turbo_vv" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="BitacorasLegs" representedClassName="Bitacoras.BitacorasLegs" syncable="YES">
+        <attribute name="aceitecargado" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="aceitecargadoapu" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="aterrizajes" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="calzoacalzo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="capitan_altimetrorvsm" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="ciclos" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="combustibleaterrizaje" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="combustiblecargado" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="combustibleconsumido" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="combustibledespegue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="coordenadasregistradas" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="destino" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="destinociudad" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="horallegada" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="horasalida" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="horashelice" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="horasmotor" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="horasplaneador" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="horometroaterrizaje" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="horometrodespegue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="idbitacora" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="idservidor" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="idtramo" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="nivelvuelo" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="numbitacora" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="oat" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="origen" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="origenciudad" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pesoaterrizaje" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pesocarga" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pesocombustible" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pesodespegue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pesooperacion" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="primeroficialaltimetrorvsm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tv" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="BitacorasPax" representedClassName="Bitacoras.BitacorasPax" syncable="YES">
+        <attribute name="idbitacora" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="idpax" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="idservidor" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="idtramo" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Datos" representedClassName="Bitacoras.Datos" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iddata" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="TaxiAereoMatriculas" representedClassName="Bitacoras.TaxiAereoMatriculas" syncable="YES">
+        <attribute name="ano" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fabricante" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="matricula" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modelo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mtow" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="numeroserie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pesooperacion" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="sincronizado" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="tipomotor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalmotor" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="totalpax" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="ultimabitacora" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="ultimodestino" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ultimohorometro" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ultimohorometroapu" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="unidadpesos" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Vuelos" representedClassName="Bitacoras.Vuelos" syncable="YES">
+        <attribute name="aeropuertollega" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aeropuertosale" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customername" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="distancia" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fecha" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="horallega" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="horasale" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="horavuelo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="horavuelodecimal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="legid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="legnumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sincronizado" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="tailnumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tripnumber" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="VuelosPasajeros" representedClassName="Bitacoras.VuelosPasajeros" syncable="YES">
+        <attribute name="legid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Ajustes" positionX="-657" positionY="-468" width="128" height="195"/>
+        <element name="AvionesAsignados" positionX="-504" positionY="-594" width="126" height="73"/>
+        <element name="Bitacoras" positionX="-344" positionY="-468" width="128" height="540"/>
+        <element name="BitacorasDatos" positionX="-477" positionY="-261" width="128" height="165"/>
+        <element name="BitacorasInstrumentos" positionX="-468" positionY="-252" width="128" height="1500"/>
+        <element name="BitacorasLegs" positionX="-459" positionY="-189" width="128" height="570"/>
+        <element name="BitacorasPax" positionX="-450" positionY="-180" width="128" height="120"/>
+        <element name="Datos" positionX="-504" positionY="-234" width="128" height="75"/>
+        <element name="TaxiAereoMatriculas" positionX="-495" positionY="-225" width="128" height="285"/>
+        <element name="Vuelos" positionX="-486" positionY="-216" width="128" height="270"/>
+        <element name="VuelosPasajeros" positionX="-477" positionY="-207" width="128" height="75"/>
+    </elements>
+</model>
