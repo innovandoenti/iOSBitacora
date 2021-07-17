@@ -6,8 +6,36 @@ import Foundation
 
 struct parametros {
     
-    static var host : String = "http://bitacora.innovandoenti.com/bitacora.svc"
+    static var host : String = "http://webbitacora.innovandoenti.com"
+    static var typeJson : String = "type=json"
+   
     
+}
+
+struct acciones {
+ 
+    static var typeJson : String = "type=json"
+    static var getVersion : String = parametros.host + "/json?asp=verifica_version"
+    static var validateId : String = parametros.host + "/validateId/"
+    static var getAviones : String = parametros.host + "/json?asp=verificar_aviones_sincronizar&idpiloto=\(global_var.j_usuario_idPiloto)"
+}
+
+struct versionApp : Decodable {
+    
+    let activa : Bool
+    let version : String
+    let fuv : Date
+    
+}
+
+struct validausuario : Decodable {
+    
+}
+
+struct EstatusResultado : Decodable {
+    let exitoso : Bool
+    let mensaje : String
+    let returnid : Int
 }
 
 struct global_var {

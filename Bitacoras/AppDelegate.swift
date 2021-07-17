@@ -17,11 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var notificacion : NSNotification!
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        applyTheme()
+        //applyTheme()
         
         //Reachability
         do {
-            Network.reachability = try Reachability(hostname: "intranet.aerotron.com.mx")
+            Network.reachability = try Reachability(hostname: "bitacora.innovandoenti.com")
             do {
                 try Network.reachability?.start()
             } catch let error as Network.Error {
@@ -34,11 +34,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         // Notifications
-        _ = OneSignal(launchOptions: launchOptions, appId: "0928d124-1fa1-42bd-b6fa-0da975121e19", handleNotification: nil)
+       // _ = OneSignal(launchOptions: launchOptions, appId: "0928d124-1fa1-42bd-b6fa-0da975121e19", handleNotification: nil)
         
-        OneSignal.defaultClient().enable(inAppAlertNotification: true)
+       // OneSignal.defaultClient().enable(inAppAlertNotification: true)
         
-        if #available(iOS 10.0, *) {
+     /*   if #available(iOS 10.0, *) {
             let authOptions : UNAuthorizationOptions = [.alert, .badge, .sound]
             UNUserNotificationCenter.current().requestAuthorization(
                 options: authOptions, completionHandler: {_,_ in })
@@ -48,7 +48,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             application.registerUserNotificationSettings(settings)
             application.registerForRemoteNotifications()
         }
-        
+        */
         //Versión
         let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as! String
         
@@ -106,7 +106,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Adjust the back text for our new image
         //UIBarButtonItem.appearance().  setBackButtonTitlePositionAdjustment(UIOffset(horizontal: 10.0, vertical: 0.0), for: .,,default);
         
-        UIApplication.shared.statusBarStyle = .lightContent
+        UIApplication.shared.statusBarStyle = .default
     }
     
     func application(_ application: UIApplication, didRegister notificationSettings: UIUserNotificationSettings) {
@@ -131,7 +131,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any]) {
         print("Recibi una notificacion remota")
         
-        if let notification = userInfo["aps"] as? NSDictionary {
+       /* if let notification = userInfo["aps"] as? NSDictionary {
             print(notification["badge"]!)
             application.applicationIconBadgeNumber = (notification["badge"]! as AnyObject).integerValue
             let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main",bundle: nil)
@@ -140,7 +140,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             destViewController.tabBarController?.tabBarItem.badgeValue = "\(notification["badge"]!)"
             self.window?.rootViewController = destViewController
             self.window?.makeKeyAndVisible()
-        }
+        }*/
     }
     
     
@@ -156,7 +156,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func applicationDidEnterBackground(_ application: UIApplication) {
         
-        self.coreDataStack.regresarBitacorasSincronizar()
+       // Regresear despues self.coreDataStack.regresarBitacorasSincronizar()
         
         //Se quito esta opción para que fuera manual la sincronización
         //BitacorasPorSincronizar()

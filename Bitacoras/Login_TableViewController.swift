@@ -128,7 +128,7 @@ class Login_TableViewController: UITableViewController, UITextFieldDelegate {
                             
                             if data != nil {
                                 
-                                if let json =  try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary  {
+                                if let json =  ((try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary) as NSDictionary??)  {
                                     
                                     if(json!.count > 0){
                                         

@@ -3,7 +3,6 @@
 
 
 import UIKit
-
 class LoginViewController: UIViewController, UITextFieldDelegate {
 
     let util = Util()
@@ -16,7 +15,6 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     
     
     @IBOutlet weak var txtUser: UITextField!
-    @IBOutlet weak var txtPass: UITextField!
     @IBOutlet weak var btnLogin: UIButton!
     @IBOutlet weak var viewcontroles: UIView!
     
@@ -31,7 +29,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     
     func configurarView(){
         self.txtUser.delegate = self
-        self.txtPass.delegate = self
+       
     }
     
     override func didReceiveMemoryWarning() {
@@ -46,11 +44,10 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     func validar()
     {
         var OK = false
-        let login = Login()
-        
+        let alertas = Alertas()
         if Conexion.isConnectedToNetwork(){
             
-            if !txtUser.text!.isEmpty && !txtPass.text!.isEmpty   {
+            if !txtUser.text!.isEmpty  {
                 
                 _ = SwiftSpinner.show("Validating credentials...")
                 
@@ -58,13 +55,8 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
                 
                 queue.tasks +=~ { result, next in
                     
-                    login.checkUser(user: self.txtUser.text!, password: self.txtPass.text!)
-                    
-                    let wsURL = "http://intranet.aerotron.com.mx/apps/json.aspx?asp=verificausuariopiloto&usuario=\(self.txtUser.text!)&contrasena=\(self.txtPass.text!)"
-                    
-                    let url_temp = wsURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlHostAllowed)
-
-                    let url = URL(string: url_temp!)
+                    let wsURL = "http://webbitacora.innovandoenti.com/json?asp=verificausuariopiloto&usuario=\(self.txtUser.text!)"
+                    let url = URL(string: wsURL)
                     print("URL: \(url!)")
                     
                     let configuration = URLSessionConfiguration.default
@@ -78,10 +70,10 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
                                 if data != nil {
                                     
                                     if let json =  try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary  {
-                                        if(json!.count > 0){
+                                        if(json.count > 0){
                                             _ = SwiftSpinner.show("Validating credentials..", animated: true)
                                             self.dataSource =  json
-                                            self.results = json!["Usuarios"] as! NSArray
+                                            self.results = json["Usuarios"] as? NSArray
                                             if (self.results.count > 0){
                                                 OK = true
                                                 let row = self.results[0] as! NSDictionary
@@ -91,7 +83,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
                                                 let idpiloto = row["idpiloto"] as! NSString
                                                 global_var.j_usuario_idPiloto = Int(idpiloto.intValue)
                                                 global_var.j_piloto_licencia = row["licencia"] as! String
-                                                
+                                                global_var.j_piloto_id = (idpiloto) as String
                                                 self.coreDataStack.insertUsuario(clave: row["clave"] as! String, correo:  row["correo"] as! String , idpiloto: row["idpiloto"] as! String, licencia: row["licencia"] as! String, nombre: row["nombre"] as! String, perfil: row["perfil"] as! String, registrado: "1", telefono: row["telefono"] as! String, tokenregistrado: "0")
                                                 self.coreDataStack.verificaHayAvionesPorSincronizar()
                                                 self.coreDataStack.pilotosPorSincronizar()
@@ -99,7 +91,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
                                             }
                                             else{
                                                 SwiftSpinner.hide({
-                                                    AlertView.instance.showAlert(title: "Failure", message: "Verify your username and / or password.", alertType: .failure)
+                                                    alertas.displayAlert(title: "Failure", msg: "Verify your username and / or password")
                                                 })
                                             }
                                         }
@@ -112,7 +104,8 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
                             }
                         }else{
                             SwiftSpinner.hide({
-                                AlertView.instance.showAlert(title: "Failure", message: "You are not registered into the system.", alertType: .failure)
+                                
+                                alertas.displayAlert(title: "Failure", msg: "You are not registered into the system.")
                                 
                             })
                         }
@@ -139,7 +132,8 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
                     }
                     else{
                         SwiftSpinner.hide({
-                            AlertView.instance.showAlert(title: "Failure", message: "Verify your username and / or password.", alertType: .failure)
+                            
+                            alertas.displayAlert(title: "Failure", msg: "Verify your username and / or password.")
                         })
                     }
                     
@@ -153,14 +147,14 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
             }
             else{
                 SwiftSpinner.hide({
-                    AlertView.instance.showAlert(title: "Failure", message: "Verify your username and / or password.", alertType: .failure)
+                    alertas.displayAlert(title: "Failure", msg: "Verify your username and / or password.")
                 })
                 
                 
             }
         }
         else{
-            AlertView.instance.showAlert(title: "Failure", message: "Verify your conexion.", alertType: .failure)
+            alertas.displayAlert(title: "Failure", msg: "Verify your conexion.")
         }
     }
     
@@ -173,9 +167,6 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         
         if(textField === txtUser){
-            txtPass.becomeFirstResponder()
-        }else if(textField === txtPass){
-            txtPass.resignFirstResponder()
             validar()
         }else{
             validar()

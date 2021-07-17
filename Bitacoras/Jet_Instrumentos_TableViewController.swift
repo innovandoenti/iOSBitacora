@@ -1125,8 +1125,8 @@ class Jet_Instrumentos_TableViewController: UITableViewController, UITextFieldDe
         let str = textField.text!
         
         if (str != ""){
-            let lastChar = str.characters.last!
-            if(textField.text!.characters.count < 11){
+            let lastChar = str.last!
+            if(textField.text!.count < 11){
                 if (lastChar != "." && lastChar != "-") {
                     if (textField.text!.range(of: ".0")) != nil { // rangeOfString(".0")) != nil {
                         print(textField.text!)
@@ -1136,7 +1136,7 @@ class Jet_Instrumentos_TableViewController: UITableViewController, UITextFieldDe
                             }
                             else{
                                 textField.text = textField.text!.substring(to: textField.text!.endIndex) // substringToIndex(textField.text!.endIndex)
-                                //substringToIndex(textField.text!.characters.indexOf(<#T##element: Character##Character#>))  //textField.text!.substring(to: textField.text!.characters.index(before: textField.text!.endIndex))
+                                //substringToIndex(textField.text!.indexOf(<#T##element: Character##Character#>))  //textField.text!.substring(to: textField.text!.index(before: textField.text!.endIndex))
                             }
                         }
                     }else{
@@ -1144,18 +1144,18 @@ class Jet_Instrumentos_TableViewController: UITableViewController, UITextFieldDe
                         if let formateado = f.number(from: textField.text!) {
                             textField.text = f.string(from: formateado)!
                         }else{
-                            textField.text = textField.text!.substring(to: textField.text!.endIndex) //substring(to: textField.text!.characters.index(before: textField.text!.endIndex))
+                            textField.text = textField.text!.substring(to: textField.text!.endIndex) //substring(to: textField.text!.index(before: textField.text!.endIndex))
                         }
                         
                     }
                 }
             }else{
-                textField.text = textField.text!.substring(to: textField.text!.endIndex) // textField.text!.substring(to: textField.text!.characters.index(before: textField.text!.endIndex))
+                textField.text = textField.text!.substring(to: textField.text!.endIndex) // textField.text!.substring(to: textField.text!.index(before: textField.text!.endIndex))
                 
                 if let formateado = f.number(from: textField.text!) {
                     textField.text = f.string(from: formateado)!
                 }else{
-                    textField.text = textField.text!.substring(to: textField.text!.endIndex)//textField.text!.sub   substring(to: textField.text!.characters.index(before: textField.text!.endIndex))
+                    textField.text = textField.text!.substring(to: textField.text!.endIndex)//textField.text!.sub   substring(to: textField.text!.index(before: textField.text!.endIndex))
                 }
             }
         }

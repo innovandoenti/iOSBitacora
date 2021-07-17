@@ -262,7 +262,7 @@ class EligeMatriculaViewController: UIViewController, UIPickerViewDataSource, UI
                 let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main",bundle: nil)
                 var destViewController : UIViewController
                 destViewController = mainStoryboard.instantiateViewController(withIdentifier: menuAvion)// instantiateViewControllerWithIdentifier(menuAvion)
-                
+                destViewController.modalPresentationStyle = .fullScreen
                 self.present(destViewController, animated: true, completion: nil)
             }
             else{

@@ -101,7 +101,8 @@ class TVC_AvionesTableViewController: UITableViewController {
     }
    
     @IBAction func btnActualizar(_ sender: Any) {
-            self.coreDataStack.verificaHayAvionesPorSincronizar()
+        self.coreDataStack.verificaHayAvionesPorSincronizar()
+        self.coreDataStack.pilotosPorSincronizar()
     }
 }
 

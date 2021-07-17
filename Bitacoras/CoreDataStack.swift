@@ -259,10 +259,12 @@ class CoreDataStack {
                     
                     global_var.j_usuario_clave = person.clave!
                     global_var.j_usuario_idPiloto = (person.idpiloto! as NSString).integerValue
+                    global_var.j_piloto_licencia = person.licencia!
+                    global_var.j_piloto_id = person.idpiloto!
                     global_var.j_usuario_nombre = person.nombre!
                     global_var.j_usuario_perfil = person.perfil!
                     global_var.j_usuario_yaregistro = true
-                    
+                    global_var.j_piloto_nombre = person.nombre!
                     print(person.nombre!)
                     
                     break
@@ -683,15 +685,16 @@ class CoreDataStack {
             
         if Conexion.isConnectedToNetwork() {
                 
-            //UIApplication.shared.isNetworkActivityIndicatorVisible = true
+            UIApplication.shared.isNetworkActivityIndicatorVisible = true
             
-            let wsURL = URL(string: parametros.j_host + "json.aspx?asp=verificar_aviones_sincronizar&idpiloto=\(global_var.j_usuario_idPiloto)")
+            
+            let wsURL = URL(string: acciones.getAviones)
 
             print("URL: \(wsURL!)")
             let data = try! Data(contentsOf: wsURL!)
             
             
-            if let json = try? JSONSerialization.jsonObject(with: data, options: .mutableLeaves) as? NSDictionary  {
+            if let json = ((try? JSONSerialization.jsonObject(with: data, options: .mutableLeaves) as? NSDictionary) as NSDictionary??)  {
                 if(json!.count > 0){
                     if let total = json!["Resultado"] as? NSArray
                     {
@@ -872,7 +875,7 @@ class CoreDataStack {
                         global_var.j_avion_ultimohorometro = row.ultimohorometro!
                     }
                     
-                    global_var.j_avion_ultimoaterrizaje = 0
+                        global_var.j_avion_ultimoaterrizaje = 0
                     if row.ultimoaterrizaje != nil {
                         global_var.j_avion_ultimoaterrizaje = NSNumber(value: row.ultimoaterrizaje!.intValue + 1)
                         
@@ -951,7 +954,7 @@ class CoreDataStack {
                 ArregloMatriculas = fetchResults
                 
                 for Matricula in ArregloMatriculas as! [TaxiAereoMatriculas]{
-                    print(Matricula.matricula)
+                    print(Matricula.matricula as Any)
                 }
             }
         }
@@ -2564,7 +2567,7 @@ class CoreDataStack {
         cdh.saveContext(context: cdh.backgroundContext!)
     }
     
-    func obtienePilotosMatricula(matricula: String) -> Array<Any>{
+    func obtienePilotosMatricula(matricula: String) -> Array<AnyObject>{
         var RelacionPilotosMatricula : Array<AnyObject> = []
         let cdh : CoreDataHelper = CoreDataHelper()
         
@@ -2595,11 +2598,11 @@ class CoreDataStack {
             if Conexion.isConnectedToNetwork() {
                 UIApplication.shared.isNetworkActivityIndicatorVisible = true
 
-                let wsURL = URL(string: parametros.j_host + "json.aspx?asp=getPilotosMatricula&matricula=\(global_var.j_usuario_idPiloto)")
+                let wsURL = URL(string: parametros.host + "/json?asp=getPilotosMatricula&matricula=\(global_var.j_usuario_idPiloto)")
                 
                 let data = try! Data(contentsOf: wsURL!)
                 //print("datos\(String(describing: data))")
-                if let json = try? JSONSerialization.jsonObject(with: data, options: .mutableLeaves) as? NSDictionary  {
+                if let json = ((try? JSONSerialization.jsonObject(with: data, options: .mutableLeaves) as? NSDictionary) as NSDictionary??)  {
                     if(json!.count > 0){
                         results = json!["Matriculas"] as! NSArray
                         if (results.count > 0){

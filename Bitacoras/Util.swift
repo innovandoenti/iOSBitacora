@@ -43,6 +43,8 @@ class Util: NSObject {
         alert.delegate = delegate
         alert.addButton(withTitle: "Aceptar")
         alert.show()
+      /*  let alerta = Alertas()
+        alerta.displayAlert(title: (strTitle) as String, msg: (strBody) as String)*/
     }
     
     func showActivityIndicator(uiView: UIView) {

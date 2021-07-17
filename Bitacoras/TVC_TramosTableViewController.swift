@@ -38,6 +38,7 @@ class TVC_TramosTableViewController: UITableViewController, UITextFieldDelegate,
     var totalArrayCopilotos : Array<AnyObject> = []
     var pickerViewPilotos = UIPickerView()
     var pickerViewCopilotos = UIPickerView()
+    
     /* Variables LOcales */
     
     var _calzos : String =  "0000"
@@ -560,7 +561,9 @@ class TVC_TramosTableViewController: UITableViewController, UITextFieldDelegate,
         datePickerView.backgroundColor = UIColor.white
         time_set = sender.tag
         
-        let toolbar  : UIToolbar = UIToolbar(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: 44))
+      //  let toolbar  : UIToolbar = UIToolbar(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: 44))
+        let toolbar : UIToolbar = UIToolbar()
+        toolbar.sizeToFit()
         
         let cancelButton : UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(TVC_TramosTableViewController.cancelButtonPressed(sender :)))
         let flexible : UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.flexibleSpace, target: self, action: nil)
@@ -617,9 +620,9 @@ class TVC_TramosTableViewController: UITableViewController, UITextFieldDelegate,
             if(HoraSaleSplit.count > 1 && HoraLlegaSplit.count > 1){
                 
                 let horasSale = HoraSaleSplit[0]
-                let minutosSale = HoraSaleSplit[1] //.substringFromIndex(<#T##index: Index##Index#>) substring(to: HoraSaleSplit[1].characters.index(HoraSaleSplit[1].startIndex, offsetBy: 2))
+                let minutosSale = HoraSaleSplit[1] //.substringFromIndex(<#T##index: Index##Index#>) substring(to: HoraSaleSplit[1].index(HoraSaleSplit[1].startIndex, offsetBy: 2))
                 
-                let minutosLlega = HoraLlegaSplit[1] //.substring(to: HoraLlegaSplit[1].characters.index(HoraLlegaSplit[1].startIndex, offsetBy: 2))
+                let minutosLlega = HoraLlegaSplit[1] //.substring(to: HoraLlegaSplit[1].index(HoraLlegaSplit[1].startIndex, offsetBy: 2))
                 let horasLlega = HoraLlegaSplit[0]
                 
                 var DiferenciaHoras : Int = 0
@@ -998,19 +1001,27 @@ class TVC_TramosTableViewController: UITableViewController, UITextFieldDelegate,
         totalArrayPilotos.removeAll(keepingCapacity: false)
         
         var ids : Array<AnyObject> = []
+        /*print("matricula: ", global_var.j_avion_matricula)
+        
+        
         
         let requestMatriculas = NSFetchRequest<NSFetchRequestResult>(entityName: "AvionesAsignados")
-        requestMatriculas.predicate = NSPredicate(format: "matricula == %@", global_var.j_avion_matricula)
+        requestMatriculas.fetchBatchSize = 20
+       // requestMatriculas.predicate = NSPredicate(format: "matricula = %@", [global_var.j_avion_matricula])
         do {
             let fetchResults = try coreDataStack.managedObjectContext.fetch(requestMatriculas) as! [AvionesAsignados]
             
             if fetchResults.count > 0 {
                 for bas in fetchResults as [AvionesAsignados]
                 {
+                    print("id piloto en tablal: ", bas.idpiloto)
+                    print(global_var.j_piloto_id)
                     if(bas.idpiloto != global_var.j_copiloto_id){
                         ids.append(bas.idpiloto! as AnyObject)
                     }
                 }
+            }else{
+                print("NO hay nada de pilotos")
             }
         }
         catch let error as NSError{
@@ -1019,8 +1030,9 @@ class TVC_TramosTableViewController: UITableViewController, UITextFieldDelegate,
         
         let request = NSFetchRequest<NSFetchRequestResult>(entityName: "Pilotos")
         request.predicate = NSPredicate(format:"idpiloto IN %@", ids)
-        
-        totalArrayPilotos = try! coreDataStack.managedObjectContext.fetch(request) as Array<AnyObject>
+        */
+        totalArrayPilotos = coreDataStack.obtienePilotosMatricula(matricula: global_var.j_avion_matricula)
+        //try! coreDataStack.managedObjectContext.fetch(request) as Array<AnyObject>
     }
     
     func obtenerCopilotos(){
@@ -1036,6 +1048,7 @@ class TVC_TramosTableViewController: UITableViewController, UITextFieldDelegate,
             if fetchResults.count > 0 {
                 for bas in fetchResults as [AvionesAsignados]
                 {
+                    print(bas.idpiloto)
                     if(bas.idpiloto != global_var.j_piloto_id){
                         ids.append(bas.idpiloto! as AnyObject)
                     }
@@ -1241,7 +1254,7 @@ class TVC_TramosTableViewController: UITableViewController, UITextFieldDelegate,
         }else if(textField === txtFecha){
             if(self.VerificaIdBitacora()){
             textField.resignFirstResponder()
-            DatePickerDialog().show(title: "Fecha del Vuelo", doneButtonTitle: "Aceptar", cancelButtonTitle: "Cancelar", datePickerMode: .date) {
+            DatePickerDialog().show("Fecha del Vuelo", doneButtonTitle: "Aceptar", cancelButtonTitle: "Cancelar", datePickerMode: .date) {
                 (date) -> Void in
                 if date != nil {
                 textField.text = self.dateformatter.string(from: date!)
@@ -1261,7 +1274,20 @@ class TVC_TramosTableViewController: UITableViewController, UITextFieldDelegate,
             else{
                 titulo = "Hora Local Llegada"
             }
-            DatePickerDialog().show(title: titulo, doneButtonTitle: "Aceptar", cancelButtonTitle: "Cancelar", datePickerMode: .time) {
+            
+            DatePickerDialog().show( "DatePicker", doneButtonTitle: "Aceptar", cancelButtonTitle: "Cancelar", datePickerMode: .time) { date in
+                    if let dt = date {
+                        let formatohora : DateFormatter = DateFormatter()
+                        formatohora.timeZone = TimeZone.init(abbreviation: "UTC")
+                            formatohora.dateFormat = "HH:mm"
+                        textField.text = formatohora.string(from: dt)
+                        self.calculaTiempoVuelo()
+                        _ = self.GuardarInformacion()
+                    }
+                }
+            
+            
+        /*    DatePickerDialog().show(title: titulo, doneButtonTitle: "Aceptar", cancelButtonTitle: "Cancelar", datePickerMode: .time) {
                 (time) -> Void in
                  if time != nil {
                 let formatohora : DateFormatter = DateFormatter()
@@ -1272,7 +1298,7 @@ class TVC_TramosTableViewController: UITableViewController, UITextFieldDelegate,
                 _ = self.GuardarInformacion()
                 }
                 
-            }
+            }*/
         }
         else{
             editable = true
@@ -1299,8 +1325,8 @@ class TVC_TramosTableViewController: UITableViewController, UITextFieldDelegate,
         let str = textField.text!
         
         if (str != ""){
-            let lastChar = str.characters.last!
-            if(textField.text!.characters.count < 11){
+            let lastChar = str.last!
+            if(textField.text!.count < 11){
                 if (lastChar != "." && lastChar != "-") {
                     if (textField.text!.range(of: ".0")) != nil { // rangeOfString(".0")) != nil {
                         print(textField.text!)
@@ -1310,7 +1336,7 @@ class TVC_TramosTableViewController: UITableViewController, UITextFieldDelegate,
                             }
                             else{
                                 textField.text = textField.text!.substring(to: textField.text!.endIndex) // substringToIndex(textField.text!.endIndex)
-                                //substringToIndex(textField.text!.characters.indexOf(<#T##element: Character##Character#>))  //textField.text!.substring(to: textField.text!.characters.index(before: textField.text!.endIndex))
+                                //substringToIndex(textField.text!.indexOf(<#T##element: Character##Character#>))  //textField.text!.substring(to: textField.text!.index(before: textField.text!.endIndex))
                             }
                         }
                     }else{
@@ -1318,18 +1344,18 @@ class TVC_TramosTableViewController: UITableViewController, UITextFieldDelegate,
                         if let formateado = f.number(from: textField.text!) {
                             textField.text = f.string(from: formateado)!
                         }else{
-                            textField.text = textField.text!.substring(to: textField.text!.endIndex) //substring(to: textField.text!.characters.index(before: textField.text!.endIndex))
+                            textField.text = textField.text!.substring(to: textField.text!.endIndex) //substring(to: textField.text!.index(before: textField.text!.endIndex))
                         }
                         
                     }
                 }
             }else{
-                textField.text = textField.text!.substring(to: textField.text!.endIndex) // textField.text!.substring(to: textField.text!.characters.index(before: textField.text!.endIndex))
+                textField.text = textField.text!.substring(to: textField.text!.endIndex) // textField.text!.substring(to: textField.text!.index(before: textField.text!.endIndex))
                 
                 if let formateado = f.number(from: textField.text!) {
                     textField.text = f.string(from: formateado)!
                 }else{
-                    textField.text = textField.text!.substring(to: textField.text!.endIndex)//textField.text!.sub   substring(to: textField.text!.characters.index(before: textField.text!.endIndex))
+                    textField.text = textField.text!.substring(to: textField.text!.endIndex)//textField.text!.sub   substring(to: textField.text!.index(before: textField.text!.endIndex))
                 }
             }
         }
@@ -1341,7 +1367,7 @@ class TVC_TramosTableViewController: UITableViewController, UITextFieldDelegate,
     func mostrarFecha(sender: UITextField) {
         
        	sender.resignFirstResponder()
-        DatePickerDialog().show(title: "DatePickerDialog", doneButtonTitle: "Done", cancelButtonTitle: "Cancel", datePickerMode: .date) {
+        DatePickerDialog().show("DatePickerDialog", doneButtonTitle: "Done", cancelButtonTitle: "Cancel", datePickerMode: .date) {
             (date) -> Void in
             sender.text = self.dateformatter.string(from: date!)
             
@@ -1769,7 +1795,7 @@ class TVC_TramosTableViewController: UITableViewController, UITextFieldDelegate,
                     let copiloto = self.txtNombreCopiloto.text!
                     var copiloto_error = false
                     
-                    if copiloto.characters.count > 0 {
+                    if copiloto.count > 0 {
                         
                         if self.txtLicenciaCopiloto.text!.isEmpty {
                             copiloto_error = true

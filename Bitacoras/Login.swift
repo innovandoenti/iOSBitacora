@@ -2,14 +2,18 @@
 //  Login.swift
 
 //
-//  Created by Paola Noemi Martinez Luna on 29/12/20.
-//
+//  Created by Jaime Solis on 14/03/21.
+// Validar
 
 import Foundation
 
 public class Login {
     
-    public func checkUser(user: String, password: String){
+    public func checkUser(noLicencia: String) -> Bool {
         
+        
+        
+        
+        return true
     }
 }

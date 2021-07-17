@@ -16,7 +16,7 @@ class LauncViewController: UIViewController, NSURLConnectionDelegate, NSURLConne
     @IBOutlet weak var lbProceso: UILabel!
     @IBOutlet weak var Progresso: UIProgressView!
     
-    var wsUrl : String = "http://intranet.aerotron.com.mx/apps/wsBitacoras.asmx"
+    var wsUrl : String = "http://bitacora.innovandoenti.com"
     var mutableData:NSMutableData = NSMutableData.init()
     var currentElementName:NSString = ""
     var lastElementName:NSString = ""
@@ -25,7 +25,7 @@ class LauncViewController: UIViewController, NSURLConnectionDelegate, NSURLConne
     override func viewDidLoad() {
         super.viewDidLoad()
        
-        UpdateAircraftInformation()
+       // UpdateAircraftInformation()
         
         self.Progresso.setProgress(0, animated: true)
         lbProceso.text = "Verificando versión"
@@ -39,7 +39,7 @@ class LauncViewController: UIViewController, NSURLConnectionDelegate, NSURLConne
             self.Progresso.setProgress(0.5, animated: true)
             
             DispatchQueue.main.async {
-                self.VerificaVersionServer()
+                //self.revisaServidor()
                 next(nil)
             }
             
@@ -65,28 +65,9 @@ class LauncViewController: UIViewController, NSURLConnectionDelegate, NSURLConne
         
     }
     
-    func VerificaVersionServer(){
-        let text = String(format: "<?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/'><soap:Body><ObtieneVersion xmlns='http://intranet.aerotron.com.mx/apps' /></soap:Body></soap:Envelope>")
-        
-        var soapMessage = text
-        let url = NSURL(string: wsUrl)
-        let theRequest = NSMutableURLRequest(url: url! as URL)
-        let msLength = String(soapMessage.characters.count)
-        
-        theRequest.addValue("text/xml; charset=utf-8", forHTTPHeaderField: "Content-Type")
-        theRequest.addValue("http://intranet.aerotron.com.mx/apps/ObtieneVersion", forHTTPHeaderField: "SOAPAction")
-        theRequest.addValue(String(msLength), forHTTPHeaderField: "Content-Length")
-        theRequest.httpMethod = "POST"
-        theRequest.httpBody = soapMessage.data(using: .utf8)
-        
-        let connection = NSURLConnection(request: theRequest as URLRequest, delegate: self, startImmediately: true)
-        connection?.start()
-        
-        if ((connection) != nil){
-            var mutableData : Void = NSMutableData.initialize()
-            //print(mutableData)
-        }
-    }
+  
+    
+
     
     func connection(_ connection: NSURLConnection, didReceive response: URLResponse) {
         mutableData.length = 0;
@@ -175,7 +156,7 @@ class LauncViewController: UIViewController, NSURLConnectionDelegate, NSURLConne
     }
     
     func UpdateAircraftInformation(){
-        let queueBita = DispatchQueue(label: "mx.Bitacora.RegresaBitacoras", qos: DispatchQoS.utility)
+        /*let queueBita = DispatchQueue(label: "mx.Bitacora.RegresaBitacoras", qos: DispatchQoS.utility)
         
         queueBita.async {
             print("------- Bitácoras -----")
@@ -191,7 +172,7 @@ class LauncViewController: UIViewController, NSURLConnectionDelegate, NSURLConne
         queueBita.async {
             print("------- Pilotos -----")
             self.coreDataStack.pilotosPorSincronizar()
-        }
+        }*/
     }
 }
 

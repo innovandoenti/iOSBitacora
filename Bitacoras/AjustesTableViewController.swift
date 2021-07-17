@@ -102,7 +102,9 @@ class AjustesTableViewController: UITableViewController, MFMailComposeViewContro
                 }
             }
         }catch let error as NSError{
-            Util.invokeAlertMethod(strTitle: "Error", strBody: error.description as NSString, delegate: self)
+            let alerta = Alertas()
+            alerta.displayAlert(title: "Error", msg: error.description)
+            
         }
         
     }

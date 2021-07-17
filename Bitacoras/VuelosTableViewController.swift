@@ -380,10 +380,8 @@ class VuelosTableViewController : UITableViewController {
                 UIApplication.shared.isNetworkActivityIndicatorVisible = true
                 
                 print("start")
-                let wsURL = parametros.j_host + "json.aspx?asp=verificar_vuelos_sincronizar&usuario=\(global_var.j_usuario_clave)"
-                let url_temp = wsURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
-                //stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())
-                let url = URL(string: url_temp!)
+                let wsURL = parametros.host + "/json?asp=verificar_vuelos_sincronizar&usuario=\(global_var.j_usuario_clave)"
+                let url = URL(string: wsURL)
                 print("URL: \(url!)")
                 
                 let configuration = URLSessionConfiguration.default
@@ -396,7 +394,7 @@ class VuelosTableViewController : UITableViewController {
                         print(response.statusCode)
                             if response.statusCode == 200 {
                                 if data != nil {
-                                    if let json = try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary  {
+                                    if let json = ((try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary) as NSDictionary??)  {
                                         print(json!.count)
                                         if(json!.count > 0){
                                             self.dataSource =  json
@@ -576,7 +574,7 @@ class VuelosTableViewController : UITableViewController {
                 
                 if global_var.j_usuario_token != "" {
                     
-                    let wsURL = parametros.j_host + "json.aspx?asp=device_registrar_token&token=\(global_var.j_usuario_token)&usuario=\(global_var.j_usuario_clave)"
+                    let wsURL = parametros.host + "/json?asp=device_registrar_token&token=\(global_var.j_usuario_token)&usuario=\(global_var.j_usuario_clave)"
                     
                     let url_temp = wsURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
                     //stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())

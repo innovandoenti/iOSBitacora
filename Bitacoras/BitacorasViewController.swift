@@ -128,8 +128,8 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
     
     @objc func loadbitacoras(searchtext: String, scope: Int) {
         
-        print(searchtext.characters.count)
-        if searchtext.characters.count > 0 {
+        print(searchtext.count)
+        if searchtext.count > 0 {
             var filtro = NSPredicate()
             switch (scope){
             case 0:
@@ -323,7 +323,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
             let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main",bundle: nil)
             var destViewController : UIViewController
             destViewController = mainStoryboard.instantiateViewController(withIdentifier: destino)
-            
+            destViewController.modalPresentationStyle = .fullScreen
             self.present(destViewController, animated: true, completion: nil)
             
         }
@@ -449,7 +449,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                         let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main",bundle: nil)
                         var destViewController : UIViewController
                         destViewController = mainStoryboard.instantiateViewController(withIdentifier: destino)
-                        
+                        destViewController.modalPresentationStyle = .fullScreen
                         self.present(destViewController, animated: true, completion: nil)
                     }
                 }
@@ -475,7 +475,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                             
                             
                             
-                            let wsURL = parametros.j_host + "json.aspx?asp=bitacora_sincronizada_reenviarcorreo&idbitacora=\(row.idservidor!)"
+                            let wsURL = parametros.host + "/json?asp=bitacora_sincronizada_reenviarcorreo&idbitacora=\(row.idservidor!)"
                             let url_temp = wsURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
                             //stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())
                             let url = URL(string: url_temp!)
@@ -489,7 +489,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                                     print(response.statusCode)
                                     if response.statusCode == 200 {
                                         if data != nil {
-                                            if let json = try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary  {
+                                            if let json = ((try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary) as NSDictionary??)  {
                                                 print(json!.count)
                                                 if(json!.count > 0){
                                                     alerta = UIAlertController(title: "", message: "Se ha enviado correctamente", preferredStyle: .alert)
@@ -691,7 +691,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
         print("searchText - \(searchText!)")
         print("scope - \(scope)")
         //filterContents(searchText, scope: scope)
-        if searchText!.characters.count > 0 {
+        if searchText!.count > 0 {
             //searchController.searchBar.text = searchText!.uppercaseString*/
         
         
@@ -830,9 +830,9 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                                         print("piloto actualizar")
                                         print(tramo.numbitacora!)
                                         
-                                        //self.sincronizarVuelo(matricula: tramo.matricula!, numbitacora: tramo.numbitacora!, fechavuelo: tramo.fechavuelo!, capitan: tramo.capitan!, capitannombre: tramo.capitannombre!, cliente: tramo.cliente!, mantenimientointerno: manto_interno, manteniminentodgac: manto_dgac, nombretecnico: tramo.nombretecnico!, idbitacora: tramo.idbitacora!, ifr: tramo.ifr!,modificada: tramo.modificada!, modificadatotal:  tramo.modificadatotal!, aterrizajes: tramo.totalaterrizajes!, ciclos: tramo.ciclos!, hoy: tramo.hoy!, motivo: motivo, horometrollega: tramo.horometrollegada!, horometroapu: tramo.horometroapu!, nombrecopiloto: nombrecopiloto, licenciacopiloto: licenciacopiloto, prevuelo: prevuelo, prevuelolocal: prevuelolocal, legid: legid, usuario: usuario)
+                                        self.sincronizarVuelo(matricula: tramo.matricula!, numbitacora: tramo.numbitacora!, fechavuelo: tramo.fechavuelo!, capitan: tramo.capitan!, capitannombre: tramo.capitannombre!, cliente: tramo.cliente!, mantenimientointerno: manto_interno, manteniminentodgac: manto_dgac, nombretecnico: tramo.nombretecnico!, idbitacora: tramo.idbitacora!, ifr: tramo.ifr!,modificada: tramo.modificada!, modificadatotal:  tramo.modificadatotal!, aterrizajes: tramo.totalaterrizajes!, ciclos: tramo.ciclos!, hoy: tramo.hoy!, motivo: motivo, horometrollega: tramo.horometrollegada!, horometroapu: tramo.horometroapu!, nombrecopiloto: nombrecopiloto, licenciacopiloto: licenciacopiloto, prevuelo: prevuelo, prevuelolocal: prevuelolocal, legid: legid, usuario: usuario)
                                         
-                                        self.sincronizarBitacora(matricula: tramo.matricula!, numbitacora: tramo.numbitacora!, fechavuelo: tramo.fechavuelo!, capitan: tramo.capitan!, capitannombre: tramo.capitannombre!, cliente: tramo.cliente!, mantenimientointerno: manto_interno, manteniminentodgac: manto_dgac, nombretecnico: tramo.nombretecnico!, idbitacora: tramo.idbitacora!, ifr: tramo.ifr!,modificada: tramo.modificada!, modificadatotal:  tramo.modificadatotal!, aterrizajes: tramo.totalaterrizajes!, ciclos: tramo.ciclos!, hoy: tramo.hoy!, motivo: motivo, horometrollega: tramo.horometrollegada!, horometroapu: tramo.horometroapu!, nombrecopiloto: nombrecopiloto, licenciacopiloto: licenciacopiloto, prevuelo: prevuelo, prevuelolocal: prevuelolocal, legid: legid, usuario: usuario)
+                                     /*   self.sincronizarBitacora(matricula: tramo.matricula!, numbitacora: tramo.numbitacora!, fechavuelo: tramo.fechavuelo!, capitan: tramo.capitan!, capitannombre: tramo.capitannombre!, cliente: tramo.cliente!, mantenimientointerno: manto_interno, manteniminentodgac: manto_dgac, nombretecnico: tramo.nombretecnico!, idbitacora: tramo.idbitacora!, ifr: tramo.ifr!,modificada: tramo.modificada!, modificadatotal:  tramo.modificadatotal!, aterrizajes: tramo.totalaterrizajes!, ciclos: tramo.ciclos!, hoy: tramo.hoy!, motivo: motivo, horometrollega: tramo.horometrollegada!, horometroapu: tramo.horometroapu!, nombrecopiloto: nombrecopiloto, licenciacopiloto: licenciacopiloto, prevuelo: prevuelo, prevuelolocal: prevuelolocal, legid: legid, usuario: usuario) */
                                     }
                                 }
                             }
@@ -847,6 +847,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                                 let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main",bundle: nil)
                                 let destviewcontroller : UITabBarController = mainStoryboard.instantiateViewController(withIdentifier: destino) as! UITabBarController
                                 destviewcontroller.selectedIndex = 1
+                            destviewcontroller.modalPresentationStyle = .fullScreen
                                 self.present(destviewcontroller, animated: true, completion: nil)
                                 
                             //}
@@ -906,7 +907,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
             
             queue.tasks += { result, next in
                
-                let wsURL = parametros.j_host + "json.aspx?asp=bitacora_agregar&matricula=\(matricula)&numbitacora=\(numbitacora)&fechavuelo=\(formatofecha.string(from: fechavuelo as Date))&capitanid=\(capitan)&capitannombre=\(capitannombre)&cliente=\(cliente.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)&mantenimientointerno=\(mantenimientointerno.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)&mantenimientodgac=\(manteniminentodgac.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)&nombretecnico=\(nombretecnico)&iddispositivo=\(idbitacora)&ifr=\(formatonumber.string(from: ifr)!)&modificacion=\(modificada)&nummodificacion=\(modificadatotal)&aterrizajes=\(aterrizajes)&ciclos=\(ciclos)&hoy=\(hoy)&motivo=\(motivo)&nombrecopiloto=\(nombrecopiloto)&licenciacopiloto=\(licenciacopiloto)&prevuelolocal=\(prevuelolocal)&prevuelo=\(prevuelo.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)&legid=\(legid)&usuario=\(usuario)"
+                let wsURL = parametros.host + "/json?asp=bitacora_agregar&matricula=\(matricula)&numbitacora=\(numbitacora)&fechavuelo=\(formatofecha.string(from: fechavuelo as Date))&capitanid=\(capitan)&capitannombre=\(capitannombre)&cliente=\(cliente.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)&mantenimientointerno=\(mantenimientointerno.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)&mantenimientodgac=\(manteniminentodgac.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)&nombretecnico=\(nombretecnico)&iddispositivo=\(idbitacora)&ifr=\(formatonumber.string(from: ifr)!)&modificacion=\(modificada)&nummodificacion=\(modificadatotal)&aterrizajes=\(aterrizajes)&ciclos=\(ciclos)&hoy=\(hoy)&motivo=\(motivo)&nombrecopiloto=\(nombrecopiloto)&licenciacopiloto=\(licenciacopiloto)&prevuelolocal=\(prevuelolocal)&prevuelo=\(prevuelo.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)&legid=\(legid)&usuario=\(usuario)"
                 
                 let url_temp = wsURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
                 //stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())
@@ -920,7 +921,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                         print(httpResponde.statusCode)
                         if httpResponde.statusCode == 200 {
                             if data != nil {
-                                if let json =  try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary {
+                                if let json =  ((try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary) as NSDictionary??) {
                                     if json!.count > 0 {
                                         self.dataSource =  json
                                         self.results = self.dataSource["Bitacora"] as! NSArray
@@ -983,7 +984,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                         
                         _ultimodestino = tramo.destino!
                         
-                        let wsURL = parametros.j_host + "json.aspx?asp=bitacora_agregar_tramo&idintercambio=0&idbitacora=\(global_var.j_bitacoras_idservidor)&fechasalida=\(formatofecha.string(from: fechavuelo as Date))&horasalida=\(tramo.horasalida!)&aeropuertosalida=\(tramo.origen!.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)&fechallegada=\(formatofecha.string(from: fechavuelo as Date))&horallegada=\(tramo.horallegada!)&aeropuertollegada=\(tramo.destino!.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)&calzoacalzo=\(tramo.calzoacalzo!)&tiempovuelo=\(tramo.tv!)&horas=0&minutos=0&calzos=\(tramo.calzoacalzo!)&capitan=\(global_var.j_usuario_idPiloto)&copiloto=1&folio_s=0&tipovuelo=1&ferry=false&raite=false&pax=0&socio=0&numbitacora=\(numbitacora)&matricula=\(matricula)&hsalida=\(tramo.horometrodespegue!)&hllegada=\(tramo.horometroaterrizaje!)&fuellitros=\(tramo.combustibledespegue!)&fuelprecio=0&aceitecargado=\(tramo.aceitecargado!)&aceitecargadoapu=0&capitanaltimetrorvsm=\(tramo.capitan_altimetrorvsm!)&combustibleaterrizaje=\(tramo.combustibleaterrizaje!)&combustiblecargado=\(tramo.combustiblecargado!)&combustibleconsumido=\(tramo.combustibleconsumido!)&combustibledespegue=\(tramo.combustibledespegue!)&coordenadasregistro=0&nivelvuelo=\(tramo.nivelvuelo!)&oat=\(tramo.oat!)&pesoaterrizaje=\(tramo.pesoaterrizaje!)&pesocarga=\(tramo.pesocarga!)&pesocombustible=\(tramo.pesocombustible!)&pesodespegue=\(tramo.pesodespegue!)&pesooperacion=\(tramo.pesooperacion!)&primeroficialaltimetrorvsm=\(tramo.primeroficialaltimetrorvsm!)&combustibleunidadmedida=\(tramo.combustibleunidadmedida!)&combustibleunidadpeso=\(tramo.combustibleunidadpeso!)"
+                        let wsURL = parametros.host + "/json?asp=bitacora_agregar_tramo&idintercambio=0&idbitacora=\(global_var.j_bitacoras_idservidor)&fechasalida=\(formatofecha.string(from: fechavuelo as Date))&horasalida=\(tramo.horasalida!)&aeropuertosalida=\(tramo.origen!.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)&fechallegada=\(formatofecha.string(from: fechavuelo as Date))&horallegada=\(tramo.horallegada!)&aeropuertollegada=\(tramo.destino!.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)&calzoacalzo=\(tramo.calzoacalzo!)&tiempovuelo=\(tramo.tv!)&horas=0&minutos=0&calzos=\(tramo.calzoacalzo!)&capitan=\(global_var.j_usuario_idPiloto)&copiloto=1&folio_s=0&tipovuelo=1&ferry=false&raite=false&pax=0&socio=0&numbitacora=\(numbitacora)&matricula=\(matricula)&hsalida=\(tramo.horometrodespegue!)&hllegada=\(tramo.horometroaterrizaje!)&fuellitros=\(tramo.combustibledespegue!)&fuelprecio=0&aceitecargado=\(tramo.aceitecargado!)&aceitecargadoapu=0&capitanaltimetrorvsm=\(tramo.capitan_altimetrorvsm!)&combustibleaterrizaje=\(tramo.combustibleaterrizaje!)&combustiblecargado=\(tramo.combustiblecargado!)&combustibleconsumido=\(tramo.combustibleconsumido!)&combustibledespegue=\(tramo.combustibledespegue!)&coordenadasregistro=0&nivelvuelo=\(tramo.nivelvuelo!)&oat=\(tramo.oat!)&pesoaterrizaje=\(tramo.pesoaterrizaje!)&pesocarga=\(tramo.pesocarga!)&pesocombustible=\(tramo.pesocombustible!)&pesodespegue=\(tramo.pesodespegue!)&pesooperacion=\(tramo.pesooperacion!)&primeroficialaltimetrorvsm=\(tramo.primeroficialaltimetrorvsm!)&combustibleunidadmedida=\(tramo.combustibleunidadmedida!)&combustibleunidadpeso=\(tramo.combustibleunidadpeso!)"
                         
                          let url_temp = wsURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
                         let url = URL(string: url_temp!)
@@ -996,7 +997,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                                     print(httpResponde.statusCode)
                                     if httpResponde.statusCode == 200 {
                                         if data != nil {
-                                            if let json =  try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary {
+                                            if let json =  ((try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary) as NSDictionary??) {
                                                 if json!.count > 0 {
                                                     self.dataSource =  json
                                                     self.results = self.dataSource["Tramo"] as! NSArray
@@ -1071,7 +1072,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                     if(fetchResults!.count > 0){
                         if let bitacora = fetchResults{
                             for tramo in bitacora{
-                                let wsURL = parametros.j_host + "json.aspx?asp=bitacora_agregar_instrumentos_jet&idtramo=\(tramo.idtramo!)&idbitacora=\(global_var.j_bitacoras_idservidor)&matricula=\(tramo.matricula!)&jet_amp=\(tramo.jet_amp!)&jet_amp_motor2=\(tramo.jet_amp_motor2!)&jet_apu_ciclos=\(tramo.jet_apu_ciclos!)&jet_apu_serie=\(tramo.jet_apu_serie!)&jet_apu_tt=\(tramo.jet_apu_tt!)&jet_apu_turm=\(tramo.jet_apu_turm!)&jet_avion_ciclos=\(tramo.jet_avion_ciclos!)&jet_avion_serie=\(tramo.jet_avion_serie!)&jet_avion_tt=\(tramo.jet_avion_tt!)&jet_avion_turm=\(tramo.jet_avion_turm!)&jet_dcac=\(tramo.jet_dcac!)&jet_dcac_motor2=\(tramo.jet_dcac_motor2!)&jet_fflow=\(tramo.jet_fflow!)&jet_fflow_motor2=\(tramo.jet_fflow_motor2!)&jet_fueltemp=\(tramo.jet_fueltemp!)&jet_fueltemp_motor2=\(tramo.jet_fueltemp_motor2!)&jet_hydvol=\(tramo.jet_hydvol!)&jet_hydvol_motor2=\(tramo.jet_hydvol_motor2!)&jet_ias=\(tramo.jet_ias!)&jet_itt=\(tramo.jet_itt!)&jet_itt_motor2=\(tramo.jet_itt_motor2!)&jet_lecturaaltimetro_capitan=\(tramo.jet_lecturaaltimetro_capitan!)&jet_lecturaaltimetro_primeroficial=\(tramo.jet_lecturaaltimetro_primeroficial!)&jet_motor1_ciclos=\(tramo.jet_motor1_ciclos!)&jet_motor1_serie=\(tramo.jet_motor1_serie!)&jet_motor1_tt=\(tramo.jet_motor1_tt!)&jet_motor1_turm=\(tramo.jet_motor1_turm!)&jet_motor2_ciclos=\(tramo.jet_motor2_ciclos!)&jet_motor2_serie=\(tramo.jet_motor2_serie!)&jet_motor2_tt=\(tramo.jet_motor2_tt!)&jet_motor2_turm=\(tramo.jet_motor2_turm!)&jet_n1=\(tramo.jet_n1!)&jet_n1_motor2=\(tramo.jet_n1_motor2!)&jet_n2=\(tramo.jet_n2!)&jet_n2_motor2=\(tramo.jet_n2_motor2!)&jet_oat=\(tramo.jet_oat!)&jet_oilpress=\(tramo.jet_oilpress!)&jet_oilpress_motor2=\(tramo.jet_oilpress_motor2!)&jet_oiltemp=\(tramo.jet_oiltemp!)&jet_oiltemp_motor2=\(tramo.jet_oiltemp_motor2!)&jet_dc=\(tramo.jet_dc!)"
+                                let wsURL = parametros.host + "/json?asp=bitacora_agregar_instrumentos_jet&idtramo=\(tramo.idtramo!)&idbitacora=\(global_var.j_bitacoras_idservidor)&matricula=\(tramo.matricula!)&jet_amp=\(tramo.jet_amp!)&jet_amp_motor2=\(tramo.jet_amp_motor2!)&jet_apu_ciclos=\(tramo.jet_apu_ciclos!)&jet_apu_serie=\(tramo.jet_apu_serie!)&jet_apu_tt=\(tramo.jet_apu_tt!)&jet_apu_turm=\(tramo.jet_apu_turm!)&jet_avion_ciclos=\(tramo.jet_avion_ciclos!)&jet_avion_serie=\(tramo.jet_avion_serie!)&jet_avion_tt=\(tramo.jet_avion_tt!)&jet_avion_turm=\(tramo.jet_avion_turm!)&jet_dcac=\(tramo.jet_dcac!)&jet_dcac_motor2=\(tramo.jet_dcac_motor2!)&jet_fflow=\(tramo.jet_fflow!)&jet_fflow_motor2=\(tramo.jet_fflow_motor2!)&jet_fueltemp=\(tramo.jet_fueltemp!)&jet_fueltemp_motor2=\(tramo.jet_fueltemp_motor2!)&jet_hydvol=\(tramo.jet_hydvol!)&jet_hydvol_motor2=\(tramo.jet_hydvol_motor2!)&jet_ias=\(tramo.jet_ias!)&jet_itt=\(tramo.jet_itt!)&jet_itt_motor2=\(tramo.jet_itt_motor2!)&jet_lecturaaltimetro_capitan=\(tramo.jet_lecturaaltimetro_capitan!)&jet_lecturaaltimetro_primeroficial=\(tramo.jet_lecturaaltimetro_primeroficial!)&jet_motor1_ciclos=\(tramo.jet_motor1_ciclos!)&jet_motor1_serie=\(tramo.jet_motor1_serie!)&jet_motor1_tt=\(tramo.jet_motor1_tt!)&jet_motor1_turm=\(tramo.jet_motor1_turm!)&jet_motor2_ciclos=\(tramo.jet_motor2_ciclos!)&jet_motor2_serie=\(tramo.jet_motor2_serie!)&jet_motor2_tt=\(tramo.jet_motor2_tt!)&jet_motor2_turm=\(tramo.jet_motor2_turm!)&jet_n1=\(tramo.jet_n1!)&jet_n1_motor2=\(tramo.jet_n1_motor2!)&jet_n2=\(tramo.jet_n2!)&jet_n2_motor2=\(tramo.jet_n2_motor2!)&jet_oat=\(tramo.jet_oat!)&jet_oilpress=\(tramo.jet_oilpress!)&jet_oilpress_motor2=\(tramo.jet_oilpress_motor2!)&jet_oiltemp=\(tramo.jet_oiltemp!)&jet_oiltemp_motor2=\(tramo.jet_oiltemp_motor2!)&jet_dc=\(tramo.jet_dc!)"
                                 
                                 
                                 let url_temp = wsURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
@@ -1084,7 +1085,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                                         print(httpResponde.statusCode)
                                         if httpResponde.statusCode == 200 {
                                             if data != nil {
-                                                if let json =  try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary {
+                                                if let json =  ((try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary) as NSDictionary??) {
                                                     if json!.count > 0 {
                                                         self.dataSource =  json
                                                         self.results = self.dataSource["Lectura"] as! NSArray
@@ -1139,7 +1140,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                                 
                                 for tramo in bitacora{
                                     
-                                    let wsURL = parametros.j_host + "json.aspx?asp=bitacora_agregar_instrumentos_piston_mono&idtramo=\(tramo.idtramo!)&idbitacora=\(global_var.j_bitacoras_idservidor)&matricula=\(tramo.matricula!)&ampers=\(tramo.piston_ampers!)&cht=\(tramo.piston_cht!)&crucero=\(tramo.piston_crucero!)&egt=\(tramo.piston_egt!)&flow=\(tramo.piston_flow!)&fuelpress=\(tramo.piston_fuelpress!)&manpress=\(tramo.piston_manpress!)&oilpress=\(tramo.piston_oilpress!)&rpm=\(tramo.piston_rpm!)&temp=\(tramo.piston_temp!)&volts=\(tramo.piston_volts!)&oat=\(tramo.piston_oat!)&aceite_mas=\(tramo.piston_aceite_mas!)"
+                                    let wsURL = parametros.host + "/json?asp=bitacora_agregar_instrumentos_piston_mono&idtramo=\(tramo.idtramo!)&idbitacora=\(global_var.j_bitacoras_idservidor)&matricula=\(tramo.matricula!)&ampers=\(tramo.piston_ampers!)&cht=\(tramo.piston_cht!)&crucero=\(tramo.piston_crucero!)&egt=\(tramo.piston_egt!)&flow=\(tramo.piston_flow!)&fuelpress=\(tramo.piston_fuelpress!)&manpress=\(tramo.piston_manpress!)&oilpress=\(tramo.piston_oilpress!)&rpm=\(tramo.piston_rpm!)&temp=\(tramo.piston_temp!)&volts=\(tramo.piston_volts!)&oat=\(tramo.piston_oat!)&aceite_mas=\(tramo.piston_aceite_mas!)"
                                     
                                     
                                     let url_temp = wsURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
@@ -1152,7 +1153,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                                             if let httpResponde : HTTPURLResponse = urlResponse as? HTTPURLResponse {
                                                 if httpResponde.statusCode == 200 {
                                                     if data != nil {
-                                                        if let json =  try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary {
+                                                        if let json =  ((try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary) as NSDictionary??) {
                                                             if json!.count > 0 {
                                                                 self.dataSource =  json
                                                                 self.results = self.dataSource["Lectura"] as! NSArray
@@ -1215,7 +1216,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                             
                             for tramo in bitacora{
                                 
-                                let wsURL = parametros.j_host + "json.aspx?asp=bitacora_agregar_instrumentos_turbo&idtramo=\(tramo.idtramo!)&idbitacora=\(global_var.j_bitacoras_idservidor)&matricula=\(tramo.matricula!)&turbo_fflow=\(tramo.turbo_fflow!)&turbo_rpmhelice=\(tramo.turbo_helicerpm!)&turbo_ias=\(tramo.turbo_ias!)&turbo_itt=\(tramo.turbo_itt!)&turbo_ng=\(tramo.turbo_ng!)&turbo_nivelvuelo=0&turbo_oat=\(tramo.turbo_oat!)&turbo_oilpress=\(tramo.turbo_oilpress!)&turbo_oiltemp=\(tramo.turbo_oiltemp!)&turbo_torque=\(tramo.turbo_torque!)&turbo_vi=\(tramo.turbo_vi!)&turbo_vv=\(tramo.turbo_vv!)&turbo_dcac=\(tramo.turbo_dcac!)&turbo_amp=\(tramo.turbo_amp!)&turbo_avion_serie=\(tramo.turbo_avion_serie!)&turbo_avion_ciclos=\(tramo.turbo_avion_ciclos!)&turbo_avion_turm=\(tramo.turbo_avion_turm!)&turbo_avion_tt=\(tramo.turbo_avion_tt!)&turbo_motor_serie=\(tramo.turbo_motor_serie!)&turbo_motor_ciclos=\(tramo.turbo_motor_ciclos!)&turbo_motor_turm=\(tramo.turbo_motor_turm!)&turbo_motor_tt=\(tramo.turbo_motor_tt!)&turbo_helice_serie=\(tramo.turbo_helice_serie!)&turbo_helice_ciclos=\(tramo.turbo_helice_ciclos!)&turbo_helice_turm=\(tramo.turbo_helice_turm!)&turbo_helice_tt=\(tramo.turbo_helice_tt!)&&turbo_fflow_motor2=\(tramo.turbo_fflow_motor2!)&turbo_rpmhelice_motor2=\(tramo.turbo_helicerpm_motor2!)&turbo_ias_motor2=\(tramo.turbo_ias_motor2!)&turbo_itt_motor2=\(tramo.turbo_itt_motor2!)&turbo_ng_motor2=\(tramo.turbo_ng_motor2!)&turbo_oilpress_motor2=\(tramo.turbo_oilpress_motor2!)&turbo_oiltemp_motor2=\(tramo.turbo_oiltemp_motor2!)&turbo_torque_motor2=\(tramo.turbo_torque_motor2!)&turbo_vi_motor2=\(tramo.turbo_vi_motor2!)&turbo_vv_motor2=\(tramo.turbo_vv_motor2!)&turbo_dcac_motor2=\(tramo.turbo_dcac_motor2!)&turbo_amp_motor2=\(tramo.turbo_amp_motor2!)&turbo_fflow_in=\(tramo.turbo_fflow_in!)&turbo_fflow_in_motor2=\(tramo.turbo_fflow_in_motor2!)&turbo_fflow_out=\(tramo.turbo_fflow_out!)&turbo_fflow_out_motor2=\(tramo.turbo_fflow_out_motor2!)"
+                                let wsURL = parametros.host + "/json?asp=bitacora_agregar_instrumentos_turbo&idtramo=\(tramo.idtramo!)&idbitacora=\(global_var.j_bitacoras_idservidor)&matricula=\(tramo.matricula!)&turbo_fflow=\(tramo.turbo_fflow!)&turbo_rpmhelice=\(tramo.turbo_helicerpm!)&turbo_ias=\(tramo.turbo_ias!)&turbo_itt=\(tramo.turbo_itt!)&turbo_ng=\(tramo.turbo_ng!)&turbo_nivelvuelo=0&turbo_oat=\(tramo.turbo_oat!)&turbo_oilpress=\(tramo.turbo_oilpress!)&turbo_oiltemp=\(tramo.turbo_oiltemp!)&turbo_torque=\(tramo.turbo_torque!)&turbo_vi=\(tramo.turbo_vi!)&turbo_vv=\(tramo.turbo_vv!)&turbo_dcac=\(tramo.turbo_dcac!)&turbo_amp=\(tramo.turbo_amp!)&turbo_avion_serie=\(tramo.turbo_avion_serie!)&turbo_avion_ciclos=\(tramo.turbo_avion_ciclos!)&turbo_avion_turm=\(tramo.turbo_avion_turm!)&turbo_avion_tt=\(tramo.turbo_avion_tt!)&turbo_motor_serie=\(tramo.turbo_motor_serie!)&turbo_motor_ciclos=\(tramo.turbo_motor_ciclos!)&turbo_motor_turm=\(tramo.turbo_motor_turm!)&turbo_motor_tt=\(tramo.turbo_motor_tt!)&turbo_helice_serie=\(tramo.turbo_helice_serie!)&turbo_helice_ciclos=\(tramo.turbo_helice_ciclos!)&turbo_helice_turm=\(tramo.turbo_helice_turm!)&turbo_helice_tt=\(tramo.turbo_helice_tt!)&&turbo_fflow_motor2=\(tramo.turbo_fflow_motor2!)&turbo_rpmhelice_motor2=\(tramo.turbo_helicerpm_motor2!)&turbo_ias_motor2=\(tramo.turbo_ias_motor2!)&turbo_itt_motor2=\(tramo.turbo_itt_motor2!)&turbo_ng_motor2=\(tramo.turbo_ng_motor2!)&turbo_oilpress_motor2=\(tramo.turbo_oilpress_motor2!)&turbo_oiltemp_motor2=\(tramo.turbo_oiltemp_motor2!)&turbo_torque_motor2=\(tramo.turbo_torque_motor2!)&turbo_vi_motor2=\(tramo.turbo_vi_motor2!)&turbo_vv_motor2=\(tramo.turbo_vv_motor2!)&turbo_dcac_motor2=\(tramo.turbo_dcac_motor2!)&turbo_amp_motor2=\(tramo.turbo_amp_motor2!)&turbo_fflow_in=\(tramo.turbo_fflow_in!)&turbo_fflow_in_motor2=\(tramo.turbo_fflow_in_motor2!)&turbo_fflow_out=\(tramo.turbo_fflow_out!)&turbo_fflow_out_motor2=\(tramo.turbo_fflow_out_motor2!)"
                                 
                                 
                                  let url_temp = wsURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
@@ -1230,7 +1231,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                                             print(httpResponde.statusCode)
                                             if httpResponde.statusCode == 200 {
                                                 if data != nil {
-                                                    if let json =  try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary {
+                                                    if let json =  ((try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary) as NSDictionary??) {
                                                         if json!.count > 0 {
                                                             self.dataSource =  json
                                                             self.results = self.dataSource["Lectura"] as! NSArray
@@ -1308,7 +1309,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                         print("Totalpax: \(bitacora.count)")
                         if(bitacora.count>0) {
                             for tramo in bitacora {
-                                let wsURL = parametros.j_host + "json.aspx?asp=bitacora_agregar_pasajero&idtramo=\(tramo.idtramo!)&idbitacora=\(global_var.j_bitacoras_idservidor)&paxname=\(tramo.nombre!.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)"
+                                let wsURL = parametros.host + "/json?asp=bitacora_agregar_pasajero&idtramo=\(tramo.idtramo!)&idbitacora=\(global_var.j_bitacoras_idservidor)&paxname=\(tramo.nombre!.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)"
                                 let url_temp = wsURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
                                 let url = URL(string: url_temp!)
                                 print("URL: \(url!)")
@@ -1319,7 +1320,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                                         if let httpResponde : HTTPURLResponse = urlResponse as? HTTPURLResponse {
                                             if httpResponde.statusCode == 200 {
                                                 if data != nil {
-                                                    if let json =  try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary {
+                                                    if let json =  ((try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary) as NSDictionary??) {
                                                         
                                                         if json!.count > 0 {
                                                             self.dataSource =  json
@@ -1389,7 +1390,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                     
                     let total_aterrizajes = aterrizajes.intValue //+ 1
                     let total_ciclos = ciclos.intValue //+ 1
-                    let wsURL = parametros.j_host + "json.aspx?asp=bitacora_sincronizada&matricula=\(matricula)&idbitacora=\(global_var.j_bitacoras_idservidor)&ultimabitacora=\(numbitacora)&ultimohorometro=\(horometrollega)&ultimohorometroapu=\(horometroapu)&ultimodestino=\(_ultimodestino)&modificacion=\(modificada)&nummodificacion=\(modificadatotal)&totalaterrizajes=\(total_aterrizajes)&totalciclos=\(total_ciclos)&motivo=\(motivo)"
+                    let wsURL = parametros.host + "/json?asp=bitacora_sincronizada&matricula=\(matricula)&idbitacora=\(global_var.j_bitacoras_idservidor)&ultimabitacora=\(numbitacora)&ultimohorometro=\(horometrollega)&ultimohorometroapu=\(horometroapu)&ultimodestino=\(_ultimodestino)&modificacion=\(modificada)&nummodificacion=\(modificadatotal)&totalaterrizajes=\(total_aterrizajes)&totalciclos=\(total_ciclos)&motivo=\(motivo)"
                     
                     let url_temp = wsURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
                     let url = URL(string: url_temp!)
@@ -1400,7 +1401,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                         if urlResponse != nil {
                             if  let httpResponde : HTTPURLResponse = urlResponse as? HTTPURLResponse {
                                 if httpResponde.statusCode == 200 {
-                                    if let json =  try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary {
+                                    if let json =  ((try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary) as NSDictionary??) {
                                         if json!.count > 0 {
                                             self.dataSource =  json
                                             self.results = self.dataSource["Bitacora"] as! NSArray
@@ -1456,12 +1457,14 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
             }
             
             queue.tasks += { result, next in
-                
+               
                 if(global_var.j_bitacoras_idservidor != 0){
                     self.coreDataStack.actualizaBitacoraSincronizada(idbitacora: idbitacora, idservidor: global_var.j_bitacoras_idservidor)
                     self.coreDataStack.cerrarBitacora(idbitacora: idbitacora, matricula: matricula)
                     global_var.j_statusSincronizacion = 0
-                    self.sincronizarBitacoras(self.notifacion)
+                    DispatchQueue.main.async {
+                        self.sincronizarBitacoras(self.notifacion)
+                    }
                 }else{
                     Util.invokeAlertMethod(strTitle: "Error", strBody: "Error en el servidor, contacta a sistemas.", delegate: self)
                 }
@@ -1470,12 +1473,16 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
             
             queue.run({
                 
-                UIApplication.shared.isNetworkActivityIndicatorVisible = false
-                self.performSelector(onMainThread: #selector(BitacorasViewController.loadbitacoras(searchtext:scope:)), with: nil, waitUntilDone: true)
-                //self.loadbitacoras("",scope: 0)
-                self.navigationItem.title = "Bitácoras"
-                print("finished")
-                //SwiftSpinner.hide()
+                DispatchQueue.main.async {
+                    UIApplication.shared.isNetworkActivityIndicatorVisible = false
+                    self.performSelector(onMainThread: #selector(BitacorasViewController.loadbitacoras(searchtext:scope:)), with: nil, waitUntilDone: true)
+                    //self.loadbitacoras("",scope: 0)
+                    self.navigationItem.title = "Bitácoras"
+                    print("finished")
+                    //SwiftSpinner.hide()
+                }
+                
+              
             })
             
         } //Fin si hay conexion
@@ -1503,7 +1510,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
             
             queue.tasks += { result, next in
                 
-                let wsURL = parametros.j_host + "json.aspx?asp=bitacora_agregar&matricula=\(matricula)&numbitacora=\(numbitacora)&fechavuelo=\(formatofecha.string(from: fechavuelo as Date))&capitanid=\(capitan)&capitannombre=\(capitannombre)&cliente=\(cliente.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)&mantenimientointerno=\(mantenimientointerno.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)&mantenimientodgac=\(manteniminentodgac.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)&nombretecnico=\(nombretecnico)&iddispositivo=\(idbitacora)&ifr=\(formatonumber.string(from: ifr)!)&modificacion=\(modificada)&nummodificacion=\(modificadatotal)&aterrizajes=\(aterrizajes)&ciclos=\(ciclos)&hoy=\(hoy)&motivo=\(motivo)&nombrecopiloto=\(nombrecopiloto)&licenciacopiloto=\(licenciacopiloto)&prevuelolocal=\(prevuelolocal)&prevuelo=\(prevuelo.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)&legid=\(legid)&usuario=\(usuario)"
+                let wsURL = parametros.host + "/json?asp=bitacora_agregar&matricula=\(matricula)&numbitacora=\(numbitacora)&fechavuelo=\(formatofecha.string(from: fechavuelo as Date))&capitanid=\(capitan)&capitannombre=\(capitannombre)&cliente=\(cliente.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)&mantenimientointerno=\(mantenimientointerno.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)&mantenimientodgac=\(manteniminentodgac.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)&nombretecnico=\(nombretecnico)&iddispositivo=\(idbitacora)&ifr=\(formatonumber.string(from: ifr)!)&modificacion=\(modificada)&nummodificacion=\(modificadatotal)&aterrizajes=\(aterrizajes)&ciclos=\(ciclos)&hoy=\(hoy)&motivo=\(motivo)&nombrecopiloto=\(nombrecopiloto)&licenciacopiloto=\(licenciacopiloto)&prevuelolocal=\(prevuelolocal)&prevuelo=\(prevuelo.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)&legid=\(legid)&usuario=\(usuario)"
                 
                 let url_temp = wsURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
                 //stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())
@@ -1517,7 +1524,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                         print(httpResponde.statusCode)
                         if httpResponde.statusCode == 200 {
                             if data != nil {
-                                if let json =  try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary {
+                                if let json =  ((try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary) as NSDictionary??) {
                                     if json!.count > 0 {
                                         self.dataSource =  json
                                         self.results = self.dataSource["Bitacora"] as! NSArray
@@ -1621,7 +1628,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                         
                         self.ultimodestino = tramo.destino!
                         
-                        let wsURL = parametros.j_host + "json.aspx?asp=bitacora_agregar_tramo&idintercambio=0&idbitacora=\(global_var.j_bitacoras_idservidor)&fechasalida=\(formatofecha.string(from: fechavuelo as Date))&horasalida=\(tramo.horasalida!)&aeropuertosalida=\(tramo.origen!.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)&fechallegada=\(formatofecha.string(from: fechavuelo as Date))&horallegada=\(tramo.horallegada!)&aeropuertollegada=\(tramo.destino!.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)&calzoacalzo=\(tramo.calzoacalzo!)&tiempovuelo=\(tramo.tv!)&horas=0&minutos=0&calzos=\(tramo.calzoacalzo!)&capitan=\(global_var.j_usuario_idPiloto)&copiloto=1&folio_s=0&tipovuelo=1&ferry=false&raite=false&pax=0&socio=0&numbitacora=\(numbitacora)&matricula=\(matricula)&hsalida=\(tramo.horometrodespegue!)&hllegada=\(tramo.horometroaterrizaje!)&fuellitros=\(tramo.combustibledespegue!)&fuelprecio=0&aceitecargado=\(tramo.aceitecargado!)&aceitecargadoapu=0&capitanaltimetrorvsm=\(tramo.capitan_altimetrorvsm!)&combustibleaterrizaje=\(tramo.combustibleaterrizaje!)&combustiblecargado=\(tramo.combustiblecargado!)&combustibleconsumido=\(tramo.combustibleconsumido!)&combustibledespegue=\(tramo.combustibledespegue!)&coordenadasregistro=0&nivelvuelo=\(tramo.nivelvuelo!)&oat=\(tramo.oat!)&pesoaterrizaje=\(tramo.pesoaterrizaje!)&pesocarga=\(tramo.pesocarga!)&pesocombustible=\(tramo.pesocombustible!)&pesodespegue=\(tramo.pesodespegue!)&pesooperacion=\(tramo.pesooperacion!)&primeroficialaltimetrorvsm=\(tramo.primeroficialaltimetrorvsm!)&combustibleunidadmedida=\(tramo.combustibleunidadmedida!)&combustibleunidadpeso=\(tramo.combustibleunidadpeso!)"
+                        let wsURL = parametros.host + "/json?asp=bitacora_agregar_tramo&idintercambio=0&idbitacora=\(global_var.j_bitacoras_idservidor)&fechasalida=\(formatofecha.string(from: fechavuelo as Date))&horasalida=\(tramo.horasalida!)&aeropuertosalida=\(tramo.origen!.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)&fechallegada=\(formatofecha.string(from: fechavuelo as Date))&horallegada=\(tramo.horallegada!)&aeropuertollegada=\(tramo.destino!.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)&calzoacalzo=\(tramo.calzoacalzo!)&tiempovuelo=\(tramo.tv!)&horas=0&minutos=0&calzos=\(tramo.calzoacalzo!)&capitan=\(global_var.j_usuario_idPiloto)&copiloto=1&folio_s=0&tipovuelo=1&ferry=false&raite=false&pax=0&socio=0&numbitacora=\(numbitacora)&matricula=\(matricula)&hsalida=\(tramo.horometrodespegue!)&hllegada=\(tramo.horometroaterrizaje!)&fuellitros=\(tramo.combustibledespegue!)&fuelprecio=0&aceitecargado=\(tramo.aceitecargado!)&aceitecargadoapu=0&capitanaltimetrorvsm=\(tramo.capitan_altimetrorvsm!)&combustibleaterrizaje=\(tramo.combustibleaterrizaje!)&combustiblecargado=\(tramo.combustiblecargado!)&combustibleconsumido=\(tramo.combustibleconsumido!)&combustibledespegue=\(tramo.combustibledespegue!)&coordenadasregistro=0&nivelvuelo=\(tramo.nivelvuelo!)&oat=\(tramo.oat!)&pesoaterrizaje=\(tramo.pesoaterrizaje!)&pesocarga=\(tramo.pesocarga!)&pesocombustible=\(tramo.pesocombustible!)&pesodespegue=\(tramo.pesodespegue!)&pesooperacion=\(tramo.pesooperacion!)&primeroficialaltimetrorvsm=\(tramo.primeroficialaltimetrorvsm!)&combustibleunidadmedida=\(tramo.combustibleunidadmedida!)&combustibleunidadpeso=\(tramo.combustibleunidadpeso!)"
                         
                         let url_temp = wsURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
                         let url = URL(string: url_temp!)
@@ -1634,7 +1641,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                                     print(httpResponde.statusCode)
                                     if httpResponde.statusCode == 200 {
                                         if data != nil {
-                                            if let json =  try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary {
+                                            if let json =  ((try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary) as NSDictionary??) {
                                                 if json!.count > 0 {
                                                     self.dataSource =  json
                                                     self.results = self.dataSource["Tramo"] as! NSArray
@@ -1706,7 +1713,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                     if(fetchResults!.count > 0){
                         if let bitacora = fetchResults{
                             for tramo in bitacora{
-                                let wsURL = parametros.j_host + "json.aspx?asp=bitacora_agregar_instrumentos_jet&idtramo=\(tramo.idtramo!)&idbitacora=\(global_var.j_bitacoras_idservidor)&matricula=\(tramo.matricula!)&jet_amp=\(tramo.jet_amp!)&jet_amp_motor2=\(tramo.jet_amp_motor2!)&jet_apu_ciclos=\(tramo.jet_apu_ciclos!)&jet_apu_serie=\(tramo.jet_apu_serie!)&jet_apu_tt=\(tramo.jet_apu_tt!)&jet_apu_turm=\(tramo.jet_apu_turm!)&jet_avion_ciclos=\(tramo.jet_avion_ciclos!)&jet_avion_serie=\(tramo.jet_avion_serie!)&jet_avion_tt=\(tramo.jet_avion_tt!)&jet_avion_turm=\(tramo.jet_avion_turm!)&jet_dcac=\(tramo.jet_dcac!)&jet_dcac_motor2=\(tramo.jet_dcac_motor2!)&jet_fflow=\(tramo.jet_fflow!)&jet_fflow_motor2=\(tramo.jet_fflow_motor2!)&jet_fueltemp=\(tramo.jet_fueltemp!)&jet_fueltemp_motor2=\(tramo.jet_fueltemp_motor2!)&jet_hydvol=\(tramo.jet_hydvol!)&jet_hydvol_motor2=\(tramo.jet_hydvol_motor2!)&jet_ias=\(tramo.jet_ias!)&jet_itt=\(tramo.jet_itt!)&jet_itt_motor2=\(tramo.jet_itt_motor2!)&jet_lecturaaltimetro_capitan=\(tramo.jet_lecturaaltimetro_capitan!)&jet_lecturaaltimetro_primeroficial=\(tramo.jet_lecturaaltimetro_primeroficial!)&jet_motor1_ciclos=\(tramo.jet_motor1_ciclos!)&jet_motor1_serie=\(tramo.jet_motor1_serie!)&jet_motor1_tt=\(tramo.jet_motor1_tt!)&jet_motor1_turm=\(tramo.jet_motor1_turm!)&jet_motor2_ciclos=\(tramo.jet_motor2_ciclos!)&jet_motor2_serie=\(tramo.jet_motor2_serie!)&jet_motor2_tt=\(tramo.jet_motor2_tt!)&jet_motor2_turm=\(tramo.jet_motor2_turm!)&jet_n1=\(tramo.jet_n1!)&jet_n1_motor2=\(tramo.jet_n1_motor2!)&jet_n2=\(tramo.jet_n2!)&jet_n2_motor2=\(tramo.jet_n2_motor2!)&jet_oat=\(tramo.jet_oat!)&jet_oilpress=\(tramo.jet_oilpress!)&jet_oilpress_motor2=\(tramo.jet_oilpress_motor2!)&jet_oiltemp=\(tramo.jet_oiltemp!)&jet_oiltemp_motor2=\(tramo.jet_oiltemp_motor2!)&jet_dc=\(tramo.jet_dc!)"
+                                let wsURL = parametros.host + "/json?asp=bitacora_agregar_instrumentos_jet&idtramo=\(tramo.idtramo!)&idbitacora=\(global_var.j_bitacoras_idservidor)&matricula=\(tramo.matricula!)&jet_amp=\(tramo.jet_amp!)&jet_amp_motor2=\(tramo.jet_amp_motor2!)&jet_apu_ciclos=\(tramo.jet_apu_ciclos!)&jet_apu_serie=\(tramo.jet_apu_serie!)&jet_apu_tt=\(tramo.jet_apu_tt!)&jet_apu_turm=\(tramo.jet_apu_turm!)&jet_avion_ciclos=\(tramo.jet_avion_ciclos!)&jet_avion_serie=\(tramo.jet_avion_serie!)&jet_avion_tt=\(tramo.jet_avion_tt!)&jet_avion_turm=\(tramo.jet_avion_turm!)&jet_dcac=\(tramo.jet_dcac!)&jet_dcac_motor2=\(tramo.jet_dcac_motor2!)&jet_fflow=\(tramo.jet_fflow!)&jet_fflow_motor2=\(tramo.jet_fflow_motor2!)&jet_fueltemp=\(tramo.jet_fueltemp!)&jet_fueltemp_motor2=\(tramo.jet_fueltemp_motor2!)&jet_hydvol=\(tramo.jet_hydvol!)&jet_hydvol_motor2=\(tramo.jet_hydvol_motor2!)&jet_ias=\(tramo.jet_ias!)&jet_itt=\(tramo.jet_itt!)&jet_itt_motor2=\(tramo.jet_itt_motor2!)&jet_lecturaaltimetro_capitan=\(tramo.jet_lecturaaltimetro_capitan!)&jet_lecturaaltimetro_primeroficial=\(tramo.jet_lecturaaltimetro_primeroficial!)&jet_motor1_ciclos=\(tramo.jet_motor1_ciclos!)&jet_motor1_serie=\(tramo.jet_motor1_serie!)&jet_motor1_tt=\(tramo.jet_motor1_tt!)&jet_motor1_turm=\(tramo.jet_motor1_turm!)&jet_motor2_ciclos=\(tramo.jet_motor2_ciclos!)&jet_motor2_serie=\(tramo.jet_motor2_serie!)&jet_motor2_tt=\(tramo.jet_motor2_tt!)&jet_motor2_turm=\(tramo.jet_motor2_turm!)&jet_n1=\(tramo.jet_n1!)&jet_n1_motor2=\(tramo.jet_n1_motor2!)&jet_n2=\(tramo.jet_n2!)&jet_n2_motor2=\(tramo.jet_n2_motor2!)&jet_oat=\(tramo.jet_oat!)&jet_oilpress=\(tramo.jet_oilpress!)&jet_oilpress_motor2=\(tramo.jet_oilpress_motor2!)&jet_oiltemp=\(tramo.jet_oiltemp!)&jet_oiltemp_motor2=\(tramo.jet_oiltemp_motor2!)&jet_dc=\(tramo.jet_dc!)"
                                 
                                 
                                 let url_temp = wsURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
@@ -1719,7 +1726,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                                         print(httpResponde.statusCode)
                                         if httpResponde.statusCode == 200 {
                                             if data != nil {
-                                                if let json =  try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary {
+                                                if let json =  ((try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary) as NSDictionary??) {
                                                     if json!.count > 0 {
                                                         self.dataSource =  json
                                                         self.results = self.dataSource["Lectura"] as! NSArray
@@ -1768,7 +1775,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                                 
                                 for tramo in bitacora{
                                     
-                                    let wsURL = parametros.j_host + "json.aspx?asp=bitacora_agregar_instrumentos_piston_mono&idtramo=\(tramo.idtramo!)&idbitacora=\(global_var.j_bitacoras_idservidor)&matricula=\(tramo.matricula!)&ampers=\(tramo.piston_ampers!)&cht=\(tramo.piston_cht!)&crucero=\(tramo.piston_crucero!)&egt=\(tramo.piston_egt!)&flow=\(tramo.piston_flow!)&fuelpress=\(tramo.piston_fuelpress!)&manpress=\(tramo.piston_manpress!)&oilpress=\(tramo.piston_oilpress!)&rpm=\(tramo.piston_rpm!)&temp=\(tramo.piston_temp!)&volts=\(tramo.piston_volts!)&oat=\(tramo.piston_oat!)&aceite_mas=\(tramo.piston_aceite_mas!)"
+                                    let wsURL = parametros.host + "/json?asp=bitacora_agregar_instrumentos_piston_mono&idtramo=\(tramo.idtramo!)&idbitacora=\(global_var.j_bitacoras_idservidor)&matricula=\(tramo.matricula!)&ampers=\(tramo.piston_ampers!)&cht=\(tramo.piston_cht!)&crucero=\(tramo.piston_crucero!)&egt=\(tramo.piston_egt!)&flow=\(tramo.piston_flow!)&fuelpress=\(tramo.piston_fuelpress!)&manpress=\(tramo.piston_manpress!)&oilpress=\(tramo.piston_oilpress!)&rpm=\(tramo.piston_rpm!)&temp=\(tramo.piston_temp!)&volts=\(tramo.piston_volts!)&oat=\(tramo.piston_oat!)&aceite_mas=\(tramo.piston_aceite_mas!)"
                                     
                                     let url_temp = wsURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
                                     let url = URL(string: url_temp!)
@@ -1780,7 +1787,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                                             if let httpResponde : HTTPURLResponse = urlResponse as? HTTPURLResponse {
                                                 if httpResponde.statusCode == 200 {
                                                     if data != nil {
-                                                        if let json =  try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary {
+                                                        if let json =  ((try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary) as NSDictionary??) {
                                                             if json!.count > 0 {
                                                                 self.dataSource =  json
                                                                 self.results = self.dataSource["Lectura"] as! NSArray
@@ -1839,7 +1846,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                             
                             for tramo in bitacora{
                                 
-                                let wsURL = parametros.j_host + "json.aspx?asp=bitacora_agregar_instrumentos_turbo&idtramo=\(tramo.idtramo!)&idbitacora=\(global_var.j_bitacoras_idservidor)&matricula=\(tramo.matricula!)&turbo_fflow=\(tramo.turbo_fflow!)&turbo_rpmhelice=\(tramo.turbo_helicerpm!)&turbo_ias=\(tramo.turbo_ias!)&turbo_itt=\(tramo.turbo_itt!)&turbo_ng=\(tramo.turbo_ng!)&turbo_nivelvuelo=0&turbo_oat=\(tramo.turbo_oat!)&turbo_oilpress=\(tramo.turbo_oilpress!)&turbo_oiltemp=\(tramo.turbo_oiltemp!)&turbo_torque=\(tramo.turbo_torque!)&turbo_vi=\(tramo.turbo_vi!)&turbo_vv=\(tramo.turbo_vv!)&turbo_dcac=\(tramo.turbo_dcac!)&turbo_amp=\(tramo.turbo_amp!)&turbo_avion_serie=\(tramo.turbo_avion_serie!)&turbo_avion_ciclos=\(tramo.turbo_avion_ciclos!)&turbo_avion_turm=\(tramo.turbo_avion_turm!)&turbo_avion_tt=\(tramo.turbo_avion_tt!)&turbo_motor_serie=\(tramo.turbo_motor_serie!)&turbo_motor_ciclos=\(tramo.turbo_motor_ciclos!)&turbo_motor_turm=\(tramo.turbo_motor_turm!)&turbo_motor_tt=\(tramo.turbo_motor_tt!)&turbo_helice_serie=\(tramo.turbo_helice_serie!)&turbo_helice_ciclos=\(tramo.turbo_helice_ciclos!)&turbo_helice_turm=\(tramo.turbo_helice_turm!)&turbo_helice_tt=\(tramo.turbo_helice_tt!)&&turbo_fflow_motor2=\(tramo.turbo_fflow_motor2!)&turbo_rpmhelice_motor2=\(tramo.turbo_helicerpm_motor2!)&turbo_ias_motor2=\(tramo.turbo_ias_motor2!)&turbo_itt_motor2=\(tramo.turbo_itt_motor2!)&turbo_ng_motor2=\(tramo.turbo_ng_motor2!)&turbo_oilpress_motor2=\(tramo.turbo_oilpress_motor2!)&turbo_oiltemp_motor2=\(tramo.turbo_oiltemp_motor2!)&turbo_torque_motor2=\(tramo.turbo_torque_motor2!)&turbo_vi_motor2=\(tramo.turbo_vi_motor2!)&turbo_vv_motor2=\(tramo.turbo_vv_motor2!)&turbo_dcac_motor2=\(tramo.turbo_dcac_motor2!)&turbo_amp_motor2=\(tramo.turbo_amp_motor2!)&turbo_fflow_in=\(tramo.turbo_fflow_in!)&turbo_fflow_in_motor2=\(tramo.turbo_fflow_in_motor2!)&turbo_fflow_out=\(tramo.turbo_fflow_out!)&turbo_fflow_out_motor2=\(tramo.turbo_fflow_out_motor2!)"
+                                let wsURL = parametros.host + "/json?asp=bitacora_agregar_instrumentos_turbo&idtramo=\(tramo.idtramo!)&idbitacora=\(global_var.j_bitacoras_idservidor)&matricula=\(tramo.matricula!)&turbo_fflow=\(tramo.turbo_fflow!)&turbo_rpmhelice=\(tramo.turbo_helicerpm!)&turbo_ias=\(tramo.turbo_ias!)&turbo_itt=\(tramo.turbo_itt!)&turbo_ng=\(tramo.turbo_ng!)&turbo_nivelvuelo=0&turbo_oat=\(tramo.turbo_oat!)&turbo_oilpress=\(tramo.turbo_oilpress!)&turbo_oiltemp=\(tramo.turbo_oiltemp!)&turbo_torque=\(tramo.turbo_torque!)&turbo_vi=\(tramo.turbo_vi!)&turbo_vv=\(tramo.turbo_vv!)&turbo_dcac=\(tramo.turbo_dcac!)&turbo_amp=\(tramo.turbo_amp!)&turbo_avion_serie=\(tramo.turbo_avion_serie!)&turbo_avion_ciclos=\(tramo.turbo_avion_ciclos!)&turbo_avion_turm=\(tramo.turbo_avion_turm!)&turbo_avion_tt=\(tramo.turbo_avion_tt!)&turbo_motor_serie=\(tramo.turbo_motor_serie!)&turbo_motor_ciclos=\(tramo.turbo_motor_ciclos!)&turbo_motor_turm=\(tramo.turbo_motor_turm!)&turbo_motor_tt=\(tramo.turbo_motor_tt!)&turbo_helice_serie=\(tramo.turbo_helice_serie!)&turbo_helice_ciclos=\(tramo.turbo_helice_ciclos!)&turbo_helice_turm=\(tramo.turbo_helice_turm!)&turbo_helice_tt=\(tramo.turbo_helice_tt!)&&turbo_fflow_motor2=\(tramo.turbo_fflow_motor2!)&turbo_rpmhelice_motor2=\(tramo.turbo_helicerpm_motor2!)&turbo_ias_motor2=\(tramo.turbo_ias_motor2!)&turbo_itt_motor2=\(tramo.turbo_itt_motor2!)&turbo_ng_motor2=\(tramo.turbo_ng_motor2!)&turbo_oilpress_motor2=\(tramo.turbo_oilpress_motor2!)&turbo_oiltemp_motor2=\(tramo.turbo_oiltemp_motor2!)&turbo_torque_motor2=\(tramo.turbo_torque_motor2!)&turbo_vi_motor2=\(tramo.turbo_vi_motor2!)&turbo_vv_motor2=\(tramo.turbo_vv_motor2!)&turbo_dcac_motor2=\(tramo.turbo_dcac_motor2!)&turbo_amp_motor2=\(tramo.turbo_amp_motor2!)&turbo_fflow_in=\(tramo.turbo_fflow_in!)&turbo_fflow_in_motor2=\(tramo.turbo_fflow_in_motor2!)&turbo_fflow_out=\(tramo.turbo_fflow_out!)&turbo_fflow_out_motor2=\(tramo.turbo_fflow_out_motor2!)"
                                 
                                 let url_temp = wsURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
                                 let url = URL(string: url_temp!)
@@ -1853,7 +1860,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                                             print(httpResponde.statusCode)
                                             if httpResponde.statusCode == 200 {
                                                 if data != nil {
-                                                    if let json =  try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary {
+                                                    if let json =  ((try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary) as NSDictionary??) {
                                                         if json!.count > 0 {
                                                             self.dataSource =  json
                                                             self.results = self.dataSource["Lectura"] as! NSArray
@@ -1922,7 +1929,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                     print("Totalpax: \(bitacora.count)")
                     if(bitacora.count>0) {
                         for tramo in bitacora {
-                            let wsURL = parametros.j_host + "json.aspx?asp=bitacora_agregar_pasajero&idtramo=\(tramo.idtramo!)&idbitacora=\(global_var.j_bitacoras_idservidor)&paxname=\(tramo.nombre!.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)"
+                            let wsURL = parametros.host + "/json?asp=bitacora_agregar_pasajero&idtramo=\(tramo.idtramo!)&idbitacora=\(global_var.j_bitacoras_idservidor)&paxname=\(tramo.nombre!.addingPercentEncoding(withAllowedCharacters: self.customAllowedSet)!)"
                             let url_temp = wsURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
                             let url = URL(string: url_temp!)
                             print("URL: \(url!)")
@@ -1933,7 +1940,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                                     if let httpResponde : HTTPURLResponse = urlResponse as? HTTPURLResponse {
                                         if httpResponde.statusCode == 200 {
                                             if data != nil {
-                                                if let json =  try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary {
+                                                if let json =  ((try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary) as NSDictionary??) {
                                                     
                                                     if json!.count > 0 {
                                                         self.dataSource =  json
@@ -1992,7 +1999,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                 
                 let total_aterrizajes = aterrizajes.intValue //+ 1
                 let total_ciclos = ciclos.intValue //+ 1
-                let wsURL = parametros.j_host + "json.aspx?asp=bitacora_sincronizada&matricula=\(matricula)&idbitacora=\(global_var.j_bitacoras_idservidor)&ultimabitacora=\(numbitacora)&ultimohorometro=\(horometrollega)&ultimohorometroapu=\(horometroapu)&ultimodestino=\(self.ultimodestino)&modificacion=\(modificada)&nummodificacion=\(modificadatotal)&totalaterrizajes=\(total_aterrizajes)&totalciclos=\(total_ciclos)&motivo=\(motivo)"
+                let wsURL = parametros.host + "/json?asp=bitacora_sincronizada&matricula=\(matricula)&idbitacora=\(global_var.j_bitacoras_idservidor)&ultimabitacora=\(numbitacora)&ultimohorometro=\(horometrollega)&ultimohorometroapu=\(horometroapu)&ultimodestino=\(self.ultimodestino)&modificacion=\(modificada)&nummodificacion=\(modificadatotal)&totalaterrizajes=\(total_aterrizajes)&totalciclos=\(total_ciclos)&motivo=\(motivo)"
                 
                 let url_temp = wsURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
                 let url = URL(string: url_temp!)
@@ -2003,7 +2010,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                     if urlResponse != nil {
                         if  let httpResponde : HTTPURLResponse = urlResponse as? HTTPURLResponse {
                             if httpResponde.statusCode == 200 {
-                                if let json =  try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary {
+                                if let json =  ((try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary) as NSDictionary??) {
                                     if json!.count > 0 {
                                         self.dataSource =  json
                                         self.results = self.dataSource["Bitacora"] as! NSArray
@@ -2055,7 +2062,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
             sleep(15)
             //Avisar que se se actualizo todo para que envie el correo
             
-            let wsURL = parametros.j_host + "json.aspx?asp=finalizaSincronizacion&matricula=\(matricula)"
+            let wsURL = parametros.host + "/json?asp=finalizaSincronizacion&matricula=\(matricula)"
             
             let url_temp = wsURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
             let url = URL(string: url_temp!)
@@ -2066,7 +2073,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
                 if urlResponse != nil {
                     if  let httpResponde : HTTPURLResponse = urlResponse as? HTTPURLResponse {
                         if httpResponde.statusCode == 200 {
-                            if let json =  try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary {
+                            if let json =  ((try? JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary) as NSDictionary??) {
                                 if json!.count > 0 {
                                     self.dataSource =  json
                                     self.results = self.dataSource["Bitacora"] as! NSArray
@@ -2180,7 +2187,7 @@ class BitacorasViewController: UIViewController, UITableViewDelegate, UITableVie
             var soapMessage = text
             let url = NSURL(string: wsUrl)
             let theRequest = NSMutableURLRequest(url: url! as URL)
-            let msLength = String(soapMessage.characters.count)
+            let msLength = String(soapMessage.count)
             
             theRequest.addValue("text/xml; charset=utf-8", forHTTPHeaderField: "Content-Type")
             theRequest.addValue("http://intranet.aerotron.com.mx/apps/SincronizaBitacora", forHTTPHeaderField: "SOAPAction")
