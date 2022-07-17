@@ -1,0 +1,1241 @@
+2022-04-10 17:36:42 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x2f09d9c70; archive(resolved)="<IDEArchive: 0x14a985460>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodiOSAdHoc: 0x138650f30>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x2fab4dc50; teamID='699QRPV6HD', teamName='Jaime Solis Lerma', teamType='Individual', username='jaime.solis19@gmail.com', isFreeProvisioningTeam='0'>">
+	Chain (14, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x2f09d9c70; archive = "<IDEArchive: 0x14a985460>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x138650f30>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x2fab4dc50; teamID='699QRPV6HD', teamName='Jaime Solis Lerma', teamType='Individual', username='jaime.solis19@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x2f092bc70; archive = "<IDEArchive: 0x14a985460>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x138650f30>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x2fab4dc50; teamID='699QRPV6HD', teamName='Jaime Solis Lerma', teamType='Individual', username='jaime.solis19@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x323a4ba40; archive = "<IDEArchive: 0x14a985460>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x138650f30>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x2fab4dc50; teamID='699QRPV6HD', teamName='Jaime Solis Lerma', teamType='Individual', username='jaime.solis19@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2f092ebd0; archive = "<IDEArchive: 0x14a985460>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x138650f30>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x2fab4dc50; teamID='699QRPV6HD', teamName='Jaime Solis Lerma', teamType='Individual', username='jaime.solis19@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x3272d7740; archive = "<IDEArchive: 0x14a985460>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x138650f30>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x2fab4dc50; teamID='699QRPV6HD', teamName='Jaime Solis Lerma', teamType='Individual', username='jaime.solis19@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2f9be5870; archive = "<IDEArchive: 0x14a985460>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x138650f30>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x2fab4dc50; teamID='699QRPV6HD', teamName='Jaime Solis Lerma', teamType='Individual', username='jaime.solis19@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x323a54160; archive = "<IDEArchive: 0x14a985460>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x138650f30>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x2fab4dc50; teamID='699QRPV6HD', teamName='Jaime Solis Lerma', teamType='Individual', username='jaime.solis19@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x323a5a1a0; archive = "<IDEArchive: 0x14a985460>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x138650f30>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x2fab4dc50; teamID='699QRPV6HD', teamName='Jaime Solis Lerma', teamType='Individual', username='jaime.solis19@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x3270739a0; archive = "<IDEArchive: 0x14a985460>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x138650f30>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x2fab4dc50; teamID='699QRPV6HD', teamName='Jaime Solis Lerma', teamType='Individual', username='jaime.solis19@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x323a54420; archive = "<IDEArchive: 0x14a985460>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x138650f30>", team="(null)">
+	<IDEDistributionContext: 0x323a57a70; archive = "<IDEArchive: 0x14a985460>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x138650f30>", team="(null)">
+	<IDEDistributionContext: 0x2f9bc1e20; archive = "<IDEArchive: 0x14a985460>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x138650f30>", team="(null)">
+	<IDEDistributionContext: 0x322537db0; archive = "<IDEArchive: 0x14a985460>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x138650f30>", team="(null)">
+	<IDEDistributionContext: 0x32443fd00; archive = "<IDEArchive: 0x14a985460>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x2f09d9c70>
+2022-04-10 17:36:42 +0000  Processing step: IDEDistributionCreateDestRootStep
+2022-04-10 17:36:42 +0000  Processing step: IDEDistributionCopyItemStep
+2022-04-10 17:36:42 +0000  Running /usr/bin/ditto '-V' '/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app'
+2022-04-10 17:36:42 +0000  >>> Copying /Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app 
+2022-04-10 17:36:42 +0000  copying file ./tools_32.png ... 
+2022-04-10 17:36:42 +0000  4735 bytes for ./tools_32.png
+2022-04-10 17:36:42 +0000  copying file ./AppIconNew40x40@2x.png ... 
+2022-04-10 17:36:42 +0000  7049 bytes for ./AppIconNew40x40@2x.png
+2022-04-10 17:36:42 +0000  copying file ./_CodeSignature/CodeResources ... 
+2022-04-10 17:36:42 +0000  49223 bytes for ./_CodeSignature/CodeResources
+2022-04-10 17:36:42 +0000  copying file ./AppIconNew29x29@3x.png ... 
+2022-04-10 17:36:42 +0000  7723 bytes for ./AppIconNew29x29@3x.png
+2022-04-10 17:36:42 +0000  copying file ./AppIconNew60x60@3x.png ... 
+2022-04-10 17:36:42 +0000  18755 bytes for ./AppIconNew60x60@3x.png
+2022-04-10 17:36:42 +0000  copying file ./Calendar_2.png ... 
+2022-04-10 17:36:42 +0000  3558 bytes for ./Calendar_2.png
+2022-04-10 17:36:42 +0000  copying file ./AppIconNew40x40@2x~ipad.png ... 
+2022-04-10 17:36:42 +0000  7049 bytes for ./AppIconNew40x40@2x~ipad.png
+2022-04-10 17:36:42 +0000  copying file ./AppIconNew76x76@2x~ipad.png ... 
+2022-04-10 17:36:42 +0000  15350 bytes for ./AppIconNew76x76@2x~ipad.png
+2022-04-10 17:36:42 +0000  copying file ./airplane-32.png ... 
+2022-04-10 17:36:42 +0000  503 bytes for ./airplane-32.png
+2022-04-10 17:36:42 +0000  copying file ./books-24.png ... 
+2022-04-10 17:36:42 +0000  632 bytes for ./books-24.png
+2022-04-10 17:36:42 +0000  copying file ./twitter logo mask.png ... 
+2022-04-10 17:36:42 +0000  17222 bytes for ./twitter logo mask.png
+2022-04-10 17:36:42 +0000  copying file ./archive.png ... 
+2022-04-10 17:36:42 +0000  11922 bytes for ./archive.png
+2022-04-10 17:36:42 +0000  copying file ./AppIconNew60x60@2x.png ... 
+2022-04-10 17:36:42 +0000  11664 bytes for ./AppIconNew60x60@2x.png
+2022-04-10 17:36:42 +0000  copying file ./left3-32.png ... 
+2022-04-10 17:36:42 +0000  605 bytes for ./left3-32.png
+2022-04-10 17:36:42 +0000  copying file ./twitterscreen.PNG ... 
+2022-04-10 17:36:42 +0000  421348 bytes for ./twitterscreen.PNG
+2022-04-10 17:36:42 +0000  copying file ./arrow425.png ... 
+2022-04-10 17:36:42 +0000  1776 bytes for ./arrow425.png
+2022-04-10 17:36:42 +0000  copying file ./AppIconNew29x29@2x.png ... 
+2022-04-10 17:36:42 +0000  4377 bytes for ./AppIconNew29x29@2x.png
+2022-04-10 17:36:42 +0000  copying file ./AppIconNew57x57@2x.png ... 
+2022-04-10 17:36:42 +0000  10886 bytes for ./AppIconNew57x57@2x.png
+2022-04-10 17:36:42 +0000  copying file ./speedometer_filled-32.png ... 
+2022-04-10 17:36:42 +0000  647 bytes for ./speedometer_filled-32.png
+2022-04-10 17:36:42 +0000  copying file ./AppIconNew40x40@3x.png ... 
+2022-04-10 17:36:42 +0000  11664 bytes for ./AppIconNew40x40@3x.png
+2022-04-10 17:36:42 +0000  copying file ./AppIconNew83.5x83.5@2x~ipad.png ... 
+2022-04-10 17:36:42 +0000  17060 bytes for ./AppIconNew83.5x83.5@2x~ipad.png
+2022-04-10 17:36:42 +0000  copying file ./54-lock.png ... 
+2022-04-10 17:36:42 +0000  2965 bytes for ./54-lock.png
+2022-04-10 17:36:42 +0000  copying file ./AppIconNew20x20@3x.png ... 
+2022-04-10 17:36:42 +0000  4604 bytes for ./AppIconNew20x20@3x.png
+2022-04-10 17:36:42 +0000  copying file ./AppIconNew29x29@2x~ipad.png ... 
+2022-04-10 17:36:42 +0000  4377 bytes for ./AppIconNew29x29@2x~ipad.png
+2022-04-10 17:36:42 +0000  copying file ./AppIconNew50x50@2x~ipad.png ... 
+2022-04-10 17:36:42 +0000  9346 bytes for ./AppIconNew50x50@2x~ipad.png
+2022-04-10 17:36:42 +0000  copying file ./Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2022-04-10 17:36:42 +0000  3848 bytes for ./Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2022-04-10 17:36:42 +0000  copying file ./Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2022-04-10 17:36:42 +0000  927 bytes for ./Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib
+2022-04-10 17:36:42 +0000  copying file ./Launch Screen.storyboardc/Info.plist ... 
+2022-04-10 17:36:42 +0000  258 bytes for ./Launch Screen.storyboardc/Info.plist
+2022-04-10 17:36:42 +0000  copying file ./passenger-32.png ... 
+2022-04-10 17:36:42 +0000  877 bytes for ./passenger-32.png
+2022-04-10 17:36:42 +0000  copying file ./logoFlightBook.png ... 
+2022-04-10 17:36:42 +0000  82223 bytes for ./logoFlightBook.png
+2022-04-10 17:36:42 +0000  copying file ./Master.storyboardc/Info.plist ... 
+2022-04-10 17:36:42 +0000  115 bytes for ./Master.storyboardc/Info.plist
+2022-04-10 17:36:42 +0000  copying file ./AppIconNew20x20@2x~ipad.png ... 
+2022-04-10 17:36:42 +0000  2656 bytes for ./AppIconNew20x20@2x~ipad.png
+2022-04-10 17:36:42 +0000  copying file ./lock_open_32.png ... 
+2022-04-10 17:36:42 +0000  4506 bytes for ./lock_open_32.png
+2022-04-10 17:36:42 +0000  copying file ./up_right-32.png ... 
+2022-04-10 17:36:42 +0000  222 bytes for ./up_right-32.png
+2022-04-10 17:36:42 +0000  copying file ./AppIconNew29x29~ipad.png ... 
+2022-04-10 17:36:42 +0000  1723 bytes for ./AppIconNew29x29~ipad.png
+2022-04-10 17:36:42 +0000  copying file ./AppIconNew20x20@2x.png ... 
+2022-04-10 17:36:42 +0000  2656 bytes for ./AppIconNew20x20@2x.png
+2022-04-10 17:36:42 +0000  copying file ./airplane_filled-32.png ... 
+2022-04-10 17:36:42 +0000  402 bytes for ./airplane_filled-32.png
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main2.storyboardc/Eki-Dw-PnP-view-YQ0-Rg-eIj.nib ... 
+2022-04-10 17:36:42 +0000  35497 bytes for ./Base.lproj/Main2.storyboardc/Eki-Dw-PnP-view-YQ0-Rg-eIj.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main2.storyboardc/turbo_instrumentos.nib ... 
+2022-04-10 17:36:42 +0000  1869 bytes for ./Base.lproj/Main2.storyboardc/turbo_instrumentos.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main2.storyboardc/Info.plist ... 
+2022-04-10 17:36:42 +0000  161 bytes for ./Base.lproj/Main2.storyboardc/Info.plist
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/jet_vuelo.nib ... 
+2022-04-10 17:36:42 +0000  1816 bytes for ./Base.lproj/Main.storyboardc/jet_vuelo.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/tabBarcontroller.nib ... 
+2022-04-10 17:36:42 +0000  6142 bytes for ./Base.lproj/Main.storyboardc/tabBarcontroller.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/turbo.nib ... 
+2022-04-10 17:36:42 +0000  5940 bytes for ./Base.lproj/Main.storyboardc/turbo.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/4vh-Ah-skA-view-7uf-MS-hjh.nib ... 
+2022-04-10 17:36:42 +0000  5123 bytes for ./Base.lproj/Main.storyboardc/4vh-Ah-skA-view-7uf-MS-hjh.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/L9r-5z-NHd-view-P25-33-k2H.nib ... 
+2022-04-10 17:36:42 +0000  9013 bytes for ./Base.lproj/Main.storyboardc/L9r-5z-NHd-view-P25-33-k2H.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/piston_tramos.nib ... 
+2022-04-10 17:36:42 +0000  2161 bytes for ./Base.lproj/Main.storyboardc/piston_tramos.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/YgP-lx-zAH-view-bEX-sZ-wNr.nib ... 
+2022-04-10 17:36:42 +0000  10869 bytes for ./Base.lproj/Main.storyboardc/YgP-lx-zAH-view-bEX-sZ-wNr.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/btD-46-asO-view-qBV-zU-4cO.nib ... 
+2022-04-10 17:36:42 +0000  32811 bytes for ./Base.lproj/Main.storyboardc/btD-46-asO-view-qBV-zU-4cO.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/turbo_instrumentos.nib ... 
+2022-04-10 17:36:42 +0000  807 bytes for ./Base.lproj/Main.storyboardc/turbo_instrumentos.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/YCq-ii-eXu-view-RqF-So-85f.nib ... 
+2022-04-10 17:36:42 +0000  13423 bytes for ./Base.lproj/Main.storyboardc/YCq-ii-eXu-view-RqF-So-85f.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-H49-xh-MDC.nib ... 
+2022-04-10 17:36:42 +0000  1520 bytes for ./Base.lproj/Main.storyboardc/UIViewController-H49-xh-MDC.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/kC0-Lz-IJN-view-DlM-gw-FtW.nib ... 
+2022-04-10 17:36:42 +0000  65654 bytes for ./Base.lproj/Main.storyboardc/kC0-Lz-IJN-view-DlM-gw-FtW.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/jet_instrumentos.nib ... 
+2022-04-10 17:36:42 +0000  1861 bytes for ./Base.lproj/Main.storyboardc/jet_instrumentos.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/A5v-NZ-X4x-view-ZU9-ga-GuJ.nib ... 
+2022-04-10 17:36:42 +0000  14270 bytes for ./Base.lproj/Main.storyboardc/A5v-NZ-X4x-view-ZU9-ga-GuJ.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/UITableViewController-mx1-oP-Xgc.nib ... 
+2022-04-10 17:36:42 +0000  1005 bytes for ./Base.lproj/Main.storyboardc/UITableViewController-mx1-oP-Xgc.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/LaunchScreen.nib ... 
+2022-04-10 17:36:42 +0000  1210 bytes for ./Base.lproj/Main.storyboardc/LaunchScreen.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/TF1-GF-LNn-view-3x0-Js-QGY.nib ... 
+2022-04-10 17:36:42 +0000  15413 bytes for ./Base.lproj/Main.storyboardc/TF1-GF-LNn-view-3x0-Js-QGY.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/UITableViewController-iCa-S6-Tyo.nib ... 
+2022-04-10 17:36:42 +0000  1500 bytes for ./Base.lproj/Main.storyboardc/UITableViewController-iCa-S6-Tyo.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/jet_pax.nib ... 
+2022-04-10 17:36:42 +0000  1609 bytes for ./Base.lproj/Main.storyboardc/jet_pax.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/mx1-oP-Xgc-view-7iS-Vl-XRC.nib ... 
+2022-04-10 17:36:42 +0000  5792 bytes for ./Base.lproj/Main.storyboardc/mx1-oP-Xgc-view-7iS-Vl-XRC.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/oDk-G6-T6v-view-9rY-Bq-Qqv.nib ... 
+2022-04-10 17:36:42 +0000  41852 bytes for ./Base.lproj/Main.storyboardc/oDk-G6-T6v-view-9rY-Bq-Qqv.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/turbo_vuelo.nib ... 
+2022-04-10 17:36:42 +0000  1827 bytes for ./Base.lproj/Main.storyboardc/turbo_vuelo.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/vc_iniciar.nib ... 
+2022-04-10 17:36:42 +0000  1313 bytes for ./Base.lproj/Main.storyboardc/vc_iniciar.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/EPN-1a-pn7-view-MvZ-aM-480.nib ... 
+2022-04-10 17:36:42 +0000  7790 bytes for ./Base.lproj/Main.storyboardc/EPN-1a-pn7-view-MvZ-aM-480.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/piston_mono.nib ... 
+2022-04-10 17:36:42 +0000  6564 bytes for ./Base.lproj/Main.storyboardc/piston_mono.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/jgJ-08-UKa-view-geq-Gf-wS9.nib ... 
+2022-04-10 17:36:42 +0000  27055 bytes for ./Base.lproj/Main.storyboardc/jgJ-08-UKa-view-geq-Gf-wS9.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/turbo_bimotor.nib ... 
+2022-04-10 17:36:42 +0000  6318 bytes for ./Base.lproj/Main.storyboardc/turbo_bimotor.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/turbo_pax.nib ... 
+2022-04-10 17:36:42 +0000  1621 bytes for ./Base.lproj/Main.storyboardc/turbo_pax.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/a5B-Nr-K2b-view-cfQ-cY-SCU.nib ... 
+2022-04-10 17:36:42 +0000  8183 bytes for ./Base.lproj/Main.storyboardc/a5B-Nr-K2b-view-cfQ-cY-SCU.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/H49-xh-MDC-view-HHK-lv-ltK.nib ... 
+2022-04-10 17:36:42 +0000  3992 bytes for ./Base.lproj/Main.storyboardc/H49-xh-MDC-view-HHK-lv-ltK.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/weD-Ui-M2k-view-FKY-DH-DrL.nib ... 
+2022-04-10 17:36:42 +0000  9361 bytes for ./Base.lproj/Main.storyboardc/weD-Ui-M2k-view-FKY-DH-DrL.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/UINavigationController-Iyl-xN-8Wh.nib ... 
+2022-04-10 17:36:42 +0000  2404 bytes for ./Base.lproj/Main.storyboardc/UINavigationController-Iyl-xN-8Wh.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/V6J-rg-hMC-view-Bt0-Wb-SDF.nib ... 
+2022-04-10 17:36:42 +0000  4809 bytes for ./Base.lproj/Main.storyboardc/V6J-rg-hMC-view-Bt0-Wb-SDF.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/jet_view.nib ... 
+2022-04-10 17:36:42 +0000  6416 bytes for ./Base.lproj/Main.storyboardc/jet_view.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/pOi-UX-RLu-view-BIM-lA-xnQ.nib ... 
+2022-04-10 17:36:42 +0000  5848 bytes for ./Base.lproj/Main.storyboardc/pOi-UX-RLu-view-BIM-lA-xnQ.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/AGY-Ot-5yn-view-8yA-XW-uQm.nib ... 
+2022-04-10 17:36:42 +0000  69804 bytes for ./Base.lproj/Main.storyboardc/AGY-Ot-5yn-view-8yA-XW-uQm.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/bitacoras_view.nib ... 
+2022-04-10 17:36:42 +0000  2056 bytes for ./Base.lproj/Main.storyboardc/bitacoras_view.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2022-04-10 17:36:42 +0000  1207 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/iCa-S6-Tyo-view-FrJ-Df-tu9.nib ... 
+2022-04-10 17:36:42 +0000  9238 bytes for ./Base.lproj/Main.storyboardc/iCa-S6-Tyo-view-FrJ-Df-tu9.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/idB-qR-ITw-view-6XD-pQ-Em1.nib ... 
+2022-04-10 17:36:42 +0000  7183 bytes for ./Base.lproj/Main.storyboardc/idB-qR-ITw-view-6XD-pQ-Em1.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-V6J-rg-hMC.nib ... 
+2022-04-10 17:36:42 +0000  1028 bytes for ./Base.lproj/Main.storyboardc/UIViewController-V6J-rg-hMC.nib
+2022-04-10 17:36:42 +0000  copying file ./Base.lproj/Main.storyboardc/uJZ-g4-LhE-view-BgL-BB-xMp.nib ... 
+2022-04-10 17:36:42 +0000  67557 bytes for ./Base.lproj/Main.storyboardc/uJZ-g4-LhE-view-BgL-BB-xMp.nib
+2022-04-10 17:36:42 +0000  copying file ./AppIconNew29x29.png ... 
+2022-04-10 17:36:42 +0000  1723 bytes for ./AppIconNew29x29.png
+2022-04-10 17:36:42 +0000  copying file ./bullish-25.png ... 
+2022-04-10 17:36:42 +0000  298 bytes for ./bullish-25.png
+2022-04-10 17:36:42 +0000  copying file ./Default-568h@2x.png ... 
+2022-04-10 17:36:42 +0000  5753 bytes for ./Default-568h@2x.png
+2022-04-10 17:36:42 +0000  copying file ./Assets.car ... 
+2022-04-10 17:36:42 +0000  10626296 bytes for ./Assets.car
+2022-04-10 17:36:42 +0000  copying file ./bookmark.png ... 
+3546 bytes for ./bookmark.png
+copying file ./Bitacoras.momd/VersionInfo.plist ... 
+11789 bytes for ./Bitacoras.momd/VersionInfo.plist
+copying file ./Bitacoras.momd/Bitacoras 8.mom ... 
+29567 bytes for ./Bitacoras.momd/Bitacoras 8.mom
+copying file ./Bitacoras.momd/Bitacoras 9.mom ... 
+2022-04-10 17:36:42 +0000  28160 bytes for ./Bitacoras.momd/Bitacoras 9.mom
+2022-04-10 17:36:42 +0000  copying file ./Bitacoras.momd/Bitacoras 18.mom ... 
+2022-04-10 17:36:42 +0000  33491 bytes for ./Bitacoras.momd/Bitacoras 18.mom
+2022-04-10 17:36:42 +0000  copying file ./Bitacoras.momd/Bitacoras 16.mom ... 
+2022-04-10 17:36:42 +0000  33293 bytes for ./Bitacoras.momd/Bitacoras 16.mom
+2022-04-10 17:36:42 +0000  copying file ./Bitacoras.momd/Bitacoras 17.mom ... 
+2022-04-10 17:36:42 +0000  33390 bytes for ./Bitacoras.momd/Bitacoras 17.mom
+2022-04-10 17:36:42 +0000  copying file ./Bitacoras.momd/Bitacoras 15.mom ... 
+2022-04-10 17:36:42 +0000  32480 bytes for ./Bitacoras.momd/Bitacoras 15.mom
+2022-04-10 17:36:42 +0000  copying file ./Bitacoras.momd/Bitacoras 2.mom ... 
+2022-04-10 17:36:42 +0000  28300 bytes for ./Bitacoras.momd/Bitacoras 2.mom
+2022-04-10 17:36:42 +0000  copying file ./Bitacoras.momd/Bitacoras 3.mom ... 
+2022-04-10 17:36:42 +0000  28490 bytes for ./Bitacoras.momd/Bitacoras 3.mom
+2022-04-10 17:36:42 +0000  copying file ./Bitacoras.momd/Bitacoras.mom ... 
+2022-04-10 17:36:42 +0000  28046 bytes for ./Bitacoras.momd/Bitacoras.mom
+2022-04-10 17:36:42 +0000  copying file ./Bitacoras.momd/Bitacoras 18.omo ... 
+2022-04-10 17:36:42 +0000  73344 bytes for ./Bitacoras.momd/Bitacoras 18.omo
+2022-04-10 17:36:42 +0000  copying file ./Bitacoras.momd/Bitacoras 14.mom ... 
+2022-04-10 17:36:42 +0000  32019 bytes for ./Bitacoras.momd/Bitacoras 14.mom
+2022-04-10 17:36:42 +0000  copying file ./Bitacoras.momd/Bitacoras 10.mom ... 
+2022-04-10 17:36:42 +0000  29800 bytes for ./Bitacoras.momd/Bitacoras 10.mom
+2022-04-10 17:36:42 +0000  copying file ./Bitacoras.momd/Bitacoras 7.mom ... 
+2022-04-10 17:36:42 +0000  29567 bytes for ./Bitacoras.momd/Bitacoras 7.mom
+2022-04-10 17:36:42 +0000  copying file ./Bitacoras.momd/Bitacoras 6.mom ... 
+2022-04-10 17:36:42 +0000  28942 bytes for ./Bitacoras.momd/Bitacoras 6.mom
+2022-04-10 17:36:42 +0000  copying file ./Bitacoras.momd/Bitacoras 11.mom ... 
+2022-04-10 17:36:42 +0000  29800 bytes for ./Bitacoras.momd/Bitacoras 11.mom
+2022-04-10 17:36:42 +0000  copying file ./Bitacoras.momd/Bitacoras 13.mom ... 
+2022-04-10 17:36:42 +0000  32129 bytes for ./Bitacoras.momd/Bitacoras 13.mom
+2022-04-10 17:36:42 +0000  copying file ./Bitacoras.momd/Bitacoras 4.mom ... 
+2022-04-10 17:36:42 +0000  28604 bytes for ./Bitacoras.momd/Bitacoras 4.mom
+2022-04-10 17:36:42 +0000  copying file ./Bitacoras.momd/Bitacoras 5.mom ... 
+2022-04-10 17:36:42 +0000  28942 bytes for ./Bitacoras.momd/Bitacoras 5.mom
+2022-04-10 17:36:42 +0000  copying file ./Bitacoras.momd/Bitacoras 12.mom ... 
+2022-04-10 17:36:42 +0000  31415 bytes for ./Bitacoras.momd/Bitacoras 12.mom
+2022-04-10 17:36:42 +0000  copying file ./Calendar.png ... 
+2022-04-10 17:36:42 +0000  746 bytes for ./Calendar.png
+2022-04-10 17:36:42 +0000  copying file ./AppIconNew50x50~ipad.png ... 
+2022-04-10 17:36:42 +0000  3515 bytes for ./AppIconNew50x50~ipad.png
+2022-04-10 17:36:42 +0000  copying file ./speedometer-32.png ... 
+2022-04-10 17:36:42 +0000  699 bytes for ./speedometer-32.png
+2022-04-10 17:36:42 +0000  copying file ./AppIconNew57x57.png ... 
+2022-04-10 17:36:42 +0000  4336 bytes for ./AppIconNew57x57.png
+2022-04-10 17:36:42 +0000  copying file ./FlightLogBook ... 
+2022-04-10 17:36:42 +0000  18257776 bytes for ./FlightLogBook
+2022-04-10 17:36:42 +0000  copying file ./AppIconNew72x72~ipad.png ... 
+6157 bytes for ./AppIconNew72x72~ipad.png
+copying file ./airplane_take_off_filled-50.png ... 
+725 bytes for ./airplane_take_off_filled-50.png
+copying file ./landing_filled-50.png ... 
+840 bytes for ./landing_filled-50.png
+copying file ./Success.png ... 
+2126 bytes for ./Success.png
+copying file ./AppIconNew40x40~ipad.png ... 
+2656 bytes for ./AppIconNew40x40~ipad.png
+copying file ./AppIconNew20x20~ipad.png ... 
+1078 bytes for ./AppIconNew20x20~ipad.png
+copying file ./AppIconNew72x72@2x~ipad.png ... 
+14296 bytes for ./AppIconNew72x72@2x~ipad.png
+copying file ./customs_officer-32.png ... 
+973 bytes for ./customs_officer-32.png
+copying file ./Failure.png ... 
+2425 bytes for ./Failure.png
+copying file ./synced_ok.png ... 
+1611 bytes for ./synced_ok.png
+copying file ./airplane-57-256.png ... 
+4502 bytes for ./airplane-57-256.png
+2022-04-10 17:36:42 +0000  copying file ./arrow400.png ... 
+2022-04-10 17:36:42 +0000  9009 bytes for ./arrow400.png
+2022-04-10 17:36:42 +0000  copying file ./lock_32.png ... 
+2022-04-10 17:36:42 +0000  4528 bytes for ./lock_32.png
+2022-04-10 17:36:42 +0000  copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2022-04-10 17:36:42 +0000  466576 bytes for ./Frameworks/libswiftCoreImage.dylib
+2022-04-10 17:36:42 +0000  copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2022-04-10 17:36:42 +0000  679696 bytes for ./Frameworks/libswiftObjectiveC.dylib
+2022-04-10 17:36:42 +0000  copying file ./Frameworks/libswiftCore.dylib ... 
+2022-04-10 17:36:42 +0000  95497584 bytes for ./Frameworks/libswiftCore.dylib
+copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2022-04-10 17:36:42 +0000  2041040 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+1608816 bytes for ./Frameworks/libswiftUIKit.dylib
+copying file ./Frameworks/libswiftMetal.dylib ... 
+2022-04-10 17:36:42 +0000  724432 bytes for ./Frameworks/libswiftMetal.dylib
+copying file ./Frameworks/libswiftCoreData.dylib ... 
+994912 bytes for ./Frameworks/libswiftCoreData.dylib
+copying file ./Frameworks/libswiftDispatch.dylib ... 
+2022-04-10 17:36:42 +0000  4056912 bytes for ./Frameworks/libswiftDispatch.dylib
+copying file ./Frameworks/libswiftos.dylib ... 
+2022-04-10 17:36:42 +0000  857184 bytes for ./Frameworks/libswiftos.dylib
+copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+450400 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+copying file ./Frameworks/libswiftDarwin.dylib ... 
+1091440 bytes for ./Frameworks/libswiftDarwin.dylib
+copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+2022-04-10 17:36:42 +0000  486352 bytes for ./Frameworks/libswiftQuartzCore.dylib
+copying file ./Frameworks/libswiftFoundation.dylib ... 
+2022-04-10 17:36:42 +0000  43094320 bytes for ./Frameworks/libswiftFoundation.dylib
+copying file ./Frameworks/libswiftCoreLocation.dylib ... 
+2022-04-10 17:36:42 +0000  730224 bytes for ./Frameworks/libswiftCoreLocation.dylib
+copying file ./landing-32.png ... 
+758 bytes for ./landing-32.png
+copying file ./embedded.mobileprovision ... 
+12477 bytes for ./embedded.mobileprovision
+copying file ./passenger_filled-32.png ... 
+755 bytes for ./passenger_filled-32.png
+copying file ./AppIconNew76x76~ipad.png ... 
+6622 bytes for ./AppIconNew76x76~ipad.png
+copying file ./Info.plist ... 
+2196 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+8 bytes for ./PkgInfo
+copying file ./landing_filled-32.png ... 
+563 bytes for ./landing_filled-32.png
+copying file ./airplane_take_off_filled-32.png ... 
+512 bytes for ./airplane_take_off_filled-32.png
+copying file ./111-user.png ... 
+2997 bytes for ./111-user.png
+copying file ./no_sync.png ... 
+2022-04-10 17:36:42 +0000  26928 bytes for ./no_sync.png
+copying file ./airplane_take_off-32.png ... 
+2022-04-10 17:36:42 +0000  652 bytes for ./airplane_take_off-32.png
+2022-04-10 17:36:42 +0000  /usr/bin/ditto exited with 0
+2022-04-10 17:36:42 +0000  Processing step: IDEDistributionEmbedProfileStep
+2022-04-10 17:36:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x2ee614870; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x3286523e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2fa1c4f70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2f120d480; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x3286523e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x327397100; bundleID='com.apple.dt.runtime.swiftCoreData', path='<DVTFilePath:0x2eec2c3c0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreData.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x3253dda30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x3238d2100; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreData', executablePath='<DVTFilePath:0x2eec2c3c0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreData.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x2ece88d60; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x323730060:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2ecea4550; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x3238d2100; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x323730060:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x2fa113610; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x2e78d39e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2f191ad40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x3238d2100; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x2e78d39e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x2fa160bf0; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x324741a30:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x322561e70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x3238d2100; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x324741a30:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x2fa1885c0; bundleID='com.apple.dt.runtime.swiftCoreLocation', path='<DVTFilePath:0x3238a6a70:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreLocation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2eceda570; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x3238d2100; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreLocation', executablePath='<DVTFilePath:0x3238a6a70:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreLocation.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x323766ba0; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x3237d7140:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2ece19350; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x3238d2100; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x3237d7140:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x2ee6ba190; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x2f9ec9190:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2fa1784d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x3238d2100; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x2f9ec9190:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x2e78fa5c0; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x3237e9650:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e786e440; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2f120d480; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x3237e9650:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x2fc3d3bc0; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x2eec60aa0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2eceb3d00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2f120d480; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x2eec60aa0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x3238b79a0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x324726190:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2eceb4070; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2f120d480; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x324726190:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x3200ab420; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x2fa11b210:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x3200059f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2f120d480; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x2fa11b210:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x2f096e220; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x2f13476e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x3225c9470; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2f120d480; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x2f13476e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x2fa10a2f0; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x323795200:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2fa112a80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2f120d480; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x323795200:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:42 +0000  Processing step: IDEDistributionInfoPlistStep
+2022-04-10 17:36:42 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-04-10 17:36:42 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-04-10 17:36:42 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-04-10 17:36:42 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-04-10 17:36:42 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-04-10 17:36:42 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-04-10 17:36:42 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-04-10 17:36:42 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-04-10 17:36:42 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-04-10 17:36:42 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-04-10 17:36:42 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-04-10 17:36:42 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-04-10 17:36:42 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-04-10 17:36:42 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-04-10 17:36:42 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-04-10 17:36:42 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2022-04-10 17:36:42 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2022-04-10 17:36:42 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2022-04-10 17:36:42 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCore.dylib' '-r' '-keep_cs' '-o' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCore.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreData.dylib' '-r' '-keep_cs' '-o' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreData.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreFoundation.dylib' '-r' '-keep_cs' '-o' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreFoundation.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreGraphics.dylib' '-r' '-keep_cs' '-o' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreGraphics.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreImage.dylib' '-r' '-keep_cs' '-o' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreImage.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreLocation.dylib' '-r' '-keep_cs' '-o' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreLocation.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftDarwin.dylib' '-r' '-keep_cs' '-o' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftDarwin.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftDispatch.dylib' '-r' '-keep_cs' '-o' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftDispatch.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftFoundation.dylib' '-r' '-keep_cs' '-o' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftFoundation.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftMetal.dylib' '-r' '-keep_cs' '-o' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftMetal.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftObjectiveC.dylib' '-r' '-keep_cs' '-o' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftObjectiveC.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftQuartzCore.dylib' '-r' '-keep_cs' '-o' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftQuartzCore.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftUIKit.dylib' '-r' '-keep_cs' '-o' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftUIKit.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftos.dylib' '-r' '-keep_cs' '-o' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftos.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/FlightLogBook' '-r' '-keep_cs' '-o' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/FlightLogBook'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-04-10 17:36:43 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-04-10 17:36:43 +0000  Processing step: IDEDistributionSymbolsStep
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-04-10 17:36:43 +0000  Processing step: IDEDistributionAppThinningStep
+2022-04-10 17:36:43 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2022-04-10 17:36:43 +0000  Processing step: IDEDistributionArchThinningStep
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCore.dylib' '-verify_arch' 'arm64e'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCore.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Successfully thinned item "libswiftCore.dylib", arch "arm64e"
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreData.dylib' '-verify_arch' 'arm64e'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreData.dylib' '-remove' 'arm64e' '-output' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreData.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Successfully thinned item "libswiftCoreData.dylib", arch "arm64e"
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreFoundation.dylib' '-verify_arch' 'arm64e'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreFoundation.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Successfully thinned item "libswiftCoreFoundation.dylib", arch "arm64e"
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreGraphics.dylib' '-verify_arch' 'arm64e'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreGraphics.dylib' '-remove' 'arm64e' '-output' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreGraphics.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Successfully thinned item "libswiftCoreGraphics.dylib", arch "arm64e"
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreImage.dylib' '-verify_arch' 'arm64e'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreImage.dylib' '-remove' 'arm64e' '-output' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreImage.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Successfully thinned item "libswiftCoreImage.dylib", arch "arm64e"
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreLocation.dylib' '-verify_arch' 'arm64e'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreLocation.dylib' '-remove' 'arm64e' '-output' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreLocation.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Successfully thinned item "libswiftCoreLocation.dylib", arch "arm64e"
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftDarwin.dylib' '-verify_arch' 'arm64e'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftDarwin.dylib' '-remove' 'arm64e' '-output' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftDarwin.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Successfully thinned item "libswiftDarwin.dylib", arch "arm64e"
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftDispatch.dylib' '-verify_arch' 'arm64e'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftDispatch.dylib' '-remove' 'arm64e' '-output' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftDispatch.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Successfully thinned item "libswiftDispatch.dylib", arch "arm64e"
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftFoundation.dylib' '-verify_arch' 'arm64e'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftFoundation.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Successfully thinned item "libswiftFoundation.dylib", arch "arm64e"
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftMetal.dylib' '-verify_arch' 'arm64e'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftMetal.dylib' '-remove' 'arm64e' '-output' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftMetal.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Successfully thinned item "libswiftMetal.dylib", arch "arm64e"
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftObjectiveC.dylib' '-verify_arch' 'arm64e'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftObjectiveC.dylib' '-remove' 'arm64e' '-output' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftObjectiveC.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Successfully thinned item "libswiftObjectiveC.dylib", arch "arm64e"
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftQuartzCore.dylib' '-verify_arch' 'arm64e'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftQuartzCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftQuartzCore.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Successfully thinned item "libswiftQuartzCore.dylib", arch "arm64e"
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftUIKit.dylib' '-verify_arch' 'arm64e'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftUIKit.dylib' '-remove' 'arm64e' '-output' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftUIKit.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Successfully thinned item "libswiftUIKit.dylib", arch "arm64e"
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftos.dylib' '-verify_arch' 'arm64e'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftos.dylib' '-remove' 'arm64e' '-output' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftos.dylib'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-04-10 17:36:43 +0000  Successfully thinned item "libswiftos.dylib", arch "arm64e"
+2022-04-10 17:36:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/FlightLogBook' '-verify_arch' 'arm64e'
+2022-04-10 17:36:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2022-04-10 17:36:43 +0000  Skipping architecture thinning for item "FlightLogBook" because arch "arm64e" wasn't found
+2022-04-10 17:36:43 +0000  Processing step: IDEDistributionODRStep
+2022-04-10 17:36:43 +0000  Processing step: IDEDistributionStripXattrsStep
+2022-04-10 17:36:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x2ee614870; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x3286523e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2fa1c4f70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2f120d480; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x3286523e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x327397100; bundleID='com.apple.dt.runtime.swiftCoreData', path='<DVTFilePath:0x2eec2c3c0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreData.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x3253dda30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2f120d480; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreData', executablePath='<DVTFilePath:0x2eec2c3c0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreData.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x2ece88d60; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x323730060:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2ecea4550; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2f120d480; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x323730060:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x2fa113610; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x2e78d39e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2f191ad40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2f120d480; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x2e78d39e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x2fa160bf0; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x324741a30:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x322561e70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2f120d480; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x324741a30:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x2fa1885c0; bundleID='com.apple.dt.runtime.swiftCoreLocation', path='<DVTFilePath:0x3238a6a70:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreLocation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2eceda570; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2f120d480; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreLocation', executablePath='<DVTFilePath:0x3238a6a70:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreLocation.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x323766ba0; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x3237d7140:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2ece19350; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2f120d480; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x3237d7140:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x2ee6ba190; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x2f9ec9190:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2fa1784d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2f120d480; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x2f9ec9190:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x2e78fa5c0; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x3237e9650:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e786e440; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2f120d480; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x3237e9650:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x2fc3d3bc0; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x2eec60aa0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2eceb3d00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2f120d480; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x2eec60aa0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x3238b79a0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x324726190:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2eceb4070; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2f120d480; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x324726190:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x3200ab420; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x2fa11b210:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x3200059f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2f120d480; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x2fa11b210:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x2f096e220; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x2f13476e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x3225c9470; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x325c9ea80; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x2f13476e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x2fa10a2f0; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x323795200:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2fa112a80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x325c9ea80; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x323795200:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'>
+2022-04-10 17:36:43 +0000  Running /usr/bin/xattr '-crs' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app'
+2022-04-10 17:36:43 +0000  /usr/bin/xattr exited with 0
+2022-04-10 17:36:43 +0000  Processing step: IDEDistributionCodesignStep
+2022-04-10 17:36:43 +0000  Entitlements for <IDEDistributionItem: 0x2ee614870; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x3286523e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2fa1c4f70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x3225f9250; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x3286523e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-04-10 17:36:43 +0000  Entitlements for <IDEDistributionItem: 0x2ee614870; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x3286523e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2fa1c4f70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2fc362970; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x3286523e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-04-10 17:36:43 +0000  Writing entitlements for <IDEDistributionItem: 0x2ee614870; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x3286523e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2fa1c4f70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2fc392d70; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x3286523e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'> to: /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~rhHeZQ
+2022-04-10 17:36:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EE92F4EB7DFBB0708A797F50C14066A789B096F7' '--entitlements' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~rhHeZQ' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCore.dylib'
+2022-04-10 17:36:43 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2022-04-10 17:36:43 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2022-04-10 17:36:43 +0000  /usr/bin/codesign exited with 0
+2022-04-10 17:36:43 +0000  Entitlements for <IDEDistributionItem: 0x327397100; bundleID='com.apple.dt.runtime.swiftCoreData', path='<DVTFilePath:0x2eec2c3c0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreData.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x3253dda30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2ef7da1d0; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreData', executablePath='<DVTFilePath:0x2eec2c3c0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreData.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-04-10 17:36:43 +0000  Entitlements for <IDEDistributionItem: 0x327397100; bundleID='com.apple.dt.runtime.swiftCoreData', path='<DVTFilePath:0x2eec2c3c0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreData.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x3253dda30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x3247615d0; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreData', executablePath='<DVTFilePath:0x2eec2c3c0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreData.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-04-10 17:36:43 +0000  Writing entitlements for <IDEDistributionItem: 0x327397100; bundleID='com.apple.dt.runtime.swiftCoreData', path='<DVTFilePath:0x2eec2c3c0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreData.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x3253dda30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x322538440; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreData', executablePath='<DVTFilePath:0x2eec2c3c0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreData.dylib'>', hardenedRuntime='0'>'> to: /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~ULKAbs
+2022-04-10 17:36:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EE92F4EB7DFBB0708A797F50C14066A789B096F7' '--entitlements' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~ULKAbs' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreData.dylib'
+2022-04-10 17:36:43 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreData.dylib: replacing existing signature
+2022-04-10 17:36:43 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreData.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreData]
+2022-04-10 17:36:43 +0000  /usr/bin/codesign exited with 0
+2022-04-10 17:36:43 +0000  Entitlements for <IDEDistributionItem: 0x2ece88d60; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x323730060:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2ecea4550; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2ef7da1d0; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x323730060:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-04-10 17:36:43 +0000  Entitlements for <IDEDistributionItem: 0x2ece88d60; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x323730060:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2ecea4550; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x3286df200; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x323730060:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-04-10 17:36:43 +0000  Writing entitlements for <IDEDistributionItem: 0x2ece88d60; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x323730060:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2ecea4550; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2ef7a4110; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x323730060:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~Vd6a0q
+2022-04-10 17:36:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EE92F4EB7DFBB0708A797F50C14066A789B096F7' '--entitlements' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~Vd6a0q' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreFoundation.dylib'
+2022-04-10 17:36:43 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2022-04-10 17:36:43 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2022-04-10 17:36:43 +0000  /usr/bin/codesign exited with 0
+2022-04-10 17:36:43 +0000  Entitlements for <IDEDistributionItem: 0x2fa113610; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x2e78d39e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2f191ad40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x3238d2100; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x2e78d39e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-04-10 17:36:43 +0000  Entitlements for <IDEDistributionItem: 0x2fa113610; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x2e78d39e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2f191ad40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x3225f9250; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x2e78d39e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-04-10 17:36:43 +0000  Writing entitlements for <IDEDistributionItem: 0x2fa113610; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x2e78d39e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2f191ad40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x324789ca0; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x2e78d39e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'> to: /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~qS2MWs
+2022-04-10 17:36:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EE92F4EB7DFBB0708A797F50C14066A789B096F7' '--entitlements' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~qS2MWs' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreGraphics.dylib'
+2022-04-10 17:36:43 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2022-04-10 17:36:43 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2022-04-10 17:36:43 +0000  /usr/bin/codesign exited with 0
+2022-04-10 17:36:43 +0000  Entitlements for <IDEDistributionItem: 0x2fa160bf0; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x324741a30:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x322561e70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x3238d2100; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x324741a30:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-04-10 17:36:43 +0000  Entitlements for <IDEDistributionItem: 0x2fa160bf0; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x324741a30:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x322561e70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2fc0a4520; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x324741a30:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-04-10 17:36:43 +0000  Writing entitlements for <IDEDistributionItem: 0x2fa160bf0; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x324741a30:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x322561e70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2ee6aa170; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x324741a30:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'> to: /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~yK9RYe
+2022-04-10 17:36:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EE92F4EB7DFBB0708A797F50C14066A789B096F7' '--entitlements' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~yK9RYe' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreImage.dylib'
+2022-04-10 17:36:43 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2022-04-10 17:36:43 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2022-04-10 17:36:43 +0000  /usr/bin/codesign exited with 0
+2022-04-10 17:36:43 +0000  Entitlements for <IDEDistributionItem: 0x2fa1885c0; bundleID='com.apple.dt.runtime.swiftCoreLocation', path='<DVTFilePath:0x3238a6a70:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreLocation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2eceda570; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x32542ed20; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreLocation', executablePath='<DVTFilePath:0x3238a6a70:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreLocation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-04-10 17:36:43 +0000  Entitlements for <IDEDistributionItem: 0x2fa1885c0; bundleID='com.apple.dt.runtime.swiftCoreLocation', path='<DVTFilePath:0x3238a6a70:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreLocation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2eceda570; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x324e10d10; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreLocation', executablePath='<DVTFilePath:0x3238a6a70:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreLocation.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-04-10 17:36:43 +0000  Writing entitlements for <IDEDistributionItem: 0x2fa1885c0; bundleID='com.apple.dt.runtime.swiftCoreLocation', path='<DVTFilePath:0x3238a6a70:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreLocation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2eceda570; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x3203a4890; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreLocation', executablePath='<DVTFilePath:0x3238a6a70:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftCoreLocation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~9FZXTI
+2022-04-10 17:36:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EE92F4EB7DFBB0708A797F50C14066A789B096F7' '--entitlements' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~9FZXTI' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreLocation.dylib'
+2022-04-10 17:36:43 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreLocation.dylib: replacing existing signature
+2022-04-10 17:36:43 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreLocation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreLocation]
+2022-04-10 17:36:43 +0000  /usr/bin/codesign exited with 0
+2022-04-10 17:36:43 +0000  Entitlements for <IDEDistributionItem: 0x323766ba0; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x3237d7140:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2ece19350; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x3238d2100; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x3237d7140:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-04-10 17:36:43 +0000  Entitlements for <IDEDistributionItem: 0x323766ba0; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x3237d7140:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2ece19350; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2d2230cd0; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x3237d7140:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-04-10 17:36:43 +0000  Writing entitlements for <IDEDistributionItem: 0x323766ba0; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x3237d7140:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2ece19350; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x31f39cc00; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x3237d7140:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'> to: /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~TsoyxK
+2022-04-10 17:36:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EE92F4EB7DFBB0708A797F50C14066A789B096F7' '--entitlements' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~TsoyxK' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftDarwin.dylib'
+2022-04-10 17:36:43 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2022-04-10 17:36:44 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2022-04-10 17:36:44 +0000  /usr/bin/codesign exited with 0
+2022-04-10 17:36:44 +0000  Entitlements for <IDEDistributionItem: 0x2ee6ba190; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x2f9ec9190:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2fa1784d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x32542ed20; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x2f9ec9190:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-04-10 17:36:44 +0000  Entitlements for <IDEDistributionItem: 0x2ee6ba190; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x2f9ec9190:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2fa1784d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x322af9040; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x2f9ec9190:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-04-10 17:36:44 +0000  Writing entitlements for <IDEDistributionItem: 0x2ee6ba190; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x2f9ec9190:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2fa1784d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x3238d2100; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x2f9ec9190:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'> to: /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~VjvpSR
+2022-04-10 17:36:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EE92F4EB7DFBB0708A797F50C14066A789B096F7' '--entitlements' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~VjvpSR' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftDispatch.dylib'
+2022-04-10 17:36:44 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2022-04-10 17:36:44 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2022-04-10 17:36:44 +0000  /usr/bin/codesign exited with 0
+2022-04-10 17:36:44 +0000  Entitlements for <IDEDistributionItem: 0x2e78fa5c0; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x3237e9650:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e786e440; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x32542ed20; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x3237e9650:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-04-10 17:36:44 +0000  Entitlements for <IDEDistributionItem: 0x2e78fa5c0; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x3237e9650:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e786e440; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x323827be0; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x3237e9650:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-04-10 17:36:44 +0000  Writing entitlements for <IDEDistributionItem: 0x2e78fa5c0; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x3237e9650:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e786e440; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2d2230cd0; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x3237e9650:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~gFd6yQ
+2022-04-10 17:36:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EE92F4EB7DFBB0708A797F50C14066A789B096F7' '--entitlements' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~gFd6yQ' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftFoundation.dylib'
+2022-04-10 17:36:44 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2022-04-10 17:36:44 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2022-04-10 17:36:44 +0000  /usr/bin/codesign exited with 0
+2022-04-10 17:36:44 +0000  Entitlements for <IDEDistributionItem: 0x2fc3d3bc0; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x2eec60aa0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2eceb3d00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x32542ed20; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x2eec60aa0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-04-10 17:36:44 +0000  Entitlements for <IDEDistributionItem: 0x2fc3d3bc0; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x2eec60aa0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2eceb3d00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x323827be0; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x2eec60aa0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-04-10 17:36:44 +0000  Writing entitlements for <IDEDistributionItem: 0x2fc3d3bc0; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x2eec60aa0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2eceb3d00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x32059b840; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x2eec60aa0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'> to: /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~FbGrSI
+2022-04-10 17:36:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EE92F4EB7DFBB0708A797F50C14066A789B096F7' '--entitlements' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~FbGrSI' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftMetal.dylib'
+2022-04-10 17:36:44 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftMetal.dylib: replacing existing signature
+2022-04-10 17:36:44 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2022-04-10 17:36:44 +0000  /usr/bin/codesign exited with 0
+2022-04-10 17:36:44 +0000  Entitlements for <IDEDistributionItem: 0x3238b79a0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x324726190:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2eceb4070; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x3238d2100; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x324726190:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-04-10 17:36:44 +0000  Entitlements for <IDEDistributionItem: 0x3238b79a0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x324726190:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2eceb4070; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2f9e43800; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x324726190:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-04-10 17:36:44 +0000  Writing entitlements for <IDEDistributionItem: 0x3238b79a0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x324726190:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2eceb4070; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x31f3cb040; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x324726190:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'> to: /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~Zz8Y5v
+2022-04-10 17:36:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EE92F4EB7DFBB0708A797F50C14066A789B096F7' '--entitlements' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~Zz8Y5v' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftObjectiveC.dylib'
+2022-04-10 17:36:44 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2022-04-10 17:36:44 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2022-04-10 17:36:44 +0000  /usr/bin/codesign exited with 0
+2022-04-10 17:36:44 +0000  Entitlements for <IDEDistributionItem: 0x3200ab420; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x2fa11b210:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x3200059f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x3238d2100; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x2fa11b210:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-04-10 17:36:44 +0000  Entitlements for <IDEDistributionItem: 0x3200ab420; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x2fa11b210:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x3200059f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x320045960; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x2fa11b210:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-04-10 17:36:44 +0000  Writing entitlements for <IDEDistributionItem: 0x3200ab420; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x2fa11b210:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x3200059f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2fc0cdec0; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x2fa11b210:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'> to: /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~CjBmm2
+2022-04-10 17:36:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EE92F4EB7DFBB0708A797F50C14066A789B096F7' '--entitlements' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~CjBmm2' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftQuartzCore.dylib'
+2022-04-10 17:36:44 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2022-04-10 17:36:44 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2022-04-10 17:36:44 +0000  /usr/bin/codesign exited with 0
+2022-04-10 17:36:44 +0000  Entitlements for <IDEDistributionItem: 0x2f096e220; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x2f13476e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x3225c9470; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x3238d2100; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x2f13476e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-04-10 17:36:44 +0000  Entitlements for <IDEDistributionItem: 0x2f096e220; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x2f13476e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x3225c9470; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x32055a8d0; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x2f13476e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-04-10 17:36:44 +0000  Writing entitlements for <IDEDistributionItem: 0x2f096e220; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x2f13476e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x3225c9470; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x31f3872c0; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x2f13476e0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'> to: /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~UDDx9V
+2022-04-10 17:36:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EE92F4EB7DFBB0708A797F50C14066A789B096F7' '--entitlements' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~UDDx9V' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftUIKit.dylib'
+2022-04-10 17:36:44 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftUIKit.dylib: replacing existing signature
+2022-04-10 17:36:44 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2022-04-10 17:36:44 +0000  /usr/bin/codesign exited with 0
+2022-04-10 17:36:44 +0000  Entitlements for <IDEDistributionItem: 0x2fa10a2f0; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x323795200:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2fa112a80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x3238d2100; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x323795200:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-04-10 17:36:44 +0000  Entitlements for <IDEDistributionItem: 0x2fa10a2f0; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x323795200:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2fa112a80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2fc0a4520; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x323795200:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-04-10 17:36:44 +0000  Writing entitlements for <IDEDistributionItem: 0x2fa10a2f0; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x323795200:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2fa112a80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2f1910180; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x323795200:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'> to: /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~pgNaGv
+2022-04-10 17:36:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EE92F4EB7DFBB0708A797F50C14066A789B096F7' '--entitlements' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~pgNaGv' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftos.dylib'
+2022-04-10 17:36:44 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftos.dylib: replacing existing signature
+2022-04-10 17:36:44 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2022-04-10 17:36:44 +0000  /usr/bin/codesign exited with 0
+2022-04-10 17:36:44 +0000  Entitlements for <IDEDistributionItem: 0x3200b2190; bundleID='com.innovandoenti.FlightLogBook', path='<DVTFilePath:0x2ef7c1da0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2fa174f40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x32542ed20; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='{
+    "application-identifier" = "699QRPV6HD.com.innovandoenti.FlightLogBook";
+    "com.apple.developer.team-identifier" = 699QRPV6HD;
+    "get-task-allow" = 0;
+}', teamID='699QRPV6HD', identifier='com.innovandoenti.FlightLogBook', executablePath='<DVTFilePath:0x32030c2a0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/FlightLogBook'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "699QRPV6HD.com.innovandoenti.FlightLogBook";
+    "com.apple.developer.team-identifier" = 699QRPV6HD;
+    "get-task-allow" = 0;
+}
+2022-04-10 17:36:44 +0000  Entitlements for <IDEDistributionItem: 0x3200b2190; bundleID='com.innovandoenti.FlightLogBook', path='<DVTFilePath:0x2ef7c1da0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2fa174f40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x322ac13d0; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='{
+    "application-identifier" = "699QRPV6HD.com.innovandoenti.FlightLogBook";
+    "com.apple.developer.team-identifier" = 699QRPV6HD;
+    "get-task-allow" = 0;
+}', teamID='699QRPV6HD', identifier='com.innovandoenti.FlightLogBook', executablePath='<DVTFilePath:0x32030c2a0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/FlightLogBook'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "699QRPV6HD.com.innovandoenti.FlightLogBook";
+    "com.apple.developer.team-identifier" = 699QRPV6HD;
+    "get-task-allow" = 0;
+}
+2022-04-10 17:36:44 +0000  Writing entitlements for <IDEDistributionItem: 0x3200b2190; bundleID='com.innovandoenti.FlightLogBook', path='<DVTFilePath:0x2ef7c1da0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2fa174f40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x322aaa5c0; name='Apple Distribution: Jaime Solis Lerma (699QRPV6HD)', hash='EE92F4EB7DFBB0708A797F50C14066A789B096F7', serialNumber='2A6A7A3D3A1B703AA50BCC55AB2F7ED0', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2022-04-10 14:37:26 +0000''>', entitlements='{
+    "application-identifier" = "699QRPV6HD.com.innovandoenti.FlightLogBook";
+    "com.apple.developer.team-identifier" = 699QRPV6HD;
+    "get-task-allow" = 0;
+}', teamID='699QRPV6HD', identifier='com.innovandoenti.FlightLogBook', executablePath='<DVTFilePath:0x32030c2a0:'/Users/jaimesolis/Library/Developer/Xcode/Archives/2022-04-10/Bitacoras 10-04-22 12.34.xcarchive/Products/Applications/FlightLogBook.app/FlightLogBook'>', hardenedRuntime='0'>'> to: /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~x25EeS
+2022-04-10 17:36:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EE92F4EB7DFBB0708A797F50C14066A789B096F7' '--entitlements' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/entitlements~~~x25EeS' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app'
+2022-04-10 17:36:44 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app: replacing existing signature
+2022-04-10 17:36:44 +0000  /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app: signed app bundle with Mach-O universal (armv7 arm64) [com.innovandoenti.FlightLogBook]
+2022-04-10 17:36:44 +0000  /usr/bin/codesign exited with 0
+2022-04-10 17:36:44 +0000  Processing step: IDEDistributionZipODRItemStep
+2022-04-10 17:36:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-04-10 17:36:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-04-10 17:36:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-04-10 17:36:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-04-10 17:36:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-04-10 17:36:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-04-10 17:36:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-04-10 17:36:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-04-10 17:36:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-04-10 17:36:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-04-10 17:36:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-04-10 17:36:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-04-10 17:36:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-04-10 17:36:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-04-10 17:36:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-04-10 17:36:44 +0000  Processing step: IDEDistributionCreateIPAStep
+2022-04-10 17:36:44 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root' '/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Packages/FlightLogBook.ipa'
+2022-04-10 17:36:44 +0000  >>> Copying /var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root 
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/tools_32.png ... 
+2022-04-10 17:36:44 +0000  4735 bytes for ./Payload/FlightLogBook.app/tools_32.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/AppIconNew40x40@2x.png ... 
+2022-04-10 17:36:44 +0000  7049 bytes for ./Payload/FlightLogBook.app/AppIconNew40x40@2x.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/_CodeSignature/CodeResources ... 
+2022-04-10 17:36:44 +0000  49223 bytes for ./Payload/FlightLogBook.app/_CodeSignature/CodeResources
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/AppIconNew29x29@3x.png ... 
+2022-04-10 17:36:44 +0000  7723 bytes for ./Payload/FlightLogBook.app/AppIconNew29x29@3x.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/AppIconNew60x60@3x.png ... 
+2022-04-10 17:36:44 +0000  18755 bytes for ./Payload/FlightLogBook.app/AppIconNew60x60@3x.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Calendar_2.png ... 
+2022-04-10 17:36:44 +0000  3558 bytes for ./Payload/FlightLogBook.app/Calendar_2.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/AppIconNew40x40@2x~ipad.png ... 
+2022-04-10 17:36:44 +0000  7049 bytes for ./Payload/FlightLogBook.app/AppIconNew40x40@2x~ipad.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/AppIconNew76x76@2x~ipad.png ... 
+2022-04-10 17:36:44 +0000  15350 bytes for ./Payload/FlightLogBook.app/AppIconNew76x76@2x~ipad.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/airplane-32.png ... 
+2022-04-10 17:36:44 +0000  503 bytes for ./Payload/FlightLogBook.app/airplane-32.png
+copying file ./Payload/FlightLogBook.app/books-24.png ... 
+2022-04-10 17:36:44 +0000  632 bytes for ./Payload/FlightLogBook.app/books-24.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/twitter logo mask.png ... 
+2022-04-10 17:36:44 +0000  17222 bytes for ./Payload/FlightLogBook.app/twitter logo mask.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/archive.png ... 
+2022-04-10 17:36:44 +0000  11922 bytes for ./Payload/FlightLogBook.app/archive.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/AppIconNew60x60@2x.png ... 
+2022-04-10 17:36:44 +0000  11664 bytes for ./Payload/FlightLogBook.app/AppIconNew60x60@2x.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/left3-32.png ... 
+2022-04-10 17:36:44 +0000  605 bytes for ./Payload/FlightLogBook.app/left3-32.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/twitterscreen.PNG ... 
+2022-04-10 17:36:44 +0000  421348 bytes for ./Payload/FlightLogBook.app/twitterscreen.PNG
+copying file ./Payload/FlightLogBook.app/arrow425.png ... 
+2022-04-10 17:36:44 +0000  1776 bytes for ./Payload/FlightLogBook.app/arrow425.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/AppIconNew29x29@2x.png ... 
+2022-04-10 17:36:44 +0000  4377 bytes for ./Payload/FlightLogBook.app/AppIconNew29x29@2x.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/AppIconNew57x57@2x.png ... 
+2022-04-10 17:36:44 +0000  10886 bytes for ./Payload/FlightLogBook.app/AppIconNew57x57@2x.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/speedometer_filled-32.png ... 
+2022-04-10 17:36:44 +0000  647 bytes for ./Payload/FlightLogBook.app/speedometer_filled-32.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/AppIconNew40x40@3x.png ... 
+2022-04-10 17:36:44 +0000  11664 bytes for ./Payload/FlightLogBook.app/AppIconNew40x40@3x.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/AppIconNew83.5x83.5@2x~ipad.png ... 
+2022-04-10 17:36:44 +0000  17060 bytes for ./Payload/FlightLogBook.app/AppIconNew83.5x83.5@2x~ipad.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/54-lock.png ... 
+2022-04-10 17:36:44 +0000  2965 bytes for ./Payload/FlightLogBook.app/54-lock.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/AppIconNew20x20@3x.png ... 
+2022-04-10 17:36:44 +0000  4604 bytes for ./Payload/FlightLogBook.app/AppIconNew20x20@3x.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/AppIconNew29x29@2x~ipad.png ... 
+2022-04-10 17:36:44 +0000  4377 bytes for ./Payload/FlightLogBook.app/AppIconNew29x29@2x~ipad.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/AppIconNew50x50@2x~ipad.png ... 
+2022-04-10 17:36:44 +0000  9346 bytes for ./Payload/FlightLogBook.app/AppIconNew50x50@2x~ipad.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2022-04-10 17:36:44 +0000  3848 bytes for ./Payload/FlightLogBook.app/Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2022-04-10 17:36:44 +0000  927 bytes for ./Payload/FlightLogBook.app/Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Launch Screen.storyboardc/Info.plist ... 
+2022-04-10 17:36:44 +0000  258 bytes for ./Payload/FlightLogBook.app/Launch Screen.storyboardc/Info.plist
+copying file ./Payload/FlightLogBook.app/passenger-32.png ... 
+2022-04-10 17:36:44 +0000  877 bytes for ./Payload/FlightLogBook.app/passenger-32.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/logoFlightBook.png ... 
+2022-04-10 17:36:44 +0000  82223 bytes for ./Payload/FlightLogBook.app/logoFlightBook.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Master.storyboardc/Info.plist ... 
+2022-04-10 17:36:44 +0000  115 bytes for ./Payload/FlightLogBook.app/Master.storyboardc/Info.plist
+copying file ./Payload/FlightLogBook.app/AppIconNew20x20@2x~ipad.png ... 
+2022-04-10 17:36:44 +0000  2656 bytes for ./Payload/FlightLogBook.app/AppIconNew20x20@2x~ipad.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/lock_open_32.png ... 
+2022-04-10 17:36:44 +0000  4506 bytes for ./Payload/FlightLogBook.app/lock_open_32.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/up_right-32.png ... 
+2022-04-10 17:36:44 +0000  222 bytes for ./Payload/FlightLogBook.app/up_right-32.png
+copying file ./Payload/FlightLogBook.app/AppIconNew29x29~ipad.png ... 
+2022-04-10 17:36:44 +0000  1723 bytes for ./Payload/FlightLogBook.app/AppIconNew29x29~ipad.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/AppIconNew20x20@2x.png ... 
+2022-04-10 17:36:44 +0000  2656 bytes for ./Payload/FlightLogBook.app/AppIconNew20x20@2x.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/airplane_filled-32.png ... 
+2022-04-10 17:36:44 +0000  402 bytes for ./Payload/FlightLogBook.app/airplane_filled-32.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main2.storyboardc/Eki-Dw-PnP-view-YQ0-Rg-eIj.nib ... 
+2022-04-10 17:36:44 +0000  35497 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main2.storyboardc/Eki-Dw-PnP-view-YQ0-Rg-eIj.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main2.storyboardc/turbo_instrumentos.nib ... 
+2022-04-10 17:36:44 +0000  1869 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main2.storyboardc/turbo_instrumentos.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main2.storyboardc/Info.plist ... 
+2022-04-10 17:36:44 +0000  161 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main2.storyboardc/Info.plist
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/jet_vuelo.nib ... 
+2022-04-10 17:36:44 +0000  1816 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/jet_vuelo.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/tabBarcontroller.nib ... 
+2022-04-10 17:36:44 +0000  6142 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/tabBarcontroller.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/turbo.nib ... 
+2022-04-10 17:36:44 +0000  5940 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/turbo.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/4vh-Ah-skA-view-7uf-MS-hjh.nib ... 
+2022-04-10 17:36:44 +0000  5123 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/4vh-Ah-skA-view-7uf-MS-hjh.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/L9r-5z-NHd-view-P25-33-k2H.nib ... 
+2022-04-10 17:36:44 +0000  9013 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/L9r-5z-NHd-view-P25-33-k2H.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/piston_tramos.nib ... 
+2022-04-10 17:36:44 +0000  2161 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/piston_tramos.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/YgP-lx-zAH-view-bEX-sZ-wNr.nib ... 
+2022-04-10 17:36:44 +0000  10869 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/YgP-lx-zAH-view-bEX-sZ-wNr.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/btD-46-asO-view-qBV-zU-4cO.nib ... 
+2022-04-10 17:36:44 +0000  32811 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/btD-46-asO-view-qBV-zU-4cO.nib
+copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/turbo_instrumentos.nib ... 
+2022-04-10 17:36:44 +0000  807 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/turbo_instrumentos.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/YCq-ii-eXu-view-RqF-So-85f.nib ... 
+2022-04-10 17:36:44 +0000  13423 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/YCq-ii-eXu-view-RqF-So-85f.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/UIViewController-H49-xh-MDC.nib ... 
+2022-04-10 17:36:44 +0000  1520 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/UIViewController-H49-xh-MDC.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/kC0-Lz-IJN-view-DlM-gw-FtW.nib ... 
+2022-04-10 17:36:44 +0000  65654 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/kC0-Lz-IJN-view-DlM-gw-FtW.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/jet_instrumentos.nib ... 
+2022-04-10 17:36:44 +0000  1861 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/jet_instrumentos.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/A5v-NZ-X4x-view-ZU9-ga-GuJ.nib ... 
+2022-04-10 17:36:44 +0000  14270 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/A5v-NZ-X4x-view-ZU9-ga-GuJ.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/UITableViewController-mx1-oP-Xgc.nib ... 
+2022-04-10 17:36:44 +0000  1005 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/UITableViewController-mx1-oP-Xgc.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/LaunchScreen.nib ... 
+2022-04-10 17:36:44 +0000  1210 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/LaunchScreen.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/TF1-GF-LNn-view-3x0-Js-QGY.nib ... 
+2022-04-10 17:36:44 +0000  15413 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/TF1-GF-LNn-view-3x0-Js-QGY.nib
+copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/UITableViewController-iCa-S6-Tyo.nib ... 
+2022-04-10 17:36:44 +0000  1500 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/UITableViewController-iCa-S6-Tyo.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/jet_pax.nib ... 
+2022-04-10 17:36:44 +0000  1609 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/jet_pax.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/mx1-oP-Xgc-view-7iS-Vl-XRC.nib ... 
+2022-04-10 17:36:44 +0000  5792 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/mx1-oP-Xgc-view-7iS-Vl-XRC.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/oDk-G6-T6v-view-9rY-Bq-Qqv.nib ... 
+2022-04-10 17:36:44 +0000  41852 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/oDk-G6-T6v-view-9rY-Bq-Qqv.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/turbo_vuelo.nib ... 
+2022-04-10 17:36:44 +0000  1827 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/turbo_vuelo.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/vc_iniciar.nib ... 
+2022-04-10 17:36:44 +0000  1313 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/vc_iniciar.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/EPN-1a-pn7-view-MvZ-aM-480.nib ... 
+2022-04-10 17:36:44 +0000  7790 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/EPN-1a-pn7-view-MvZ-aM-480.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/piston_mono.nib ... 
+2022-04-10 17:36:44 +0000  6564 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/piston_mono.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/jgJ-08-UKa-view-geq-Gf-wS9.nib ... 
+2022-04-10 17:36:44 +0000  27055 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/jgJ-08-UKa-view-geq-Gf-wS9.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/turbo_bimotor.nib ... 
+2022-04-10 17:36:44 +0000  6318 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/turbo_bimotor.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/turbo_pax.nib ... 
+2022-04-10 17:36:44 +0000  1621 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/turbo_pax.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/a5B-Nr-K2b-view-cfQ-cY-SCU.nib ... 
+2022-04-10 17:36:44 +0000  8183 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/a5B-Nr-K2b-view-cfQ-cY-SCU.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/H49-xh-MDC-view-HHK-lv-ltK.nib ... 
+2022-04-10 17:36:44 +0000  3992 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/H49-xh-MDC-view-HHK-lv-ltK.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/weD-Ui-M2k-view-FKY-DH-DrL.nib ... 
+2022-04-10 17:36:44 +0000  9361 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/weD-Ui-M2k-view-FKY-DH-DrL.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/UINavigationController-Iyl-xN-8Wh.nib ... 
+2022-04-10 17:36:44 +0000  2404 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/UINavigationController-Iyl-xN-8Wh.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/V6J-rg-hMC-view-Bt0-Wb-SDF.nib ... 
+2022-04-10 17:36:44 +0000  4809 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/V6J-rg-hMC-view-Bt0-Wb-SDF.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/jet_view.nib ... 
+2022-04-10 17:36:44 +0000  6416 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/jet_view.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/pOi-UX-RLu-view-BIM-lA-xnQ.nib ... 
+2022-04-10 17:36:44 +0000  5848 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/pOi-UX-RLu-view-BIM-lA-xnQ.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/AGY-Ot-5yn-view-8yA-XW-uQm.nib ... 
+2022-04-10 17:36:44 +0000  69804 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/AGY-Ot-5yn-view-8yA-XW-uQm.nib
+copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/bitacoras_view.nib ... 
+2022-04-10 17:36:44 +0000  2056 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/bitacoras_view.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2022-04-10 17:36:44 +0000  1207 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/Info.plist
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/iCa-S6-Tyo-view-FrJ-Df-tu9.nib ... 
+2022-04-10 17:36:44 +0000  9238 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/iCa-S6-Tyo-view-FrJ-Df-tu9.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/idB-qR-ITw-view-6XD-pQ-Em1.nib ... 
+2022-04-10 17:36:44 +0000  7183 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/idB-qR-ITw-view-6XD-pQ-Em1.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/UIViewController-V6J-rg-hMC.nib ... 
+2022-04-10 17:36:44 +0000  1028 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/UIViewController-V6J-rg-hMC.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/uJZ-g4-LhE-view-BgL-BB-xMp.nib ... 
+2022-04-10 17:36:44 +0000  67557 bytes for ./Payload/FlightLogBook.app/Base.lproj/Main.storyboardc/uJZ-g4-LhE-view-BgL-BB-xMp.nib
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/AppIconNew29x29.png ... 
+2022-04-10 17:36:44 +0000  1723 bytes for ./Payload/FlightLogBook.app/AppIconNew29x29.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/bullish-25.png ... 
+2022-04-10 17:36:44 +0000  298 bytes for ./Payload/FlightLogBook.app/bullish-25.png
+copying file ./Payload/FlightLogBook.app/Default-568h@2x.png ... 
+2022-04-10 17:36:44 +0000  5753 bytes for ./Payload/FlightLogBook.app/Default-568h@2x.png
+2022-04-10 17:36:44 +0000  copying file ./Payload/FlightLogBook.app/Assets.car ... 
+2022-04-10 17:36:45 +0000  10626296 bytes for ./Payload/FlightLogBook.app/Assets.car
+copying file ./Payload/FlightLogBook.app/bookmark.png ... 
+2022-04-10 17:36:45 +0000  3546 bytes for ./Payload/FlightLogBook.app/bookmark.png
+copying file ./Payload/FlightLogBook.app/Bitacoras.momd/VersionInfo.plist ... 
+11789 bytes for ./Payload/FlightLogBook.app/Bitacoras.momd/VersionInfo.plist
+copying file ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 8.mom ... 
+2022-04-10 17:36:45 +0000  29567 bytes for ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 8.mom
+copying file ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 9.mom ... 
+2022-04-10 17:36:45 +0000  28160 bytes for ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 9.mom
+copying file ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 18.mom ... 
+2022-04-10 17:36:45 +0000  33491 bytes for ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 18.mom
+copying file ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 16.mom ... 
+2022-04-10 17:36:45 +0000  33293 bytes for ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 16.mom
+copying file ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 17.mom ... 
+2022-04-10 17:36:45 +0000  33390 bytes for ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 17.mom
+copying file ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 15.mom ... 
+2022-04-10 17:36:45 +0000  32480 bytes for ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 15.mom
+copying file ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 2.mom ... 
+2022-04-10 17:36:45 +0000  28300 bytes for ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 2.mom
+copying file ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 3.mom ... 
+2022-04-10 17:36:45 +0000  28490 bytes for ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 3.mom
+copying file ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras.mom ... 
+2022-04-10 17:36:45 +0000  28046 bytes for ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras.mom
+copying file ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 18.omo ... 
+2022-04-10 17:36:45 +0000  73344 bytes for ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 18.omo
+copying file ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 14.mom ... 
+2022-04-10 17:36:45 +0000  32019 bytes for ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 14.mom
+copying file ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 10.mom ... 
+2022-04-10 17:36:45 +0000  29800 bytes for ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 10.mom
+copying file ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 7.mom ... 
+2022-04-10 17:36:45 +0000  29567 bytes for ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 7.mom
+copying file ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 6.mom ... 
+2022-04-10 17:36:45 +0000  28942 bytes for ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 6.mom
+copying file ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 11.mom ... 
+2022-04-10 17:36:45 +0000  29800 bytes for ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 11.mom
+copying file ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 13.mom ... 
+2022-04-10 17:36:45 +0000  32129 bytes for ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 13.mom
+copying file ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 4.mom ... 
+2022-04-10 17:36:45 +0000  28604 bytes for ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 4.mom
+copying file ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 5.mom ... 
+2022-04-10 17:36:45 +0000  28942 bytes for ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 5.mom
+copying file ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 12.mom ... 
+2022-04-10 17:36:45 +0000  31415 bytes for ./Payload/FlightLogBook.app/Bitacoras.momd/Bitacoras 12.mom
+copying file ./Payload/FlightLogBook.app/Calendar.png ... 
+2022-04-10 17:36:45 +0000  746 bytes for ./Payload/FlightLogBook.app/Calendar.png
+2022-04-10 17:36:45 +0000  copying file ./Payload/FlightLogBook.app/AppIconNew50x50~ipad.png ... 
+2022-04-10 17:36:45 +0000  3515 bytes for ./Payload/FlightLogBook.app/AppIconNew50x50~ipad.png
+2022-04-10 17:36:45 +0000  copying file ./Payload/FlightLogBook.app/speedometer-32.png ... 
+2022-04-10 17:36:45 +0000  699 bytes for ./Payload/FlightLogBook.app/speedometer-32.png
+2022-04-10 17:36:45 +0000  copying file ./Payload/FlightLogBook.app/AppIconNew57x57.png ... 
+2022-04-10 17:36:45 +0000  4336 bytes for ./Payload/FlightLogBook.app/AppIconNew57x57.png
+2022-04-10 17:36:45 +0000  copying file ./Payload/FlightLogBook.app/FlightLogBook ... 
+2022-04-10 17:36:45 +0000  2926848 bytes for ./Payload/FlightLogBook.app/FlightLogBook
+copying file ./Payload/FlightLogBook.app/AppIconNew72x72~ipad.png ... 
+2022-04-10 17:36:45 +0000  6157 bytes for ./Payload/FlightLogBook.app/AppIconNew72x72~ipad.png
+copying file ./Payload/FlightLogBook.app/airplane_take_off_filled-50.png ... 
+725 bytes for ./Payload/FlightLogBook.app/airplane_take_off_filled-50.png
+copying file ./Payload/FlightLogBook.app/landing_filled-50.png ... 
+840 bytes for ./Payload/FlightLogBook.app/landing_filled-50.png
+copying file ./Payload/FlightLogBook.app/Success.png ... 
+2022-04-10 17:36:45 +0000  2126 bytes for ./Payload/FlightLogBook.app/Success.png
+copying file ./Payload/FlightLogBook.app/AppIconNew40x40~ipad.png ... 
+2022-04-10 17:36:45 +0000  2656 bytes for ./Payload/FlightLogBook.app/AppIconNew40x40~ipad.png
+copying file ./Payload/FlightLogBook.app/AppIconNew20x20~ipad.png ... 
+2022-04-10 17:36:45 +0000  1078 bytes for ./Payload/FlightLogBook.app/AppIconNew20x20~ipad.png
+copying file ./Payload/FlightLogBook.app/AppIconNew72x72@2x~ipad.png ... 
+2022-04-10 17:36:45 +0000  14296 bytes for ./Payload/FlightLogBook.app/AppIconNew72x72@2x~ipad.png
+copying file ./Payload/FlightLogBook.app/customs_officer-32.png ... 
+2022-04-10 17:36:45 +0000  973 bytes for ./Payload/FlightLogBook.app/customs_officer-32.png
+copying file ./Payload/FlightLogBook.app/Failure.png ... 
+2022-04-10 17:36:45 +0000  2425 bytes for ./Payload/FlightLogBook.app/Failure.png
+copying file ./Payload/FlightLogBook.app/synced_ok.png ... 
+2022-04-10 17:36:45 +0000  1611 bytes for ./Payload/FlightLogBook.app/synced_ok.png
+copying file ./Payload/FlightLogBook.app/airplane-57-256.png ... 
+2022-04-10 17:36:45 +0000  4502 bytes for ./Payload/FlightLogBook.app/airplane-57-256.png
+copying file ./Payload/FlightLogBook.app/arrow400.png ... 
+2022-04-10 17:36:45 +0000  9009 bytes for ./Payload/FlightLogBook.app/arrow400.png
+copying file ./Payload/FlightLogBook.app/lock_32.png ... 
+2022-04-10 17:36:45 +0000  4528 bytes for ./Payload/FlightLogBook.app/lock_32.png
+2022-04-10 17:36:45 +0000  copying file ./Payload/FlightLogBook.app/Frameworks/libswiftCoreImage.dylib ... 
+2022-04-10 17:36:45 +0000  253648 bytes for ./Payload/FlightLogBook.app/Frameworks/libswiftCoreImage.dylib
+2022-04-10 17:36:45 +0000  copying file ./Payload/FlightLogBook.app/Frameworks/libswiftObjectiveC.dylib ... 
+2022-04-10 17:36:45 +0000  302640 bytes for ./Payload/FlightLogBook.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/FlightLogBook.app/Frameworks/libswiftCore.dylib ... 
+2022-04-10 17:36:45 +0000  16915040 bytes for ./Payload/FlightLogBook.app/Frameworks/libswiftCore.dylib
+copying file ./Payload/FlightLogBook.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2022-04-10 17:36:45 +0000  646848 bytes for ./Payload/FlightLogBook.app/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Payload/FlightLogBook.app/Frameworks/libswiftUIKit.dylib ... 
+2022-04-10 17:36:45 +0000  477168 bytes for ./Payload/FlightLogBook.app/Frameworks/libswiftUIKit.dylib
+copying file ./Payload/FlightLogBook.app/Frameworks/libswiftMetal.dylib ... 
+2022-04-10 17:36:45 +0000  298112 bytes for ./Payload/FlightLogBook.app/Frameworks/libswiftMetal.dylib
+copying file ./Payload/FlightLogBook.app/Frameworks/libswiftCoreData.dylib ... 
+2022-04-10 17:36:45 +0000  354944 bytes for ./Payload/FlightLogBook.app/Frameworks/libswiftCoreData.dylib
+copying file ./Payload/FlightLogBook.app/Frameworks/libswiftDispatch.dylib ... 
+2022-04-10 17:36:45 +0000  1018912 bytes for ./Payload/FlightLogBook.app/Frameworks/libswiftDispatch.dylib
+copying file ./Payload/FlightLogBook.app/Frameworks/libswiftos.dylib ... 
+2022-04-10 17:36:45 +0000  299424 bytes for ./Payload/FlightLogBook.app/Frameworks/libswiftos.dylib
+copying file ./Payload/FlightLogBook.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2022-04-10 17:36:45 +0000  253792 bytes for ./Payload/FlightLogBook.app/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Payload/FlightLogBook.app/Frameworks/libswiftDarwin.dylib ... 
+2022-04-10 17:36:45 +0000  369728 bytes for ./Payload/FlightLogBook.app/Frameworks/libswiftDarwin.dylib
+copying file ./Payload/FlightLogBook.app/Frameworks/libswiftQuartzCore.dylib ... 
+2022-04-10 17:36:45 +0000  256864 bytes for ./Payload/FlightLogBook.app/Frameworks/libswiftQuartzCore.dylib
+copying file ./Payload/FlightLogBook.app/Frameworks/libswiftFoundation.dylib ... 
+2022-04-10 17:36:46 +0000  8479552 bytes for ./Payload/FlightLogBook.app/Frameworks/libswiftFoundation.dylib
+copying file ./Payload/FlightLogBook.app/Frameworks/libswiftCoreLocation.dylib ... 
+2022-04-10 17:36:46 +0000  304128 bytes for ./Payload/FlightLogBook.app/Frameworks/libswiftCoreLocation.dylib
+copying file ./Payload/FlightLogBook.app/landing-32.png ... 
+2022-04-10 17:36:46 +0000  758 bytes for ./Payload/FlightLogBook.app/landing-32.png
+2022-04-10 17:36:46 +0000  copying file ./Payload/FlightLogBook.app/embedded.mobileprovision ... 
+2022-04-10 17:36:46 +0000  12477 bytes for ./Payload/FlightLogBook.app/embedded.mobileprovision
+2022-04-10 17:36:46 +0000  copying file ./Payload/FlightLogBook.app/passenger_filled-32.png ... 
+2022-04-10 17:36:46 +0000  755 bytes for ./Payload/FlightLogBook.app/passenger_filled-32.png
+2022-04-10 17:36:46 +0000  copying file ./Payload/FlightLogBook.app/AppIconNew76x76~ipad.png ... 
+2022-04-10 17:36:46 +0000  6622 bytes for ./Payload/FlightLogBook.app/AppIconNew76x76~ipad.png
+2022-04-10 17:36:46 +0000  copying file ./Payload/FlightLogBook.app/Info.plist ... 
+2022-04-10 17:36:46 +0000  2196 bytes for ./Payload/FlightLogBook.app/Info.plist
+2022-04-10 17:36:46 +0000  copying file ./Payload/FlightLogBook.app/PkgInfo ... 
+8 bytes for ./Payload/FlightLogBook.app/PkgInfo
+2022-04-10 17:36:46 +0000  copying file ./Payload/FlightLogBook.app/landing_filled-32.png ... 
+2022-04-10 17:36:46 +0000  563 bytes for ./Payload/FlightLogBook.app/landing_filled-32.png
+2022-04-10 17:36:46 +0000  copying file ./Payload/FlightLogBook.app/airplane_take_off_filled-32.png ... 
+2022-04-10 17:36:46 +0000  512 bytes for ./Payload/FlightLogBook.app/airplane_take_off_filled-32.png
+copying file ./Payload/FlightLogBook.app/111-user.png ... 
+2022-04-10 17:36:46 +0000  2997 bytes for ./Payload/FlightLogBook.app/111-user.png
+2022-04-10 17:36:46 +0000  copying file ./Payload/FlightLogBook.app/no_sync.png ... 
+2022-04-10 17:36:46 +0000  26928 bytes for ./Payload/FlightLogBook.app/no_sync.png
+2022-04-10 17:36:46 +0000  copying file ./Payload/FlightLogBook.app/airplane_take_off-32.png ... 
+2022-04-10 17:36:46 +0000  652 bytes for ./Payload/FlightLogBook.app/airplane_take_off-32.png
+2022-04-10 17:36:46 +0000  copying file ./AppThinning.plist ... 
+2022-04-10 17:36:46 +0000  228 bytes for ./AppThinning.plist
+2022-04-10 17:36:46 +0000  /usr/bin/ditto exited with 0
+2022-04-10 17:36:46 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2022-04-10 17:36:46 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2022-04-10 17:36:46 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2022-04-10 17:36:46 +0000  IDEDistributionItem init <DVTFilePath:0x3203df010:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftQuartzCore.dylib'>
+2022-04-10 17:36:46 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x3203df010:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftQuartzCore.dylib'>
+2022-04-10 17:36:46 +0000  IDEDistributionItem init <DVTFilePath:0x3247165a0:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreLocation.dylib'>
+2022-04-10 17:36:46 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x3247165a0:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreLocation.dylib'>
+2022-04-10 17:36:46 +0000  IDEDistributionItem init <DVTFilePath:0x2fa168990:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftDarwin.dylib'>
+2022-04-10 17:36:46 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x2fa168990:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftDarwin.dylib'>
+2022-04-10 17:36:46 +0000  IDEDistributionItem init <DVTFilePath:0x2fa14b730:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreGraphics.dylib'>
+2022-04-10 17:36:46 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x2fa14b730:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreGraphics.dylib'>
+2022-04-10 17:36:46 +0000  IDEDistributionItem init <DVTFilePath:0x2fa18f800:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftUIKit.dylib'>
+2022-04-10 17:36:46 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x2fa18f800:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftUIKit.dylib'>
+2022-04-10 17:36:46 +0000  IDEDistributionItem init <DVTFilePath:0x2fc31c020:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftFoundation.dylib'>
+2022-04-10 17:36:46 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x2fc31c020:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftFoundation.dylib'>
+2022-04-10 17:36:46 +0000  IDEDistributionItem init <DVTFilePath:0x3203dece0:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftDispatch.dylib'>
+2022-04-10 17:36:46 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x3203dece0:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftDispatch.dylib'>
+2022-04-10 17:36:46 +0000  IDEDistributionItem init <DVTFilePath:0x2fa14b650:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreData.dylib'>
+2022-04-10 17:36:46 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x2fa14b650:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreData.dylib'>
+2022-04-10 17:36:46 +0000  IDEDistributionItem init <DVTFilePath:0x3271ffd60:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftObjectiveC.dylib'>
+2022-04-10 17:36:46 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x3271ffd60:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftObjectiveC.dylib'>
+2022-04-10 17:36:46 +0000  IDEDistributionItem init <DVTFilePath:0x2eced84b0:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftos.dylib'>
+2022-04-10 17:36:46 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x2eced84b0:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftos.dylib'>
+2022-04-10 17:36:46 +0000  IDEDistributionItem init <DVTFilePath:0x2fa177da0:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreFoundation.dylib'>
+2022-04-10 17:36:46 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x2fa177da0:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreFoundation.dylib'>
+2022-04-10 17:36:46 +0000  IDEDistributionItem init <DVTFilePath:0x2fc317be0:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCore.dylib'>
+2022-04-10 17:36:46 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x2fc317be0:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCore.dylib'>
+2022-04-10 17:36:46 +0000  IDEDistributionItem init <DVTFilePath:0x3271ffe90:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreImage.dylib'>
+2022-04-10 17:36:46 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x3271ffe90:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftCoreImage.dylib'>
+2022-04-10 17:36:46 +0000  IDEDistributionItem init <DVTFilePath:0x327191460:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftMetal.dylib'>
+2022-04-10 17:36:46 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x327191460:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app/Frameworks/libswiftMetal.dylib'>
+2022-04-10 17:36:46 +0000  IDEDistributionItem init <DVTFilePath:0x2f13f25c0:'/var/folders/5l/6srhn4y57sx0k1sdjgwqmjmc0000gn/T/XcodeDistPipeline.~~~KmClpO/Root/Payload/FlightLogBook.app'>
+2022-04-10 17:36:46 +0000  Processing step: IDEDistributionCreateManifestStep

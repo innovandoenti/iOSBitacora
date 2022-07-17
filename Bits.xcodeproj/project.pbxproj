@@ -22,6 +22,8 @@
 		5D710BF01ECCDA1200B8D9CD /* Bitacoras+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D710BEF1ECCDA1200B8D9CD /* Bitacoras+CoreDataProperties.swift */; };
 		DA0346BB1CE53E360011855A /* TVC_AvionesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0346BA1CE53E360011855A /* TVC_AvionesTableViewController.swift */; };
 		DA0346BD1CE6297A0011855A /* TVC_AvionesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0346BC1CE6297A0011855A /* TVC_AvionesTableViewCell.swift */; };
+		DA097D39281238C000715F4C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA65E131CEA404500CBE514 /* CoreTelephony.framework */; };
+		DA097D3C281238C500715F4C /* OneSignal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA65FDE51CECFA4900ED024A /* OneSignal.framework */; };
 		DA1073F11CF0A17400974DB4 /* TVC_InformacionVueloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1073F01CF0A17400974DB4 /* TVC_InformacionVueloViewController.swift */; };
 		DA1073F31CF0A31500974DB4 /* TVC_VuelosPasajerosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1073F21CF0A31500974DB4 /* TVC_VuelosPasajerosTableViewCell.swift */; };
 		DA12370026000B99003C261D /* msgAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1236FF26000B99003C261D /* msgAlert.swift */; };
@@ -72,7 +74,6 @@
 		DA4E919A25FF0FE60092BF5F /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4E919925FF0FE60092BF5F /* Package.swift */; };
 		DA5647931BD00CC1009EEB6A /* Turbo_Instrumentos_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5647911BD00CC1009EEB6A /* Turbo_Instrumentos_TableViewController.swift */; };
 		DA597D0B1B6AB1880039C270 /* Bitacoras.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA597D0A1B6AB1880039C270 /* Bitacoras.plist */; };
-		DA65FDE61CECFA4900ED024A /* OneSignal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA65FDE51CECFA4900ED024A /* OneSignal.framework */; };
 		DA6F80EB1B4AF300005DBCC0 /* Bitacoras_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6F80E91B4AF300005DBCC0 /* Bitacoras_TableViewCell.swift */; };
 		DA6F80EC1B4AF300005DBCC0 /* BitacorasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6F80EA1B4AF300005DBCC0 /* BitacorasViewController.swift */; };
 		DA7D7ECE1B471A3E003CA928 /* PistonMono_Instrumentos_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D7ECA1B471A3E003CA928 /* PistonMono_Instrumentos_TableViewController.swift */; };
@@ -121,7 +122,6 @@
 		DA9CDE45261EB5D900112966 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9CDE44261EB5D900112966 /* Colors.swift */; };
 		DAA65E0D1CEA353300CBE514 /* TVC_AvionViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA65E0C1CEA353300CBE514 /* TVC_AvionViewTableViewController.swift */; };
 		DAA65E121CEA403500CBE514 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA65E111CEA403500CBE514 /* SystemConfiguration.framework */; };
-		DAA65E141CEA404500CBE514 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA65E131CEA404500CBE514 /* CoreTelephony.framework */; };
 		DAA93D7C1BC6C1E800EA034F /* bullish-25.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA93D7B1BC6C1E800EA034F /* bullish-25.png */; };
 		DAAB2E401C46AADD00C2A138 /* archive.png in Resources */ = {isa = PBXBuildFile; fileRef = DAAB2E3F1C46AADD00C2A138 /* archive.png */; };
 		DAAB2E421C46AD6500C2A138 /* ReportesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB2E411C46AD6500C2A138 /* ReportesTableViewController.swift */; };
@@ -326,9 +326,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAA65E141CEA404500CBE514 /* CoreTelephony.framework in Frameworks */,
 				DAA65E121CEA403500CBE514 /* SystemConfiguration.framework in Frameworks */,
-				DA65FDE61CECFA4900ED024A /* OneSignal.framework in Frameworks */,
+				DA097D39281238C000715F4C /* CoreTelephony.framework in Frameworks */,
+				DA097D3C281238C500715F4C /* OneSignal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,7 +659,7 @@
 			attributes = {
 				LastSwiftMigration = 0730;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1330;
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					DA487BB81B434A910057EFCC = {
@@ -678,6 +678,7 @@
 					};
 					DA487BD01B434A910057EFCC = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 699QRPV6HD;
 						LastSwiftMigration = 1010;
 						TestTargetID = DA487BB81B434A910057EFCC;
 					};
@@ -945,7 +946,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -999,7 +1000,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -1024,15 +1025,15 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Bitacoras/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Bitacoras",
 				);
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 3.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.innovandoenti.FlightLogBook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovandoenti.Bitacoras;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1050,8 +1051,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconNew;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Bitacoras/Bitacoras.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 699QRPV6HD;
 				"DEVELOPMENT_TEAM[sdk=*]" = "";
@@ -1060,15 +1061,15 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Bitacoras/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Bitacoras",
 				);
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 3.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.innovandoenti.FlightLogBook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovandoenti.Bitacoras;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1083,6 +1084,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEVELOPMENT_TEAM = 699QRPV6HD;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -1105,6 +1108,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEVELOPMENT_TEAM = 699QRPV6HD;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
