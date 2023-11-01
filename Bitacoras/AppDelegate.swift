@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //Reachability
         do {
-            Network.reachability = try Reachability(hostname: "intranet.aerotron.com.mx")
+            Network.reachability = try Reachability(hostname: "webbitacora.innovandoenti.com")
             do {
                 try Network.reachability?.start()
             } catch let error as Network.Error {
@@ -34,9 +34,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         // Notifications
-        _ = OneSignal(launchOptions: launchOptions, appId: "0928d124-1fa1-42bd-b6fa-0da975121e19", handleNotification: nil)
+       // _ = OneSignal(launchOptions: launchOptions, appId: "0928d124-1fa1-42bd-b6fa-0da975121e19", handleNotification: nil)
         
-        OneSignal.defaultClient().enable(inAppAlertNotification: true)
+        //OneSignal.defaultClient().enable(inAppAlertNotification: true)
         
         if #available(iOS 10.0, *) {
             let authOptions : UNAuthorizationOptions = [.alert, .badge, .sound]

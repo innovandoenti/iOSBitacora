@@ -26,6 +26,8 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         let backgroundView = UIView(frame: view.bounds)
         backgroundView.autoresizingMask = resizingMask
         
+        
+        
         configurarView()
     }
     
@@ -50,7 +52,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         
         if Conexion.isConnectedToNetwork(){
             
-            if !txtUser.text!.isEmpty && !txtPass.text!.isEmpty   {
+            if !txtUser.text!.isEmpty{
                 
                 _ = SwiftSpinner.show("Validating credentials...")
                 
@@ -58,11 +60,11 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
                 
                 queue.tasks +=~ { result, next in
                     
-                    login.checkUser(user: self.txtUser.text!, password: self.txtPass.text!)
+                  //  login.checkUser(user: self.txtUser.text!, password: self.txtPass.text!)
                     
-                    let wsURL = "http://intranet.aerotron.com.mx/apps/json.aspx?asp=verificausuariopiloto&usuario=\(self.txtUser.text!)&contrasena=\(self.txtPass.text!)"
+                    let wsURL = "https://webbitacora.innovandoenti.com/json.aspx?asp=verificausuariopiloto&usuario=\(self.txtUser.text!)"
                     
-                    let url_temp = wsURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlHostAllowed)
+                    let url_temp = wsURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
 
                     let url = URL(string: url_temp!)
                     print("URL: \(url!)")
@@ -72,7 +74,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
                     let dataTask = session.dataTask(with: url!, completionHandler: {(data, urlResponse, error) in
                         
                         if let httpResponde : HTTPURLResponse = urlResponse as? HTTPURLResponse {
-                            
+                            print(httpResponde.statusCode)
                             if httpResponde.statusCode == 200 {
                                 
                                 if data != nil {
@@ -81,9 +83,10 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
                                         if(json!.count > 0){
                                             _ = SwiftSpinner.show("Validating credentials..", animated: true)
                                             self.dataSource =  json
-                                            self.results = json!["Usuarios"] as! NSArray
+                                            self.results = json!["Usuarios"] as? NSArray
                                             if (self.results.count > 0){
                                                 OK = true
+                                                print("Usuario")
                                                 let row = self.results[0] as! NSDictionary
                                                 global_var.j_usuario_clave = row["clave"] as! String
                                                 global_var.j_usuario_nombre = row["nombre"] as! String

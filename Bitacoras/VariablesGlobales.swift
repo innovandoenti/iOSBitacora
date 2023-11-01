@@ -6,7 +6,7 @@ import Foundation
 
 struct parametros {
     
-    static var host : String = "http://bitacora.innovandoenti.com/bitacora.svc"
+    static var j_host : String = "https://webbitacora.innovandoenti.com/"
     
 }
 

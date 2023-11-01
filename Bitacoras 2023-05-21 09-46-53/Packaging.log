@@ -1,0 +1,1171 @@
+2023-05-21 15:46:03 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7ff1f0813710; archive(resolved)="<IDEArchive: 0x600012466160>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodiOSAdHoc: 0x6000043b01a0>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x600001f573c0; teamID='699QRPV6HD', teamName='Jaime Solis Lerma', teamType='Individual', username='jaime.solis19@gmail.com', isFreeProvisioningTeam='0'>">
+	Chain (14, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7ff1f0813710; archive = "<IDEArchive: 0x600012466160>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x6000043b01a0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001f573c0; teamID='699QRPV6HD', teamName='Jaime Solis Lerma', teamType='Individual', username='jaime.solis19@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x7ff2066be0f0; archive = "<IDEArchive: 0x600012466160>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x6000043b01a0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001f573c0; teamID='699QRPV6HD', teamName='Jaime Solis Lerma', teamType='Individual', username='jaime.solis19@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7ff203ca8f80; archive = "<IDEArchive: 0x600012466160>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x6000043b01a0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001f573c0; teamID='699QRPV6HD', teamName='Jaime Solis Lerma', teamType='Individual', username='jaime.solis19@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7ff205a51a20; archive = "<IDEArchive: 0x600012466160>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x6000043b01a0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001f573c0; teamID='699QRPV6HD', teamName='Jaime Solis Lerma', teamType='Individual', username='jaime.solis19@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7ff203af9e20; archive = "<IDEArchive: 0x600012466160>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x6000043b01a0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001f573c0; teamID='699QRPV6HD', teamName='Jaime Solis Lerma', teamType='Individual', username='jaime.solis19@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7ff1f061a910; archive = "<IDEArchive: 0x600012466160>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x6000043b01a0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001f573c0; teamID='699QRPV6HD', teamName='Jaime Solis Lerma', teamType='Individual', username='jaime.solis19@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7ff203c479a0; archive = "<IDEArchive: 0x600012466160>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x6000043b01a0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001f573c0; teamID='699QRPV6HD', teamName='Jaime Solis Lerma', teamType='Individual', username='jaime.solis19@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7ff2013dff20; archive = "<IDEArchive: 0x600012466160>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x6000043b01a0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001f573c0; teamID='699QRPV6HD', teamName='Jaime Solis Lerma', teamType='Individual', username='jaime.solis19@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7ff20327f310; archive = "<IDEArchive: 0x600012466160>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x6000043b01a0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001f573c0; teamID='699QRPV6HD', teamName='Jaime Solis Lerma', teamType='Individual', username='jaime.solis19@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7ff1f1430b00; archive = "<IDEArchive: 0x600012466160>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x6000043b01a0>", team="(null)">
+	<IDEDistributionContext: 0x7ff1ffaeaf70; archive = "<IDEArchive: 0x600012466160>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x6000043b01a0>", team="(null)">
+	<IDEDistributionContext: 0x7ff203c81450; archive = "<IDEArchive: 0x600012466160>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x6000043b01a0>", team="(null)">
+	<IDEDistributionContext: 0x7ff205ace710; archive = "<IDEArchive: 0x600012466160>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x6000043b01a0>", team="(null)">
+	<IDEDistributionContext: 0x7ff2032809a0; archive = "<IDEArchive: 0x600012466160>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x7ff1f0813710>
+2023-05-21 15:46:03 +0000  Processing step: IDEDistributionCreateDestRootStep
+2023-05-21 15:46:03 +0000  Processing step: IDEDistributionCopyItemStep
+2023-05-21 15:46:03 +0000  Running /usr/bin/ditto '-V' '/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app'
+2023-05-21 15:46:03 +0000  >>> Copying /Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app 
+2023-05-21 15:46:03 +0000  copying file ./tools_32.png ... 
+2023-05-21 15:46:03 +0000  4735 bytes for ./tools_32.png
+2023-05-21 15:46:03 +0000  copying file ./_CodeSignature/CodeResources ... 
+2023-05-21 15:46:03 +0000  45855 bytes for ./_CodeSignature/CodeResources
+2023-05-21 15:46:03 +0000  copying file ./AppIcon-260x60@3x.png ... 
+2023-05-21 15:46:03 +0000  25682 bytes for ./AppIcon-260x60@3x.png
+copying file ./AppIcon-229x29@2x~ipad.png ... 
+2023-05-21 15:46:03 +0000  5382 bytes for ./AppIcon-229x29@2x~ipad.png
+2023-05-21 15:46:03 +0000  copying file ./AppIcon-229x29@3x.png ... 
+2023-05-21 15:46:03 +0000  10052 bytes for ./AppIcon-229x29@3x.png
+copying file ./Calendar_2.png ... 
+2023-05-21 15:46:03 +0000  3558 bytes for ./Calendar_2.png
+copying file ./airplane-32.png ... 
+2023-05-21 15:46:03 +0000  503 bytes for ./airplane-32.png
+2023-05-21 15:46:03 +0000  copying file ./books-24.png ... 
+2023-05-21 15:46:03 +0000  632 bytes for ./books-24.png
+copying file ./twitter logo mask.png ... 
+2023-05-21 15:46:03 +0000  17222 bytes for ./twitter logo mask.png
+copying file ./AppIcon-240x40@3x.png ... 
+2023-05-21 15:46:03 +0000  15374 bytes for ./AppIcon-240x40@3x.png
+2023-05-21 15:46:03 +0000  copying file ./archive.png ... 
+2023-05-21 15:46:03 +0000  11922 bytes for ./archive.png
+copying file ./AppIcon-229x29@2x.png ... 
+2023-05-21 15:46:03 +0000  5382 bytes for ./AppIcon-229x29@2x.png
+copying file ./left3-32.png ... 
+2023-05-21 15:46:03 +0000  605 bytes for ./left3-32.png
+2023-05-21 15:46:03 +0000  copying file ./twitterscreen.PNG ... 
+2023-05-21 15:46:03 +0000  421348 bytes for ./twitterscreen.PNG
+2023-05-21 15:46:03 +0000  copying file ./arrow425.png ... 
+2023-05-21 15:46:03 +0000  1776 bytes for ./arrow425.png
+copying file ./AppIcon-260x60@2x.png ... 
+2023-05-21 15:46:03 +0000  15374 bytes for ./AppIcon-260x60@2x.png
+copying file ./Bitacoras ... 
+2023-05-21 15:46:03 +0000  1498336 bytes for ./Bitacoras
+copying file ./speedometer_filled-32.png ... 
+2023-05-21 15:46:03 +0000  647 bytes for ./speedometer_filled-32.png
+2023-05-21 15:46:03 +0000  copying file ./54-lock.png ... 
+2023-05-21 15:46:03 +0000  2965 bytes for ./54-lock.png
+2023-05-21 15:46:03 +0000  copying file ./Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2023-05-21 15:46:03 +0000  4015 bytes for ./Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2023-05-21 15:46:03 +0000  927 bytes for ./Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Launch Screen.storyboardc/Info.plist ... 
+2023-05-21 15:46:03 +0000  258 bytes for ./Launch Screen.storyboardc/Info.plist
+2023-05-21 15:46:03 +0000  copying file ./AppIcon-276x76@2x~ipad.png ... 
+2023-05-21 15:46:03 +0000  20582 bytes for ./AppIcon-276x76@2x~ipad.png
+2023-05-21 15:46:03 +0000  copying file ./passenger-32.png ... 
+2023-05-21 15:46:03 +0000  877 bytes for ./passenger-32.png
+copying file ./AppIcon-240x40@2x~ipad.png ... 
+2023-05-21 15:46:03 +0000  8961 bytes for ./AppIcon-240x40@2x~ipad.png
+2023-05-21 15:46:03 +0000  copying file ./AppIcon-229x29~ipad.png ... 
+2023-05-21 15:46:03 +0000  1958 bytes for ./AppIcon-229x29~ipad.png
+2023-05-21 15:46:03 +0000  copying file ./Master.storyboardc/Info.plist ... 
+2023-05-21 15:46:03 +0000  115 bytes for ./Master.storyboardc/Info.plist
+2023-05-21 15:46:03 +0000  copying file ./lock_open_32.png ... 
+2023-05-21 15:46:03 +0000  4506 bytes for ./lock_open_32.png
+copying file ./up_right-32.png ... 
+2023-05-21 15:46:03 +0000  222 bytes for ./up_right-32.png
+copying file ./airplane_filled-32.png ... 
+2023-05-21 15:46:03 +0000  402 bytes for ./airplane_filled-32.png
+2023-05-21 15:46:03 +0000  copying file ./Base.lproj/Main2.storyboardc/Eki-Dw-PnP-view-YQ0-Rg-eIj.nib ... 
+2023-05-21 15:46:03 +0000  35504 bytes for ./Base.lproj/Main2.storyboardc/Eki-Dw-PnP-view-YQ0-Rg-eIj.nib
+copying file ./Base.lproj/Main2.storyboardc/turbo_instrumentos.nib ... 
+2023-05-21 15:46:03 +0000  1889 bytes for ./Base.lproj/Main2.storyboardc/turbo_instrumentos.nib
+2023-05-21 15:46:03 +0000  copying file ./Base.lproj/Main2.storyboardc/Info.plist ... 
+2023-05-21 15:46:03 +0000  161 bytes for ./Base.lproj/Main2.storyboardc/Info.plist
+2023-05-21 15:46:03 +0000  copying file ./Base.lproj/Main.storyboardc/jet_vuelo.nib ... 
+2023-05-21 15:46:03 +0000  1841 bytes for ./Base.lproj/Main.storyboardc/jet_vuelo.nib
+2023-05-21 15:46:03 +0000  copying file ./Base.lproj/Main.storyboardc/tabBarcontroller.nib ... 
+2023-05-21 15:46:03 +0000  6177 bytes for ./Base.lproj/Main.storyboardc/tabBarcontroller.nib
+copying file ./Base.lproj/Main.storyboardc/turbo.nib ... 
+2023-05-21 15:46:03 +0000  5988 bytes for ./Base.lproj/Main.storyboardc/turbo.nib
+copying file ./Base.lproj/Main.storyboardc/4vh-Ah-skA-view-7uf-MS-hjh.nib ... 
+2023-05-21 15:46:03 +0000  5178 bytes for ./Base.lproj/Main.storyboardc/4vh-Ah-skA-view-7uf-MS-hjh.nib
+2023-05-21 15:46:03 +0000  copying file ./Base.lproj/Main.storyboardc/L9r-5z-NHd-view-P25-33-k2H.nib ... 
+2023-05-21 15:46:03 +0000  9058 bytes for ./Base.lproj/Main.storyboardc/L9r-5z-NHd-view-P25-33-k2H.nib
+copying file ./Base.lproj/Main.storyboardc/piston_tramos.nib ... 
+2023-05-21 15:46:03 +0000  2186 bytes for ./Base.lproj/Main.storyboardc/piston_tramos.nib
+copying file ./Base.lproj/Main.storyboardc/YgP-lx-zAH-view-bEX-sZ-wNr.nib ... 
+2023-05-21 15:46:03 +0000  10896 bytes for ./Base.lproj/Main.storyboardc/YgP-lx-zAH-view-bEX-sZ-wNr.nib
+2023-05-21 15:46:03 +0000  copying file ./Base.lproj/Main.storyboardc/btD-46-asO-view-qBV-zU-4cO.nib ... 
+2023-05-21 15:46:03 +0000  32805 bytes for ./Base.lproj/Main.storyboardc/btD-46-asO-view-qBV-zU-4cO.nib
+copying file ./Base.lproj/Main.storyboardc/turbo_instrumentos.nib ... 
+2023-05-21 15:46:03 +0000  832 bytes for ./Base.lproj/Main.storyboardc/turbo_instrumentos.nib
+copying file ./Base.lproj/Main.storyboardc/YCq-ii-eXu-view-RqF-So-85f.nib ... 
+2023-05-21 15:46:03 +0000  13519 bytes for ./Base.lproj/Main.storyboardc/YCq-ii-eXu-view-RqF-So-85f.nib
+2023-05-21 15:46:03 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-H49-xh-MDC.nib ... 
+2023-05-21 15:46:03 +0000  1540 bytes for ./Base.lproj/Main.storyboardc/UIViewController-H49-xh-MDC.nib
+copying file ./Base.lproj/Main.storyboardc/kC0-Lz-IJN-view-DlM-gw-FtW.nib ... 
+2023-05-21 15:46:03 +0000  65793 bytes for ./Base.lproj/Main.storyboardc/kC0-Lz-IJN-view-DlM-gw-FtW.nib
+2023-05-21 15:46:03 +0000  copying file ./Base.lproj/Main.storyboardc/jet_instrumentos.nib ... 
+2023-05-21 15:46:03 +0000  1881 bytes for ./Base.lproj/Main.storyboardc/jet_instrumentos.nib
+2023-05-21 15:46:03 +0000  copying file ./Base.lproj/Main.storyboardc/A5v-NZ-X4x-view-ZU9-ga-GuJ.nib ... 
+2023-05-21 15:46:03 +0000  14263 bytes for ./Base.lproj/Main.storyboardc/A5v-NZ-X4x-view-ZU9-ga-GuJ.nib
+copying file ./Base.lproj/Main.storyboardc/UITableViewController-mx1-oP-Xgc.nib ... 
+2023-05-21 15:46:03 +0000  1000 bytes for ./Base.lproj/Main.storyboardc/UITableViewController-mx1-oP-Xgc.nib
+2023-05-21 15:46:03 +0000  copying file ./Base.lproj/Main.storyboardc/LaunchScreen.nib ... 
+2023-05-21 15:46:03 +0000  1182 bytes for ./Base.lproj/Main.storyboardc/LaunchScreen.nib
+copying file ./Base.lproj/Main.storyboardc/TF1-GF-LNn-view-3x0-Js-QGY.nib ... 
+2023-05-21 15:46:03 +0000  15510 bytes for ./Base.lproj/Main.storyboardc/TF1-GF-LNn-view-3x0-Js-QGY.nib
+copying file ./Base.lproj/Main.storyboardc/UITableViewController-iCa-S6-Tyo.nib ... 
+2023-05-21 15:46:03 +0000  1520 bytes for ./Base.lproj/Main.storyboardc/UITableViewController-iCa-S6-Tyo.nib
+2023-05-21 15:46:03 +0000  copying file ./Base.lproj/Main.storyboardc/jet_pax.nib ... 
+2023-05-21 15:46:03 +0000  1629 bytes for ./Base.lproj/Main.storyboardc/jet_pax.nib
+2023-05-21 15:46:03 +0000  copying file ./Base.lproj/Main.storyboardc/mx1-oP-Xgc-view-7iS-Vl-XRC.nib ... 
+2023-05-21 15:46:03 +0000  5794 bytes for ./Base.lproj/Main.storyboardc/mx1-oP-Xgc-view-7iS-Vl-XRC.nib
+2023-05-21 15:46:03 +0000  copying file ./Base.lproj/Main.storyboardc/oDk-G6-T6v-view-9rY-Bq-Qqv.nib ... 
+2023-05-21 15:46:03 +0000  41835 bytes for ./Base.lproj/Main.storyboardc/oDk-G6-T6v-view-9rY-Bq-Qqv.nib
+copying file ./Base.lproj/Main.storyboardc/turbo_vuelo.nib ... 
+2023-05-21 15:46:03 +0000  1847 bytes for ./Base.lproj/Main.storyboardc/turbo_vuelo.nib
+2023-05-21 15:46:03 +0000  copying file ./Base.lproj/Main.storyboardc/vc_iniciar.nib ... 
+2023-05-21 15:46:03 +0000  1338 bytes for ./Base.lproj/Main.storyboardc/vc_iniciar.nib
+2023-05-21 15:46:03 +0000  copying file ./Base.lproj/Main.storyboardc/EPN-1a-pn7-view-MvZ-aM-480.nib ... 
+2023-05-21 15:46:03 +0000  7845 bytes for ./Base.lproj/Main.storyboardc/EPN-1a-pn7-view-MvZ-aM-480.nib
+copying file ./Base.lproj/Main.storyboardc/piston_mono.nib ... 
+2023-05-21 15:46:03 +0000  6627 bytes for ./Base.lproj/Main.storyboardc/piston_mono.nib
+copying file ./Base.lproj/Main.storyboardc/jgJ-08-UKa-view-geq-Gf-wS9.nib ... 
+2023-05-21 15:46:03 +0000  27056 bytes for ./Base.lproj/Main.storyboardc/jgJ-08-UKa-view-geq-Gf-wS9.nib
+2023-05-21 15:46:03 +0000  copying file ./Base.lproj/Main.storyboardc/turbo_bimotor.nib ... 
+2023-05-21 15:46:03 +0000  6369 bytes for ./Base.lproj/Main.storyboardc/turbo_bimotor.nib
+copying file ./Base.lproj/Main.storyboardc/turbo_pax.nib ... 
+2023-05-21 15:46:03 +0000  1641 bytes for ./Base.lproj/Main.storyboardc/turbo_pax.nib
+copying file ./Base.lproj/Main.storyboardc/a5B-Nr-K2b-view-cfQ-cY-SCU.nib ... 
+2023-05-21 15:46:03 +0000  8228 bytes for ./Base.lproj/Main.storyboardc/a5B-Nr-K2b-view-cfQ-cY-SCU.nib
+copying file ./Base.lproj/Main.storyboardc/H49-xh-MDC-view-HHK-lv-ltK.nib ... 
+2023-05-21 15:46:03 +0000  4027 bytes for ./Base.lproj/Main.storyboardc/H49-xh-MDC-view-HHK-lv-ltK.nib
+2023-05-21 15:46:03 +0000  copying file ./Base.lproj/Main.storyboardc/weD-Ui-M2k-view-FKY-DH-DrL.nib ... 
+2023-05-21 15:46:03 +0000  9375 bytes for ./Base.lproj/Main.storyboardc/weD-Ui-M2k-view-FKY-DH-DrL.nib
+2023-05-21 15:46:03 +0000  copying file ./Base.lproj/Main.storyboardc/UINavigationController-Iyl-xN-8Wh.nib ... 
+2023-05-21 15:46:03 +0000  2437 bytes for ./Base.lproj/Main.storyboardc/UINavigationController-Iyl-xN-8Wh.nib
+2023-05-21 15:46:03 +0000  copying file ./Base.lproj/Main.storyboardc/V6J-rg-hMC-view-Bt0-Wb-SDF.nib ... 
+2023-05-21 15:46:03 +0000  4832 bytes for ./Base.lproj/Main.storyboardc/V6J-rg-hMC-view-Bt0-Wb-SDF.nib
+copying file ./Base.lproj/Main.storyboardc/jet_view.nib ... 
+2023-05-21 15:46:03 +0000  6462 bytes for ./Base.lproj/Main.storyboardc/jet_view.nib
+copying file ./Base.lproj/Main.storyboardc/pOi-UX-RLu-view-BIM-lA-xnQ.nib ... 
+2023-05-21 15:46:03 +0000  5384 bytes for ./Base.lproj/Main.storyboardc/pOi-UX-RLu-view-BIM-lA-xnQ.nib
+copying file ./Base.lproj/Main.storyboardc/AGY-Ot-5yn-view-8yA-XW-uQm.nib ... 
+2023-05-21 15:46:03 +0000  69966 bytes for ./Base.lproj/Main.storyboardc/AGY-Ot-5yn-view-8yA-XW-uQm.nib
+2023-05-21 15:46:03 +0000  copying file ./Base.lproj/Main.storyboardc/bitacoras_view.nib ... 
+2023-05-21 15:46:03 +0000  2081 bytes for ./Base.lproj/Main.storyboardc/bitacoras_view.nib
+2023-05-21 15:46:03 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2023-05-21 15:46:03 +0000  1207 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+copying file ./Base.lproj/Main.storyboardc/iCa-S6-Tyo-view-FrJ-Df-tu9.nib ... 
+2023-05-21 15:46:03 +0000  8946 bytes for ./Base.lproj/Main.storyboardc/iCa-S6-Tyo-view-FrJ-Df-tu9.nib
+2023-05-21 15:46:03 +0000  copying file ./Base.lproj/Main.storyboardc/idB-qR-ITw-view-6XD-pQ-Em1.nib ... 
+2023-05-21 15:46:03 +0000  7180 bytes for ./Base.lproj/Main.storyboardc/idB-qR-ITw-view-6XD-pQ-Em1.nib
+2023-05-21 15:46:03 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-V6J-rg-hMC.nib ... 
+2023-05-21 15:46:03 +0000  1053 bytes for ./Base.lproj/Main.storyboardc/UIViewController-V6J-rg-hMC.nib
+copying file ./Base.lproj/Main.storyboardc/uJZ-g4-LhE-view-BgL-BB-xMp.nib ... 
+2023-05-21 15:46:03 +0000  67720 bytes for ./Base.lproj/Main.storyboardc/uJZ-g4-LhE-view-BgL-BB-xMp.nib
+2023-05-21 15:46:03 +0000  copying file ./bullish-25.png ... 
+2023-05-21 15:46:03 +0000  298 bytes for ./bullish-25.png
+copying file ./Default-568h@2x.png ... 
+2023-05-21 15:46:03 +0000  5753 bytes for ./Default-568h@2x.png
+copying file ./Assets.car ... 
+2023-05-21 15:46:03 +0000  10282792 bytes for ./Assets.car
+copying file ./bookmark.png ... 
+2023-05-21 15:46:03 +0000  3546 bytes for ./bookmark.png
+copying file ./Bitacoras.momd/VersionInfo.plist ... 
+2023-05-21 15:46:03 +0000  11789 bytes for ./Bitacoras.momd/VersionInfo.plist
+2023-05-21 15:46:03 +0000  copying file ./Bitacoras.momd/Bitacoras 8.mom ... 
+2023-05-21 15:46:03 +0000  29594 bytes for ./Bitacoras.momd/Bitacoras 8.mom
+copying file ./Bitacoras.momd/Bitacoras 9.mom ... 
+2023-05-21 15:46:03 +0000  28187 bytes for ./Bitacoras.momd/Bitacoras 9.mom
+2023-05-21 15:46:03 +0000  copying file ./Bitacoras.momd/Bitacoras 18.mom ... 
+2023-05-21 15:46:03 +0000  33514 bytes for ./Bitacoras.momd/Bitacoras 18.mom
+2023-05-21 15:46:03 +0000  copying file ./Bitacoras.momd/Bitacoras 16.mom ... 
+2023-05-21 15:46:03 +0000  33316 bytes for ./Bitacoras.momd/Bitacoras 16.mom
+2023-05-21 15:46:03 +0000  copying file ./Bitacoras.momd/Bitacoras 17.mom ... 
+2023-05-21 15:46:03 +0000  33413 bytes for ./Bitacoras.momd/Bitacoras 17.mom
+2023-05-21 15:46:03 +0000  copying file ./Bitacoras.momd/Bitacoras 15.mom ... 
+2023-05-21 15:46:03 +0000  32507 bytes for ./Bitacoras.momd/Bitacoras 15.mom
+2023-05-21 15:46:03 +0000  copying file ./Bitacoras.momd/Bitacoras 2.mom ... 
+2023-05-21 15:46:03 +0000  28327 bytes for ./Bitacoras.momd/Bitacoras 2.mom
+copying file ./Bitacoras.momd/Bitacoras 3.mom ... 
+2023-05-21 15:46:03 +0000  28517 bytes for ./Bitacoras.momd/Bitacoras 3.mom
+2023-05-21 15:46:03 +0000  copying file ./Bitacoras.momd/Bitacoras.mom ... 
+2023-05-21 15:46:03 +0000  28073 bytes for ./Bitacoras.momd/Bitacoras.mom
+2023-05-21 15:46:03 +0000  copying file ./Bitacoras.momd/Bitacoras 18.omo ... 
+2023-05-21 15:46:03 +0000  73344 bytes for ./Bitacoras.momd/Bitacoras 18.omo
+2023-05-21 15:46:03 +0000  copying file ./Bitacoras.momd/Bitacoras 14.mom ... 
+2023-05-21 15:46:03 +0000  32046 bytes for ./Bitacoras.momd/Bitacoras 14.mom
+copying file ./Bitacoras.momd/Bitacoras 10.mom ... 
+2023-05-21 15:46:03 +0000  29827 bytes for ./Bitacoras.momd/Bitacoras 10.mom
+copying file ./Bitacoras.momd/Bitacoras 7.mom ... 
+2023-05-21 15:46:03 +0000  29594 bytes for ./Bitacoras.momd/Bitacoras 7.mom
+2023-05-21 15:46:03 +0000  copying file ./Bitacoras.momd/Bitacoras 6.mom ... 
+2023-05-21 15:46:03 +0000  28969 bytes for ./Bitacoras.momd/Bitacoras 6.mom
+2023-05-21 15:46:03 +0000  copying file ./Bitacoras.momd/Bitacoras 11.mom ... 
+2023-05-21 15:46:03 +0000  29827 bytes for ./Bitacoras.momd/Bitacoras 11.mom
+copying file ./Bitacoras.momd/Bitacoras 13.mom ... 
+2023-05-21 15:46:03 +0000  32156 bytes for ./Bitacoras.momd/Bitacoras 13.mom
+2023-05-21 15:46:03 +0000  copying file ./Bitacoras.momd/Bitacoras 4.mom ... 
+2023-05-21 15:46:03 +0000  28631 bytes for ./Bitacoras.momd/Bitacoras 4.mom
+2023-05-21 15:46:03 +0000  copying file ./Bitacoras.momd/Bitacoras 5.mom ... 
+2023-05-21 15:46:03 +0000  28969 bytes for ./Bitacoras.momd/Bitacoras 5.mom
+2023-05-21 15:46:03 +0000  copying file ./Bitacoras.momd/Bitacoras 12.mom ... 
+2023-05-21 15:46:03 +0000  31442 bytes for ./Bitacoras.momd/Bitacoras 12.mom
+2023-05-21 15:46:03 +0000  copying file ./AppIcon-229x29.png ... 
+2023-05-21 15:46:03 +0000  1958 bytes for ./AppIcon-229x29.png
+copying file ./Calendar.png ... 
+2023-05-21 15:46:03 +0000  746 bytes for ./Calendar.png
+copying file ./speedometer-32.png ... 
+2023-05-21 15:46:03 +0000  699 bytes for ./speedometer-32.png
+2023-05-21 15:46:03 +0000  copying file ./AlertView.nib/objects-11.0+.nib ... 
+2023-05-21 15:46:03 +0000  6300 bytes for ./AlertView.nib/objects-11.0+.nib
+2023-05-21 15:46:03 +0000  copying file ./AlertView.nib/runtime.nib ... 
+2023-05-21 15:46:03 +0000  5634 bytes for ./AlertView.nib/runtime.nib
+2023-05-21 15:46:03 +0000  copying file ./airplane_take_off_filled-50.png ... 
+2023-05-21 15:46:03 +0000  725 bytes for ./airplane_take_off_filled-50.png
+copying file ./landing_filled-50.png ... 
+2023-05-21 15:46:03 +0000  840 bytes for ./landing_filled-50.png
+copying file ./Success.png ... 
+2023-05-21 15:46:03 +0000  2126 bytes for ./Success.png
+2023-05-21 15:46:03 +0000  copying file ./AppIcon-276x76~ipad.png ... 
+2023-05-21 15:46:03 +0000  8317 bytes for ./AppIcon-276x76~ipad.png
+2023-05-21 15:46:03 +0000  copying file ./customs_officer-32.png ... 
+2023-05-21 15:46:03 +0000  973 bytes for ./customs_officer-32.png
+copying file ./Failure.png ... 
+2023-05-21 15:46:03 +0000  2425 bytes for ./Failure.png
+2023-05-21 15:46:03 +0000  copying file ./synced_ok.png ... 
+2023-05-21 15:46:03 +0000  1611 bytes for ./synced_ok.png
+2023-05-21 15:46:03 +0000  copying file ./airplane-57-256.png ... 
+2023-05-21 15:46:03 +0000  4502 bytes for ./airplane-57-256.png
+2023-05-21 15:46:03 +0000  copying file ./arrow400.png ... 
+2023-05-21 15:46:03 +0000  9009 bytes for ./arrow400.png
+2023-05-21 15:46:03 +0000  copying file ./lock_32.png ... 
+2023-05-21 15:46:03 +0000  4528 bytes for ./lock_32.png
+2023-05-21 15:46:03 +0000  copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2023-05-21 15:46:03 +0000  335088 bytes for ./Frameworks/libswiftCoreImage.dylib
+2023-05-21 15:46:03 +0000  copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2023-05-21 15:46:03 +0000  400128 bytes for ./Frameworks/libswiftObjectiveC.dylib
+2023-05-21 15:46:03 +0000  copying file ./Frameworks/libswiftCore.dylib ... 
+2023-05-21 15:46:03 +0000  23297568 bytes for ./Frameworks/libswiftCore.dylib
+2023-05-21 15:46:03 +0000  copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2023-05-21 15:46:03 +0000  857648 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+2023-05-21 15:46:03 +0000  copying file ./Frameworks/libswiftUIKit.dylib ... 
+2023-05-21 15:46:03 +0000  655632 bytes for ./Frameworks/libswiftUIKit.dylib
+2023-05-21 15:46:03 +0000  copying file ./Frameworks/libswiftMetal.dylib ... 
+2023-05-21 15:46:03 +0000  395712 bytes for ./Frameworks/libswiftMetal.dylib
+2023-05-21 15:46:03 +0000  copying file ./Frameworks/libswiftCoreData.dylib ... 
+2023-05-21 15:46:03 +0000  468960 bytes for ./Frameworks/libswiftCoreData.dylib
+2023-05-21 15:46:03 +0000  copying file ./Frameworks/libswiftDispatch.dylib ... 
+2023-05-21 15:46:03 +0000  1377376 bytes for ./Frameworks/libswiftDispatch.dylib
+2023-05-21 15:46:03 +0000  copying file ./Frameworks/libswiftos.dylib ... 
+2023-05-21 15:46:03 +0000  396976 bytes for ./Frameworks/libswiftos.dylib
+2023-05-21 15:46:03 +0000  copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+2023-05-21 15:46:03 +0000  335296 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+2023-05-21 15:46:03 +0000  copying file ./Frameworks/libswiftDarwin.dylib ... 
+2023-05-21 15:46:03 +0000  499744 bytes for ./Frameworks/libswiftDarwin.dylib
+2023-05-21 15:46:03 +0000  copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+2023-05-21 15:46:03 +0000  338272 bytes for ./Frameworks/libswiftQuartzCore.dylib
+2023-05-21 15:46:03 +0000  copying file ./Frameworks/libswiftFoundation.dylib ... 
+2023-05-21 15:46:03 +0000  11552336 bytes for ./Frameworks/libswiftFoundation.dylib
+copying file ./Frameworks/libswiftCoreLocation.dylib ... 
+2023-05-21 15:46:03 +0000  401504 bytes for ./Frameworks/libswiftCoreLocation.dylib
+2023-05-21 15:46:03 +0000  copying file ./landing-32.png ... 
+2023-05-21 15:46:03 +0000  758 bytes for ./landing-32.png
+2023-05-21 15:46:03 +0000  copying file ./embedded.mobileprovision ... 
+2023-05-21 15:46:03 +0000  20895 bytes for ./embedded.mobileprovision
+copying file ./passenger_filled-32.png ... 
+2023-05-21 15:46:03 +0000  755 bytes for ./passenger_filled-32.png
+2023-05-21 15:46:03 +0000  copying file ./AppIcon-240x40~ipad.png ... 
+2023-05-21 15:46:03 +0000  3147 bytes for ./AppIcon-240x40~ipad.png
+2023-05-21 15:46:03 +0000  copying file ./Info.plist ... 
+2023-05-21 15:46:03 +0000  2020 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2023-05-21 15:46:03 +0000  8 bytes for ./PkgInfo
+copying file ./landing_filled-32.png ... 
+2023-05-21 15:46:03 +0000  563 bytes for ./landing_filled-32.png
+2023-05-21 15:46:03 +0000  copying file ./airplane_take_off_filled-32.png ... 
+2023-05-21 15:46:03 +0000  512 bytes for ./airplane_take_off_filled-32.png
+2023-05-21 15:46:03 +0000  copying file ./111-user.png ... 
+2023-05-21 15:46:03 +0000  2997 bytes for ./111-user.png
+2023-05-21 15:46:03 +0000  copying file ./no_sync.png ... 
+2023-05-21 15:46:03 +0000  26928 bytes for ./no_sync.png
+2023-05-21 15:46:03 +0000  copying file ./airplane_take_off-32.png ... 
+2023-05-21 15:46:03 +0000  652 bytes for ./airplane_take_off-32.png
+2023-05-21 15:46:03 +0000  /usr/bin/ditto exited with 0
+2023-05-21 15:46:03 +0000  Processing step: IDEDistributionEmbedProfileStep
+2023-05-21 15:46:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x600012416160; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x6000128c26f0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b23a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d2470; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x6000128c26f0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x600012416280; bundleID='com.apple.dt.runtime.swiftCoreData', path='<DVTFilePath:0x6000129a5ff0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreData.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b2440; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d2470; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreData', executablePath='<DVTFilePath:0x6000129a5ff0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreData.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x60001242b540; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x60000ef41280:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160abca0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d2470; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x60000ef41280:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x60000e520c60; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x60000efd9f00:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b2120; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d2470; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x60000efd9f00:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x60001242ab80; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x6000128c2760:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3e80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d2470; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x6000128c2760:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x600012415620; bundleID='com.apple.dt.runtime.swiftCoreLocation', path='<DVTFilePath:0x60000efdb000:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreLocation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b12c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035c5080; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreLocation', executablePath='<DVTFilePath:0x60000efdb000:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreLocation.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x60001242bd80; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x6000129ed650:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160adef0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d2470; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x6000129ed650:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x600012429260; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x6000129a5030:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160abf20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d2470; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x6000129a5030:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x600012415380; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x60000efdb080:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3980; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d2470; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x60000efdb080:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x600012429d40; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x6000129a5f10:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3de0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d2470; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x6000129a5f10:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x6000124155c0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x60000ef41100:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3ed0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d2470; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x60000ef41100:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x600012414720; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x60000efd9f80:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160ab2a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d2470; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x60000efd9f80:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x600012429380; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x6000128c0930:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3ac0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d2470; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x6000128c0930:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x600012417300; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x6000128c1f10:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b29e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d2470; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x6000128c1f10:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:03 +0000  Processing step: IDEDistributionInfoPlistStep
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-05-21 15:46:03 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2023-05-21 15:46:03 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2023-05-21 15:46:03 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2023-05-21 15:46:03 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-05-21 15:46:03 +0000  Processing step: IDEDistributionSymbolsStep
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-05-21 15:46:03 +0000  Processing step: IDEDistributionAppThinningStep
+2023-05-21 15:46:03 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2023-05-21 15:46:03 +0000  Processing step: IDEDistributionArchThinningStep
+2023-05-21 15:46:03 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCore.dylib' '-verify_arch' 'arm64e'
+2023-05-21 15:46:03 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:03 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCore.dylib'
+2023-05-21 15:46:03 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:03 +0000  Successfully thinned item "libswiftCore.dylib", arch "arm64e"
+2023-05-21 15:46:03 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreData.dylib' '-verify_arch' 'arm64e'
+2023-05-21 15:46:03 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:03 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreData.dylib' '-remove' 'arm64e' '-output' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreData.dylib'
+2023-05-21 15:46:03 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:03 +0000  Successfully thinned item "libswiftCoreData.dylib", arch "arm64e"
+2023-05-21 15:46:03 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreFoundation.dylib' '-verify_arch' 'arm64e'
+2023-05-21 15:46:03 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:03 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreFoundation.dylib'
+2023-05-21 15:46:03 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:03 +0000  Successfully thinned item "libswiftCoreFoundation.dylib", arch "arm64e"
+2023-05-21 15:46:03 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreGraphics.dylib' '-verify_arch' 'arm64e'
+2023-05-21 15:46:03 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:03 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreGraphics.dylib' '-remove' 'arm64e' '-output' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreGraphics.dylib'
+2023-05-21 15:46:03 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:03 +0000  Successfully thinned item "libswiftCoreGraphics.dylib", arch "arm64e"
+2023-05-21 15:46:03 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreImage.dylib' '-verify_arch' 'arm64e'
+2023-05-21 15:46:03 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:03 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreImage.dylib' '-remove' 'arm64e' '-output' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreImage.dylib'
+2023-05-21 15:46:03 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:03 +0000  Successfully thinned item "libswiftCoreImage.dylib", arch "arm64e"
+2023-05-21 15:46:03 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreLocation.dylib' '-verify_arch' 'arm64e'
+2023-05-21 15:46:03 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:03 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreLocation.dylib' '-remove' 'arm64e' '-output' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreLocation.dylib'
+2023-05-21 15:46:03 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:03 +0000  Successfully thinned item "libswiftCoreLocation.dylib", arch "arm64e"
+2023-05-21 15:46:03 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftDarwin.dylib' '-verify_arch' 'arm64e'
+2023-05-21 15:46:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:04 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftDarwin.dylib' '-remove' 'arm64e' '-output' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftDarwin.dylib'
+2023-05-21 15:46:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:04 +0000  Successfully thinned item "libswiftDarwin.dylib", arch "arm64e"
+2023-05-21 15:46:04 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftDispatch.dylib' '-verify_arch' 'arm64e'
+2023-05-21 15:46:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:04 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftDispatch.dylib' '-remove' 'arm64e' '-output' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftDispatch.dylib'
+2023-05-21 15:46:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:04 +0000  Successfully thinned item "libswiftDispatch.dylib", arch "arm64e"
+2023-05-21 15:46:04 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftFoundation.dylib' '-verify_arch' 'arm64e'
+2023-05-21 15:46:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:04 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftFoundation.dylib'
+2023-05-21 15:46:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:04 +0000  Successfully thinned item "libswiftFoundation.dylib", arch "arm64e"
+2023-05-21 15:46:04 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftMetal.dylib' '-verify_arch' 'arm64e'
+2023-05-21 15:46:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:04 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftMetal.dylib' '-remove' 'arm64e' '-output' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftMetal.dylib'
+2023-05-21 15:46:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:04 +0000  Successfully thinned item "libswiftMetal.dylib", arch "arm64e"
+2023-05-21 15:46:04 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftObjectiveC.dylib' '-verify_arch' 'arm64e'
+2023-05-21 15:46:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:04 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftObjectiveC.dylib' '-remove' 'arm64e' '-output' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftObjectiveC.dylib'
+2023-05-21 15:46:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:04 +0000  Successfully thinned item "libswiftObjectiveC.dylib", arch "arm64e"
+2023-05-21 15:46:04 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftQuartzCore.dylib' '-verify_arch' 'arm64e'
+2023-05-21 15:46:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:04 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftQuartzCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftQuartzCore.dylib'
+2023-05-21 15:46:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:04 +0000  Successfully thinned item "libswiftQuartzCore.dylib", arch "arm64e"
+2023-05-21 15:46:04 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftUIKit.dylib' '-verify_arch' 'arm64e'
+2023-05-21 15:46:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:04 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftUIKit.dylib' '-remove' 'arm64e' '-output' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftUIKit.dylib'
+2023-05-21 15:46:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:04 +0000  Successfully thinned item "libswiftUIKit.dylib", arch "arm64e"
+2023-05-21 15:46:04 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftos.dylib' '-verify_arch' 'arm64e'
+2023-05-21 15:46:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:04 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftos.dylib' '-remove' 'arm64e' '-output' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftos.dylib'
+2023-05-21 15:46:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-05-21 15:46:04 +0000  Successfully thinned item "libswiftos.dylib", arch "arm64e"
+2023-05-21 15:46:04 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Bitacoras' '-verify_arch' 'arm64e'
+2023-05-21 15:46:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-05-21 15:46:04 +0000  Skipping architecture thinning for item "Bitacoras" because arch "arm64e" wasn't found
+2023-05-21 15:46:04 +0000  Processing step: IDEDistributionODRStep
+2023-05-21 15:46:04 +0000  Processing step: IDEDistributionStripXattrsStep
+2023-05-21 15:46:04 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600012416160; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x6000128c26f0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b23a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d3a70; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x6000128c26f0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:04 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600012416280; bundleID='com.apple.dt.runtime.swiftCoreData', path='<DVTFilePath:0x6000129a5ff0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreData.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b2440; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000036e63c0; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreData', executablePath='<DVTFilePath:0x6000129a5ff0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreData.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:04 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x60001242b540; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x60000ef41280:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160abca0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d3a70; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x60000ef41280:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:04 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x60000e520c60; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x60000efd9f00:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b2120; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d3a70; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x60000efd9f00:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:04 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x60001242ab80; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x6000128c2760:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3e80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d3a70; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x6000128c2760:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:04 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600012415620; bundleID='com.apple.dt.runtime.swiftCoreLocation', path='<DVTFilePath:0x60000efdb000:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreLocation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b12c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d3a70; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreLocation', executablePath='<DVTFilePath:0x60000efdb000:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreLocation.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:04 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x60001242bd80; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x6000129ed650:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160adef0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035c51e0; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x6000129ed650:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:04 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600012429260; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x6000129a5030:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160abf20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000036e63c0; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x6000129a5030:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:04 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600012415380; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x60000efdb080:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3980; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d3a70; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x60000efdb080:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:04 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600012429d40; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x6000129a5f10:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3de0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d3a70; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x6000129a5f10:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:04 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x6000124155c0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x60000ef41100:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3ed0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d3a70; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x60000ef41100:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:04 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600012414720; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x60000efd9f80:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160ab2a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d3a70; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x60000efd9f80:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:04 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600012429380; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x6000128c0930:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3ac0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d3a70; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x6000128c0930:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:04 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600012417300; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x6000128c1f10:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b29e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d3a70; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x6000128c1f10:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'>
+2023-05-21 15:46:04 +0000  Running /usr/bin/xattr '-crs' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app'
+2023-05-21 15:46:04 +0000  /usr/bin/xattr exited with 0
+2023-05-21 15:46:04 +0000  Processing step: IDEDistributionCodesignStep
+2023-05-21 15:46:04 +0000  Entitlements for <IDEDistributionItem: 0x600012416160; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x6000128c26f0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b23a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000036e63c0; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x6000128c26f0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-05-21 15:46:04 +0000  Entitlements for <IDEDistributionItem: 0x600012416160; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x6000128c26f0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b23a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d3a70; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x6000128c26f0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-05-21 15:46:04 +0000  Writing entitlements for <IDEDistributionItem: 0x600012416160; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x6000128c26f0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b23a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035d2260; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x6000128c26f0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'> to: /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~rpqAN4
+2023-05-21 15:46:04 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7D59A3612F202C75EDC2375F0DC73047E0EDD02B' '--entitlements' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~rpqAN4' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCore.dylib'
+2023-05-21 15:46:04 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2023-05-21 15:46:42 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2023-05-21 15:46:42 +0000  /usr/bin/codesign exited with 0
+2023-05-21 15:46:42 +0000  Entitlements for <IDEDistributionItem: 0x600012416280; bundleID='com.apple.dt.runtime.swiftCoreData', path='<DVTFilePath:0x6000129a5ff0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreData.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b2440; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600003527de0; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreData', executablePath='<DVTFilePath:0x6000129a5ff0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreData.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-05-21 15:46:42 +0000  Entitlements for <IDEDistributionItem: 0x600012416280; bundleID='com.apple.dt.runtime.swiftCoreData', path='<DVTFilePath:0x6000129a5ff0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreData.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b2440; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600003525ef0; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreData', executablePath='<DVTFilePath:0x6000129a5ff0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreData.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-05-21 15:46:42 +0000  Writing entitlements for <IDEDistributionItem: 0x600012416280; bundleID='com.apple.dt.runtime.swiftCoreData', path='<DVTFilePath:0x6000129a5ff0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreData.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b2440; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600003521ad0; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreData', executablePath='<DVTFilePath:0x6000129a5ff0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreData.dylib'>', hardenedRuntime='0'>'> to: /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~VebTRh
+2023-05-21 15:46:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7D59A3612F202C75EDC2375F0DC73047E0EDD02B' '--entitlements' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~VebTRh' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreData.dylib'
+2023-05-21 15:46:42 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreData.dylib: replacing existing signature
+2023-05-21 15:46:42 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreData.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreData]
+2023-05-21 15:46:42 +0000  /usr/bin/codesign exited with 0
+2023-05-21 15:46:42 +0000  Entitlements for <IDEDistributionItem: 0x60001242b540; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x60000ef41280:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160abca0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dc000; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x60000ef41280:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-05-21 15:46:42 +0000  Entitlements for <IDEDistributionItem: 0x60001242b540; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x60000ef41280:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160abca0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dcbb0; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x60000ef41280:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-05-21 15:46:42 +0000  Writing entitlements for <IDEDistributionItem: 0x60001242b540; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x60000ef41280:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160abca0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dd130; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x60000ef41280:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~Ic8uKE
+2023-05-21 15:46:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7D59A3612F202C75EDC2375F0DC73047E0EDD02B' '--entitlements' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~Ic8uKE' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreFoundation.dylib'
+2023-05-21 15:46:42 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2023-05-21 15:46:42 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2023-05-21 15:46:42 +0000  /usr/bin/codesign exited with 0
+2023-05-21 15:46:42 +0000  Entitlements for <IDEDistributionItem: 0x60000e520c60; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x60000efd9f00:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b2120; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dd290; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x60000efd9f00:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-05-21 15:46:42 +0000  Entitlements for <IDEDistributionItem: 0x60000e520c60; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x60000efd9f00:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b2120; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600003521970; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x60000efd9f00:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-05-21 15:46:42 +0000  Writing entitlements for <IDEDistributionItem: 0x60000e520c60; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x60000efd9f00:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b2120; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dcb00; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x60000efd9f00:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'> to: /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~RSl9vM
+2023-05-21 15:46:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7D59A3612F202C75EDC2375F0DC73047E0EDD02B' '--entitlements' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~RSl9vM' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreGraphics.dylib'
+2023-05-21 15:46:42 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2023-05-21 15:46:43 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2023-05-21 15:46:43 +0000  /usr/bin/codesign exited with 0
+2023-05-21 15:46:43 +0000  Entitlements for <IDEDistributionItem: 0x60001242ab80; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x6000128c2760:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3e80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600003521970; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x6000128c2760:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-05-21 15:46:43 +0000  Entitlements for <IDEDistributionItem: 0x60001242ab80; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x6000128c2760:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3e80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dc000; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x6000128c2760:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-05-21 15:46:43 +0000  Writing entitlements for <IDEDistributionItem: 0x60001242ab80; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x6000128c2760:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3e80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dcb00; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x6000128c2760:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'> to: /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~UaAKX2
+2023-05-21 15:46:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7D59A3612F202C75EDC2375F0DC73047E0EDD02B' '--entitlements' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~UaAKX2' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreImage.dylib'
+2023-05-21 15:46:43 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2023-05-21 15:46:43 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2023-05-21 15:46:43 +0000  /usr/bin/codesign exited with 0
+2023-05-21 15:46:43 +0000  Entitlements for <IDEDistributionItem: 0x600012415620; bundleID='com.apple.dt.runtime.swiftCoreLocation', path='<DVTFilePath:0x60000efdb000:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreLocation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b12c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600003527de0; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreLocation', executablePath='<DVTFilePath:0x60000efdb000:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreLocation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-05-21 15:46:43 +0000  Entitlements for <IDEDistributionItem: 0x600012415620; bundleID='com.apple.dt.runtime.swiftCoreLocation', path='<DVTFilePath:0x60000efdb000:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreLocation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b12c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dc000; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreLocation', executablePath='<DVTFilePath:0x60000efdb000:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreLocation.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-05-21 15:46:43 +0000  Writing entitlements for <IDEDistributionItem: 0x600012415620; bundleID='com.apple.dt.runtime.swiftCoreLocation', path='<DVTFilePath:0x60000efdb000:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreLocation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b12c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dcb00; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftCoreLocation', executablePath='<DVTFilePath:0x60000efdb000:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftCoreLocation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~rvsZL9
+2023-05-21 15:46:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7D59A3612F202C75EDC2375F0DC73047E0EDD02B' '--entitlements' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~rvsZL9' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreLocation.dylib'
+2023-05-21 15:46:43 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreLocation.dylib: replacing existing signature
+2023-05-21 15:46:43 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreLocation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreLocation]
+2023-05-21 15:46:43 +0000  /usr/bin/codesign exited with 0
+2023-05-21 15:46:43 +0000  Entitlements for <IDEDistributionItem: 0x60001242bd80; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x6000129ed650:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160adef0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600003521970; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x6000129ed650:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-05-21 15:46:43 +0000  Entitlements for <IDEDistributionItem: 0x60001242bd80; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x6000129ed650:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160adef0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dc000; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x6000129ed650:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-05-21 15:46:43 +0000  Writing entitlements for <IDEDistributionItem: 0x60001242bd80; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x6000129ed650:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160adef0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dcb00; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x6000129ed650:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'> to: /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~KJiWFg
+2023-05-21 15:46:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7D59A3612F202C75EDC2375F0DC73047E0EDD02B' '--entitlements' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~KJiWFg' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftDarwin.dylib'
+2023-05-21 15:46:43 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2023-05-21 15:46:43 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2023-05-21 15:46:43 +0000  /usr/bin/codesign exited with 0
+2023-05-21 15:46:43 +0000  Entitlements for <IDEDistributionItem: 0x600012429260; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x6000129a5030:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160abf20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dd290; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x6000129a5030:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-05-21 15:46:43 +0000  Entitlements for <IDEDistributionItem: 0x600012429260; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x6000129a5030:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160abf20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dcb00; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x6000129a5030:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-05-21 15:46:43 +0000  Writing entitlements for <IDEDistributionItem: 0x600012429260; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x6000129a5030:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160abf20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dd080; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x6000129a5030:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'> to: /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~Mj7r3Z
+2023-05-21 15:46:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7D59A3612F202C75EDC2375F0DC73047E0EDD02B' '--entitlements' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~Mj7r3Z' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftDispatch.dylib'
+2023-05-21 15:46:43 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2023-05-21 15:46:43 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2023-05-21 15:46:43 +0000  /usr/bin/codesign exited with 0
+2023-05-21 15:46:43 +0000  Entitlements for <IDEDistributionItem: 0x600012415380; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x60000efdb080:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3980; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600003521970; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x60000efdb080:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-05-21 15:46:43 +0000  Entitlements for <IDEDistributionItem: 0x600012415380; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x60000efdb080:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3980; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035225d0; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x60000efdb080:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-05-21 15:46:43 +0000  Writing entitlements for <IDEDistributionItem: 0x600012415380; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x60000efdb080:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3980; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600003527de0; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x60000efdb080:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~UMUvmd
+2023-05-21 15:46:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7D59A3612F202C75EDC2375F0DC73047E0EDD02B' '--entitlements' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~UMUvmd' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftFoundation.dylib'
+2023-05-21 15:46:43 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2023-05-21 15:46:43 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2023-05-21 15:46:43 +0000  /usr/bin/codesign exited with 0
+2023-05-21 15:46:43 +0000  Entitlements for <IDEDistributionItem: 0x600012429d40; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x6000129a5f10:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3de0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600003521970; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x6000129a5f10:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-05-21 15:46:43 +0000  Entitlements for <IDEDistributionItem: 0x600012429d40; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x6000129a5f10:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3de0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035225d0; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x6000129a5f10:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-05-21 15:46:43 +0000  Writing entitlements for <IDEDistributionItem: 0x600012429d40; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x6000129a5f10:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3de0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dd290; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x6000129a5f10:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'> to: /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~v6P0rs
+2023-05-21 15:46:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7D59A3612F202C75EDC2375F0DC73047E0EDD02B' '--entitlements' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~v6P0rs' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftMetal.dylib'
+2023-05-21 15:46:43 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftMetal.dylib: replacing existing signature
+2023-05-21 15:46:43 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2023-05-21 15:46:43 +0000  /usr/bin/codesign exited with 0
+2023-05-21 15:46:43 +0000  Entitlements for <IDEDistributionItem: 0x6000124155c0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x60000ef41100:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3ed0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600003521970; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x60000ef41100:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-05-21 15:46:43 +0000  Entitlements for <IDEDistributionItem: 0x6000124155c0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x60000ef41100:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3ed0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dc000; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x60000ef41100:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-05-21 15:46:43 +0000  Writing entitlements for <IDEDistributionItem: 0x6000124155c0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x60000ef41100:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3ed0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dcbb0; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x60000ef41100:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'> to: /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~SMAMRt
+2023-05-21 15:46:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7D59A3612F202C75EDC2375F0DC73047E0EDD02B' '--entitlements' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~SMAMRt' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftObjectiveC.dylib'
+2023-05-21 15:46:44 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2023-05-21 15:46:44 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2023-05-21 15:46:44 +0000  /usr/bin/codesign exited with 0
+2023-05-21 15:46:44 +0000  Entitlements for <IDEDistributionItem: 0x600012414720; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x60000efd9f80:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160ab2a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dd290; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x60000efd9f80:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-05-21 15:46:44 +0000  Entitlements for <IDEDistributionItem: 0x600012414720; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x60000efd9f80:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160ab2a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dcbb0; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x60000efd9f80:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-05-21 15:46:44 +0000  Writing entitlements for <IDEDistributionItem: 0x600012414720; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x60000efd9f80:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160ab2a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dd080; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x60000efd9f80:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'> to: /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~yolZUA
+2023-05-21 15:46:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7D59A3612F202C75EDC2375F0DC73047E0EDD02B' '--entitlements' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~yolZUA' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftQuartzCore.dylib'
+2023-05-21 15:46:44 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2023-05-21 15:46:44 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2023-05-21 15:46:44 +0000  /usr/bin/codesign exited with 0
+2023-05-21 15:46:44 +0000  Entitlements for <IDEDistributionItem: 0x600012429380; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x6000128c0930:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3ac0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600003521970; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x6000128c0930:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-05-21 15:46:44 +0000  Entitlements for <IDEDistributionItem: 0x600012429380; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x6000128c0930:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3ac0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dc000; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x6000128c0930:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-05-21 15:46:44 +0000  Writing entitlements for <IDEDistributionItem: 0x600012429380; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x6000128c0930:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b3ac0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dcbb0; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x6000128c0930:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'> to: /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~jKGR3c
+2023-05-21 15:46:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7D59A3612F202C75EDC2375F0DC73047E0EDD02B' '--entitlements' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~jKGR3c' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftUIKit.dylib'
+2023-05-21 15:46:44 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftUIKit.dylib: replacing existing signature
+2023-05-21 15:46:44 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2023-05-21 15:46:44 +0000  /usr/bin/codesign exited with 0
+2023-05-21 15:46:44 +0000  Entitlements for <IDEDistributionItem: 0x600012417300; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x6000128c1f10:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b29e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dd290; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x6000128c1f10:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-05-21 15:46:44 +0000  Entitlements for <IDEDistributionItem: 0x600012417300; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x6000128c1f10:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b29e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dcbb0; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x6000128c1f10:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-05-21 15:46:44 +0000  Writing entitlements for <IDEDistributionItem: 0x600012417300; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x6000128c1f10:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160b29e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dd080; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='(null)', teamID='699QRPV6HD', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x6000128c1f10:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'> to: /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~JLH8aV
+2023-05-21 15:46:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7D59A3612F202C75EDC2375F0DC73047E0EDD02B' '--entitlements' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~JLH8aV' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftos.dylib'
+2023-05-21 15:46:44 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftos.dylib: replacing existing signature
+2023-05-21 15:46:44 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2023-05-21 15:46:44 +0000  /usr/bin/codesign exited with 0
+2023-05-21 15:46:44 +0000  Entitlements for <IDEDistributionItem: 0x6000124322e0; bundleID='com.innovandoenti.bitacora', path='<DVTFilePath:0x6000128dc2a0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160af5c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600003521970; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='{
+    "application-identifier" = "699QRPV6HD.com.innovandoenti.bitacora";
+    "aps-environment" = development;
+    "com.apple.developer.team-identifier" = 699QRPV6HD;
+    "get-task-allow" = 1;
+}', teamID='699QRPV6HD', identifier='com.innovandoenti.bitacora', executablePath='<DVTFilePath:0x60001289e5a0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Bitacoras'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "699QRPV6HD.com.innovandoenti.bitacora";
+    "aps-environment" = production;
+    "com.apple.developer.team-identifier" = 699QRPV6HD;
+    "get-task-allow" = 0;
+}
+2023-05-21 15:46:44 +0000  Entitlements for <IDEDistributionItem: 0x6000124322e0; bundleID='com.innovandoenti.bitacora', path='<DVTFilePath:0x6000128dc2a0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160af5c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dc000; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='{
+    "application-identifier" = "699QRPV6HD.com.innovandoenti.bitacora";
+    "aps-environment" = development;
+    "com.apple.developer.team-identifier" = 699QRPV6HD;
+    "get-task-allow" = 1;
+}', teamID='699QRPV6HD', identifier='com.innovandoenti.bitacora', executablePath='<DVTFilePath:0x60001289e5a0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Bitacoras'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "699QRPV6HD.com.innovandoenti.bitacora";
+    "aps-environment" = production;
+    "com.apple.developer.team-identifier" = 699QRPV6HD;
+    "get-task-allow" = 0;
+}
+2023-05-21 15:46:44 +0000  Writing entitlements for <IDEDistributionItem: 0x6000124322e0; bundleID='com.innovandoenti.bitacora', path='<DVTFilePath:0x6000128dc2a0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000160af5c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000035dcbb0; name='Apple Development: Jaime Solis Lerma (CTB6DABG6N)', hash='87DE01CECBB1C7FEF8A7E6C08996C4E90FB2B14E', serialNumber='6A9E400379968E3E3191C4E75353D6F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-04 14:00:33 +0000''>', entitlements='{
+    "application-identifier" = "699QRPV6HD.com.innovandoenti.bitacora";
+    "aps-environment" = development;
+    "com.apple.developer.team-identifier" = 699QRPV6HD;
+    "get-task-allow" = 1;
+}', teamID='699QRPV6HD', identifier='com.innovandoenti.bitacora', executablePath='<DVTFilePath:0x60001289e5a0:'/Users/irmapaz/Library/Developer/Xcode/Archives/2023-05-21/Bitacoras 21-05-23 9.42.xcarchive/Products/Applications/Bitacoras.app/Bitacoras'>', hardenedRuntime='0'>'> to: /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~5TuJ2C
+2023-05-21 15:46:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7D59A3612F202C75EDC2375F0DC73047E0EDD02B' '--entitlements' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/entitlements~~~5TuJ2C' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app'
+2023-05-21 15:46:44 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app: replacing existing signature
+2023-05-21 15:46:44 +0000  /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app: signed app bundle with Mach-O thin (arm64) [com.innovandoenti.bitacora]
+2023-05-21 15:46:44 +0000  /usr/bin/codesign exited with 0
+2023-05-21 15:46:44 +0000  Processing step: IDEDistributionZipODRItemStep
+2023-05-21 15:46:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-05-21 15:46:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-05-21 15:46:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-05-21 15:46:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-05-21 15:46:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-05-21 15:46:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-05-21 15:46:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-05-21 15:46:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-05-21 15:46:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-05-21 15:46:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-05-21 15:46:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-05-21 15:46:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-05-21 15:46:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-05-21 15:46:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-05-21 15:46:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-05-21 15:46:44 +0000  Processing step: IDEDistributionCreateIPAStep
+2023-05-21 15:46:44 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root' '/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Packages/Bitácoras.ipa'
+2023-05-21 15:46:44 +0000  >>> Copying /var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root 
+2023-05-21 15:46:44 +0000  copying file ./Payload/Bitacoras.app/tools_32.png ... 
+2023-05-21 15:46:44 +0000  4735 bytes for ./Payload/Bitacoras.app/tools_32.png
+2023-05-21 15:46:44 +0000  copying file ./Payload/Bitacoras.app/_CodeSignature/CodeResources ... 
+2023-05-21 15:46:44 +0000  45855 bytes for ./Payload/Bitacoras.app/_CodeSignature/CodeResources
+2023-05-21 15:46:44 +0000  copying file ./Payload/Bitacoras.app/AppIcon-260x60@3x.png ... 
+2023-05-21 15:46:44 +0000  25682 bytes for ./Payload/Bitacoras.app/AppIcon-260x60@3x.png
+2023-05-21 15:46:44 +0000  copying file ./Payload/Bitacoras.app/AppIcon-229x29@2x~ipad.png ... 
+2023-05-21 15:46:44 +0000  5382 bytes for ./Payload/Bitacoras.app/AppIcon-229x29@2x~ipad.png
+copying file ./Payload/Bitacoras.app/AppIcon-229x29@3x.png ... 
+2023-05-21 15:46:44 +0000  10052 bytes for ./Payload/Bitacoras.app/AppIcon-229x29@3x.png
+2023-05-21 15:46:44 +0000  copying file ./Payload/Bitacoras.app/Calendar_2.png ... 
+3558 bytes for ./Payload/Bitacoras.app/Calendar_2.png
+2023-05-21 15:46:44 +0000  copying file ./Payload/Bitacoras.app/airplane-32.png ... 
+503 bytes for ./Payload/Bitacoras.app/airplane-32.png
+copying file ./Payload/Bitacoras.app/books-24.png ... 
+2023-05-21 15:46:44 +0000  632 bytes for ./Payload/Bitacoras.app/books-24.png
+copying file ./Payload/Bitacoras.app/twitter logo mask.png ... 
+2023-05-21 15:46:44 +0000  17222 bytes for ./Payload/Bitacoras.app/twitter logo mask.png
+2023-05-21 15:46:44 +0000  copying file ./Payload/Bitacoras.app/AppIcon-240x40@3x.png ... 
+2023-05-21 15:46:44 +0000  15374 bytes for ./Payload/Bitacoras.app/AppIcon-240x40@3x.png
+copying file ./Payload/Bitacoras.app/archive.png ... 
+2023-05-21 15:46:44 +0000  11922 bytes for ./Payload/Bitacoras.app/archive.png
+copying file ./Payload/Bitacoras.app/AppIcon-229x29@2x.png ... 
+2023-05-21 15:46:44 +0000  5382 bytes for ./Payload/Bitacoras.app/AppIcon-229x29@2x.png
+2023-05-21 15:46:44 +0000  copying file ./Payload/Bitacoras.app/left3-32.png ... 
+605 bytes for ./Payload/Bitacoras.app/left3-32.png
+copying file ./Payload/Bitacoras.app/twitterscreen.PNG ... 
+2023-05-21 15:46:44 +0000  421348 bytes for ./Payload/Bitacoras.app/twitterscreen.PNG
+copying file ./Payload/Bitacoras.app/arrow425.png ... 
+2023-05-21 15:46:44 +0000  1776 bytes for ./Payload/Bitacoras.app/arrow425.png
+copying file ./Payload/Bitacoras.app/AppIcon-260x60@2x.png ... 
+2023-05-21 15:46:44 +0000  15374 bytes for ./Payload/Bitacoras.app/AppIcon-260x60@2x.png
+copying file ./Payload/Bitacoras.app/Bitacoras ... 
+2023-05-21 15:46:45 +0000  1498336 bytes for ./Payload/Bitacoras.app/Bitacoras
+copying file ./Payload/Bitacoras.app/speedometer_filled-32.png ... 
+2023-05-21 15:46:45 +0000  647 bytes for ./Payload/Bitacoras.app/speedometer_filled-32.png
+copying file ./Payload/Bitacoras.app/54-lock.png ... 
+2965 bytes for ./Payload/Bitacoras.app/54-lock.png
+copying file ./Payload/Bitacoras.app/Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2023-05-21 15:46:45 +0000  4015 bytes for ./Payload/Bitacoras.app/Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/Bitacoras.app/Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2023-05-21 15:46:45 +0000  927 bytes for ./Payload/Bitacoras.app/Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/Bitacoras.app/Launch Screen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/Bitacoras.app/Launch Screen.storyboardc/Info.plist
+2023-05-21 15:46:45 +0000  copying file ./Payload/Bitacoras.app/AppIcon-276x76@2x~ipad.png ... 
+2023-05-21 15:46:45 +0000  20582 bytes for ./Payload/Bitacoras.app/AppIcon-276x76@2x~ipad.png
+copying file ./Payload/Bitacoras.app/passenger-32.png ... 
+2023-05-21 15:46:45 +0000  877 bytes for ./Payload/Bitacoras.app/passenger-32.png
+copying file ./Payload/Bitacoras.app/AppIcon-240x40@2x~ipad.png ... 
+2023-05-21 15:46:45 +0000  8961 bytes for ./Payload/Bitacoras.app/AppIcon-240x40@2x~ipad.png
+copying file ./Payload/Bitacoras.app/AppIcon-229x29~ipad.png ... 
+2023-05-21 15:46:45 +0000  1958 bytes for ./Payload/Bitacoras.app/AppIcon-229x29~ipad.png
+copying file ./Payload/Bitacoras.app/Master.storyboardc/Info.plist ... 
+2023-05-21 15:46:45 +0000  115 bytes for ./Payload/Bitacoras.app/Master.storyboardc/Info.plist
+copying file ./Payload/Bitacoras.app/lock_open_32.png ... 
+2023-05-21 15:46:45 +0000  4506 bytes for ./Payload/Bitacoras.app/lock_open_32.png
+copying file ./Payload/Bitacoras.app/up_right-32.png ... 
+2023-05-21 15:46:45 +0000  222 bytes for ./Payload/Bitacoras.app/up_right-32.png
+copying file ./Payload/Bitacoras.app/airplane_filled-32.png ... 
+2023-05-21 15:46:45 +0000  402 bytes for ./Payload/Bitacoras.app/airplane_filled-32.png
+2023-05-21 15:46:45 +0000  copying file ./Payload/Bitacoras.app/Base.lproj/Main2.storyboardc/Eki-Dw-PnP-view-YQ0-Rg-eIj.nib ... 
+2023-05-21 15:46:45 +0000  35504 bytes for ./Payload/Bitacoras.app/Base.lproj/Main2.storyboardc/Eki-Dw-PnP-view-YQ0-Rg-eIj.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main2.storyboardc/turbo_instrumentos.nib ... 
+2023-05-21 15:46:45 +0000  1889 bytes for ./Payload/Bitacoras.app/Base.lproj/Main2.storyboardc/turbo_instrumentos.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main2.storyboardc/Info.plist ... 
+2023-05-21 15:46:45 +0000  161 bytes for ./Payload/Bitacoras.app/Base.lproj/Main2.storyboardc/Info.plist
+2023-05-21 15:46:45 +0000  copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/jet_vuelo.nib ... 
+2023-05-21 15:46:45 +0000  1841 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/jet_vuelo.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/tabBarcontroller.nib ... 
+2023-05-21 15:46:45 +0000  6177 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/tabBarcontroller.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/turbo.nib ... 
+2023-05-21 15:46:45 +0000  5988 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/turbo.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/4vh-Ah-skA-view-7uf-MS-hjh.nib ... 
+2023-05-21 15:46:45 +0000  5178 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/4vh-Ah-skA-view-7uf-MS-hjh.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/L9r-5z-NHd-view-P25-33-k2H.nib ... 
+2023-05-21 15:46:45 +0000  9058 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/L9r-5z-NHd-view-P25-33-k2H.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/piston_tramos.nib ... 
+2023-05-21 15:46:45 +0000  2186 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/piston_tramos.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/YgP-lx-zAH-view-bEX-sZ-wNr.nib ... 
+2023-05-21 15:46:45 +0000  10896 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/YgP-lx-zAH-view-bEX-sZ-wNr.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/btD-46-asO-view-qBV-zU-4cO.nib ... 
+2023-05-21 15:46:45 +0000  32805 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/btD-46-asO-view-qBV-zU-4cO.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/turbo_instrumentos.nib ... 
+2023-05-21 15:46:45 +0000  832 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/turbo_instrumentos.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/YCq-ii-eXu-view-RqF-So-85f.nib ... 
+2023-05-21 15:46:45 +0000  13519 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/YCq-ii-eXu-view-RqF-So-85f.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/UIViewController-H49-xh-MDC.nib ... 
+2023-05-21 15:46:45 +0000  1540 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/UIViewController-H49-xh-MDC.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/kC0-Lz-IJN-view-DlM-gw-FtW.nib ... 
+2023-05-21 15:46:45 +0000  65793 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/kC0-Lz-IJN-view-DlM-gw-FtW.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/jet_instrumentos.nib ... 
+2023-05-21 15:46:45 +0000  1881 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/jet_instrumentos.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/A5v-NZ-X4x-view-ZU9-ga-GuJ.nib ... 
+2023-05-21 15:46:45 +0000  14263 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/A5v-NZ-X4x-view-ZU9-ga-GuJ.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/UITableViewController-mx1-oP-Xgc.nib ... 
+2023-05-21 15:46:45 +0000  1000 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/UITableViewController-mx1-oP-Xgc.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/LaunchScreen.nib ... 
+2023-05-21 15:46:45 +0000  1182 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/LaunchScreen.nib
+2023-05-21 15:46:45 +0000  copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/TF1-GF-LNn-view-3x0-Js-QGY.nib ... 
+2023-05-21 15:46:45 +0000  15510 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/TF1-GF-LNn-view-3x0-Js-QGY.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/UITableViewController-iCa-S6-Tyo.nib ... 
+2023-05-21 15:46:45 +0000  1520 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/UITableViewController-iCa-S6-Tyo.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/jet_pax.nib ... 
+2023-05-21 15:46:45 +0000  1629 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/jet_pax.nib
+2023-05-21 15:46:45 +0000  copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/mx1-oP-Xgc-view-7iS-Vl-XRC.nib ... 
+2023-05-21 15:46:45 +0000  5794 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/mx1-oP-Xgc-view-7iS-Vl-XRC.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/oDk-G6-T6v-view-9rY-Bq-Qqv.nib ... 
+2023-05-21 15:46:45 +0000  41835 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/oDk-G6-T6v-view-9rY-Bq-Qqv.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/turbo_vuelo.nib ... 
+2023-05-21 15:46:45 +0000  1847 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/turbo_vuelo.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/vc_iniciar.nib ... 
+2023-05-21 15:46:45 +0000  1338 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/vc_iniciar.nib
+2023-05-21 15:46:45 +0000  copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/EPN-1a-pn7-view-MvZ-aM-480.nib ... 
+2023-05-21 15:46:45 +0000  7845 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/EPN-1a-pn7-view-MvZ-aM-480.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/piston_mono.nib ... 
+2023-05-21 15:46:45 +0000  6627 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/piston_mono.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/jgJ-08-UKa-view-geq-Gf-wS9.nib ... 
+2023-05-21 15:46:45 +0000  27056 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/jgJ-08-UKa-view-geq-Gf-wS9.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/turbo_bimotor.nib ... 
+2023-05-21 15:46:45 +0000  6369 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/turbo_bimotor.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/turbo_pax.nib ... 
+2023-05-21 15:46:45 +0000  1641 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/turbo_pax.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/a5B-Nr-K2b-view-cfQ-cY-SCU.nib ... 
+2023-05-21 15:46:45 +0000  8228 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/a5B-Nr-K2b-view-cfQ-cY-SCU.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/H49-xh-MDC-view-HHK-lv-ltK.nib ... 
+2023-05-21 15:46:45 +0000  4027 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/H49-xh-MDC-view-HHK-lv-ltK.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/weD-Ui-M2k-view-FKY-DH-DrL.nib ... 
+2023-05-21 15:46:45 +0000  9375 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/weD-Ui-M2k-view-FKY-DH-DrL.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/UINavigationController-Iyl-xN-8Wh.nib ... 
+2023-05-21 15:46:45 +0000  2437 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/UINavigationController-Iyl-xN-8Wh.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/V6J-rg-hMC-view-Bt0-Wb-SDF.nib ... 
+2023-05-21 15:46:45 +0000  4832 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/V6J-rg-hMC-view-Bt0-Wb-SDF.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/jet_view.nib ... 
+2023-05-21 15:46:45 +0000  6462 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/jet_view.nib
+2023-05-21 15:46:45 +0000  copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/pOi-UX-RLu-view-BIM-lA-xnQ.nib ... 
+2023-05-21 15:46:45 +0000  5384 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/pOi-UX-RLu-view-BIM-lA-xnQ.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/AGY-Ot-5yn-view-8yA-XW-uQm.nib ... 
+2023-05-21 15:46:45 +0000  69966 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/AGY-Ot-5yn-view-8yA-XW-uQm.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/bitacoras_view.nib ... 
+2023-05-21 15:46:45 +0000  2081 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/bitacoras_view.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2023-05-21 15:46:45 +0000  1207 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/iCa-S6-Tyo-view-FrJ-Df-tu9.nib ... 
+2023-05-21 15:46:45 +0000  8946 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/iCa-S6-Tyo-view-FrJ-Df-tu9.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/idB-qR-ITw-view-6XD-pQ-Em1.nib ... 
+2023-05-21 15:46:45 +0000  7180 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/idB-qR-ITw-view-6XD-pQ-Em1.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/UIViewController-V6J-rg-hMC.nib ... 
+2023-05-21 15:46:45 +0000  1053 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/UIViewController-V6J-rg-hMC.nib
+copying file ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/uJZ-g4-LhE-view-BgL-BB-xMp.nib ... 
+2023-05-21 15:46:45 +0000  67720 bytes for ./Payload/Bitacoras.app/Base.lproj/Main.storyboardc/uJZ-g4-LhE-view-BgL-BB-xMp.nib
+2023-05-21 15:46:45 +0000  copying file ./Payload/Bitacoras.app/bullish-25.png ... 
+298 bytes for ./Payload/Bitacoras.app/bullish-25.png
+copying file ./Payload/Bitacoras.app/Default-568h@2x.png ... 
+2023-05-21 15:46:45 +0000  5753 bytes for ./Payload/Bitacoras.app/Default-568h@2x.png
+copying file ./Payload/Bitacoras.app/Assets.car ... 
+2023-05-21 15:46:45 +0000  10282792 bytes for ./Payload/Bitacoras.app/Assets.car
+2023-05-21 15:46:45 +0000  copying file ./Payload/Bitacoras.app/bookmark.png ... 
+3546 bytes for ./Payload/Bitacoras.app/bookmark.png
+copying file ./Payload/Bitacoras.app/Bitacoras.momd/VersionInfo.plist ... 
+2023-05-21 15:46:45 +0000  11789 bytes for ./Payload/Bitacoras.app/Bitacoras.momd/VersionInfo.plist
+copying file ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 8.mom ... 
+2023-05-21 15:46:45 +0000  29594 bytes for ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 8.mom
+copying file ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 9.mom ... 
+2023-05-21 15:46:45 +0000  28187 bytes for ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 9.mom
+copying file ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 18.mom ... 
+2023-05-21 15:46:45 +0000  33514 bytes for ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 18.mom
+copying file ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 16.mom ... 
+2023-05-21 15:46:45 +0000  33316 bytes for ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 16.mom
+copying file ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 17.mom ... 
+2023-05-21 15:46:45 +0000  33413 bytes for ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 17.mom
+copying file ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 15.mom ... 
+2023-05-21 15:46:45 +0000  32507 bytes for ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 15.mom
+copying file ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 2.mom ... 
+2023-05-21 15:46:45 +0000  28327 bytes for ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 2.mom
+2023-05-21 15:46:45 +0000  copying file ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 3.mom ... 
+2023-05-21 15:46:45 +0000  28517 bytes for ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 3.mom
+copying file ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras.mom ... 
+2023-05-21 15:46:45 +0000  28073 bytes for ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras.mom
+copying file ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 18.omo ... 
+2023-05-21 15:46:45 +0000  73344 bytes for ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 18.omo
+copying file ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 14.mom ... 
+2023-05-21 15:46:45 +0000  32046 bytes for ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 14.mom
+copying file ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 10.mom ... 
+2023-05-21 15:46:45 +0000  29827 bytes for ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 10.mom
+copying file ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 7.mom ... 
+2023-05-21 15:46:45 +0000  29594 bytes for ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 7.mom
+copying file ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 6.mom ... 
+2023-05-21 15:46:45 +0000  28969 bytes for ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 6.mom
+copying file ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 11.mom ... 
+2023-05-21 15:46:45 +0000  29827 bytes for ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 11.mom
+copying file ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 13.mom ... 
+2023-05-21 15:46:45 +0000  32156 bytes for ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 13.mom
+copying file ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 4.mom ... 
+2023-05-21 15:46:45 +0000  28631 bytes for ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 4.mom
+copying file ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 5.mom ... 
+2023-05-21 15:46:45 +0000  28969 bytes for ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 5.mom
+copying file ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 12.mom ... 
+2023-05-21 15:46:45 +0000  31442 bytes for ./Payload/Bitacoras.app/Bitacoras.momd/Bitacoras 12.mom
+2023-05-21 15:46:45 +0000  copying file ./Payload/Bitacoras.app/AppIcon-229x29.png ... 
+2023-05-21 15:46:45 +0000  1958 bytes for ./Payload/Bitacoras.app/AppIcon-229x29.png
+copying file ./Payload/Bitacoras.app/Calendar.png ... 
+2023-05-21 15:46:45 +0000  746 bytes for ./Payload/Bitacoras.app/Calendar.png
+copying file ./Payload/Bitacoras.app/speedometer-32.png ... 
+2023-05-21 15:46:45 +0000  699 bytes for ./Payload/Bitacoras.app/speedometer-32.png
+copying file ./Payload/Bitacoras.app/AlertView.nib/objects-11.0+.nib ... 
+2023-05-21 15:46:45 +0000  6300 bytes for ./Payload/Bitacoras.app/AlertView.nib/objects-11.0+.nib
+copying file ./Payload/Bitacoras.app/AlertView.nib/runtime.nib ... 
+2023-05-21 15:46:45 +0000  5634 bytes for ./Payload/Bitacoras.app/AlertView.nib/runtime.nib
+2023-05-21 15:46:45 +0000  copying file ./Payload/Bitacoras.app/airplane_take_off_filled-50.png ... 
+725 bytes for ./Payload/Bitacoras.app/airplane_take_off_filled-50.png
+copying file ./Payload/Bitacoras.app/landing_filled-50.png ... 
+2023-05-21 15:46:45 +0000  840 bytes for ./Payload/Bitacoras.app/landing_filled-50.png
+copying file ./Payload/Bitacoras.app/Success.png ... 
+2023-05-21 15:46:45 +0000  2126 bytes for ./Payload/Bitacoras.app/Success.png
+copying file ./Payload/Bitacoras.app/AppIcon-276x76~ipad.png ... 
+2023-05-21 15:46:45 +0000  8317 bytes for ./Payload/Bitacoras.app/AppIcon-276x76~ipad.png
+copying file ./Payload/Bitacoras.app/customs_officer-32.png ... 
+2023-05-21 15:46:45 +0000  973 bytes for ./Payload/Bitacoras.app/customs_officer-32.png
+copying file ./Payload/Bitacoras.app/Failure.png ... 
+2023-05-21 15:46:45 +0000  2425 bytes for ./Payload/Bitacoras.app/Failure.png
+copying file ./Payload/Bitacoras.app/synced_ok.png ... 
+2023-05-21 15:46:45 +0000  1611 bytes for ./Payload/Bitacoras.app/synced_ok.png
+copying file ./Payload/Bitacoras.app/airplane-57-256.png ... 
+2023-05-21 15:46:45 +0000  4502 bytes for ./Payload/Bitacoras.app/airplane-57-256.png
+copying file ./Payload/Bitacoras.app/arrow400.png ... 
+2023-05-21 15:46:45 +0000  9009 bytes for ./Payload/Bitacoras.app/arrow400.png
+copying file ./Payload/Bitacoras.app/lock_32.png ... 
+2023-05-21 15:46:45 +0000  4528 bytes for ./Payload/Bitacoras.app/lock_32.png
+2023-05-21 15:46:45 +0000  copying file ./Payload/Bitacoras.app/Frameworks/libswiftCoreImage.dylib ... 
+2023-05-21 15:46:45 +0000  253648 bytes for ./Payload/Bitacoras.app/Frameworks/libswiftCoreImage.dylib
+copying file ./Payload/Bitacoras.app/Frameworks/libswiftObjectiveC.dylib ... 
+2023-05-21 15:46:45 +0000  302640 bytes for ./Payload/Bitacoras.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/Bitacoras.app/Frameworks/libswiftCore.dylib ... 
+2023-05-21 15:46:46 +0000  16915040 bytes for ./Payload/Bitacoras.app/Frameworks/libswiftCore.dylib
+2023-05-21 15:46:46 +0000  copying file ./Payload/Bitacoras.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2023-05-21 15:46:46 +0000  646848 bytes for ./Payload/Bitacoras.app/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Payload/Bitacoras.app/Frameworks/libswiftUIKit.dylib ... 
+2023-05-21 15:46:46 +0000  477168 bytes for ./Payload/Bitacoras.app/Frameworks/libswiftUIKit.dylib
+copying file ./Payload/Bitacoras.app/Frameworks/libswiftMetal.dylib ... 
+2023-05-21 15:46:46 +0000  298112 bytes for ./Payload/Bitacoras.app/Frameworks/libswiftMetal.dylib
+copying file ./Payload/Bitacoras.app/Frameworks/libswiftCoreData.dylib ... 
+2023-05-21 15:46:46 +0000  354944 bytes for ./Payload/Bitacoras.app/Frameworks/libswiftCoreData.dylib
+2023-05-21 15:46:46 +0000  copying file ./Payload/Bitacoras.app/Frameworks/libswiftDispatch.dylib ... 
+2023-05-21 15:46:46 +0000  1018912 bytes for ./Payload/Bitacoras.app/Frameworks/libswiftDispatch.dylib
+copying file ./Payload/Bitacoras.app/Frameworks/libswiftos.dylib ... 
+2023-05-21 15:46:46 +0000  299424 bytes for ./Payload/Bitacoras.app/Frameworks/libswiftos.dylib
+copying file ./Payload/Bitacoras.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2023-05-21 15:46:46 +0000  253792 bytes for ./Payload/Bitacoras.app/Frameworks/libswiftCoreFoundation.dylib
+2023-05-21 15:46:46 +0000  copying file ./Payload/Bitacoras.app/Frameworks/libswiftDarwin.dylib ... 
+2023-05-21 15:46:46 +0000  369728 bytes for ./Payload/Bitacoras.app/Frameworks/libswiftDarwin.dylib
+copying file ./Payload/Bitacoras.app/Frameworks/libswiftQuartzCore.dylib ... 
+2023-05-21 15:46:46 +0000  256864 bytes for ./Payload/Bitacoras.app/Frameworks/libswiftQuartzCore.dylib
+copying file ./Payload/Bitacoras.app/Frameworks/libswiftFoundation.dylib ... 
+2023-05-21 15:46:46 +0000  8479552 bytes for ./Payload/Bitacoras.app/Frameworks/libswiftFoundation.dylib
+copying file ./Payload/Bitacoras.app/Frameworks/libswiftCoreLocation.dylib ... 
+2023-05-21 15:46:46 +0000  304128 bytes for ./Payload/Bitacoras.app/Frameworks/libswiftCoreLocation.dylib
+2023-05-21 15:46:46 +0000  copying file ./Payload/Bitacoras.app/landing-32.png ... 
+758 bytes for ./Payload/Bitacoras.app/landing-32.png
+copying file ./Payload/Bitacoras.app/embedded.mobileprovision ... 
+2023-05-21 15:46:46 +0000  16822 bytes for ./Payload/Bitacoras.app/embedded.mobileprovision
+copying file ./Payload/Bitacoras.app/passenger_filled-32.png ... 
+2023-05-21 15:46:46 +0000  755 bytes for ./Payload/Bitacoras.app/passenger_filled-32.png
+copying file ./Payload/Bitacoras.app/AppIcon-240x40~ipad.png ... 
+2023-05-21 15:46:46 +0000  3147 bytes for ./Payload/Bitacoras.app/AppIcon-240x40~ipad.png
+2023-05-21 15:46:46 +0000  copying file ./Payload/Bitacoras.app/Info.plist ... 
+2020 bytes for ./Payload/Bitacoras.app/Info.plist
+copying file ./Payload/Bitacoras.app/PkgInfo ... 
+2023-05-21 15:46:46 +0000  8 bytes for ./Payload/Bitacoras.app/PkgInfo
+copying file ./Payload/Bitacoras.app/landing_filled-32.png ... 
+563 bytes for ./Payload/Bitacoras.app/landing_filled-32.png
+copying file ./Payload/Bitacoras.app/airplane_take_off_filled-32.png ... 
+2023-05-21 15:46:46 +0000  512 bytes for ./Payload/Bitacoras.app/airplane_take_off_filled-32.png
+copying file ./Payload/Bitacoras.app/111-user.png ... 
+2023-05-21 15:46:46 +0000  2997 bytes for ./Payload/Bitacoras.app/111-user.png
+copying file ./Payload/Bitacoras.app/no_sync.png ... 
+2023-05-21 15:46:46 +0000  26928 bytes for ./Payload/Bitacoras.app/no_sync.png
+copying file ./Payload/Bitacoras.app/airplane_take_off-32.png ... 
+2023-05-21 15:46:46 +0000  652 bytes for ./Payload/Bitacoras.app/airplane_take_off-32.png
+2023-05-21 15:46:46 +0000  /usr/bin/ditto exited with 0
+2023-05-21 15:46:46 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2023-05-21 15:46:46 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2023-05-21 15:46:46 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2023-05-21 15:46:46 +0000  IDEDistributionItem init <DVTFilePath:0x60000efd9400:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreGraphics.dylib'>
+2023-05-21 15:46:46 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x60000efd9400:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreGraphics.dylib'>
+2023-05-21 15:46:46 +0000  IDEDistributionItem init <DVTFilePath:0x600016ab2840:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreData.dylib'>
+2023-05-21 15:46:46 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x600016ab2840:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreData.dylib'>
+2023-05-21 15:46:46 +0000  IDEDistributionItem init <DVTFilePath:0x60000efd8d00:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftObjectiveC.dylib'>
+2023-05-21 15:46:46 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x60000efd8d00:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftObjectiveC.dylib'>
+2023-05-21 15:46:46 +0000  IDEDistributionItem init <DVTFilePath:0x60000efd9500:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreLocation.dylib'>
+2023-05-21 15:46:46 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x60000efd9500:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreLocation.dylib'>
+2023-05-21 15:46:46 +0000  IDEDistributionItem init <DVTFilePath:0x600016ab2ae0:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftDispatch.dylib'>
+2023-05-21 15:46:46 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x600016ab2ae0:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftDispatch.dylib'>
+2023-05-21 15:46:46 +0000  IDEDistributionItem init <DVTFilePath:0x60000efda500:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftFoundation.dylib'>
+2023-05-21 15:46:46 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x60000efda500:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftFoundation.dylib'>
+2023-05-21 15:46:46 +0000  IDEDistributionItem init <DVTFilePath:0x60000efd9e00:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreFoundation.dylib'>
+2023-05-21 15:46:46 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x60000efd9e00:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreFoundation.dylib'>
+2023-05-21 15:46:46 +0000  IDEDistributionItem init <DVTFilePath:0x600016ab26f0:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCore.dylib'>
+2023-05-21 15:46:47 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x600016ab26f0:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCore.dylib'>
+2023-05-21 15:46:47 +0000  IDEDistributionItem init <DVTFilePath:0x600016ab15e0:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreImage.dylib'>
+2023-05-21 15:46:47 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x600016ab15e0:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftCoreImage.dylib'>
+2023-05-21 15:46:47 +0000  IDEDistributionItem init <DVTFilePath:0x600016ab2a00:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftMetal.dylib'>
+2023-05-21 15:46:47 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x600016ab2a00:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftMetal.dylib'>
+2023-05-21 15:46:47 +0000  IDEDistributionItem init <DVTFilePath:0x600016ab2d10:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftDarwin.dylib'>
+2023-05-21 15:46:47 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x600016ab2d10:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftDarwin.dylib'>
+2023-05-21 15:46:47 +0000  IDEDistributionItem init <DVTFilePath:0x600016ab2920:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftUIKit.dylib'>
+2023-05-21 15:46:47 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x600016ab2920:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftUIKit.dylib'>
+2023-05-21 15:46:47 +0000  IDEDistributionItem init <DVTFilePath:0x60000efd9d80:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftQuartzCore.dylib'>
+2023-05-21 15:46:47 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x60000efd9d80:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftQuartzCore.dylib'>
+2023-05-21 15:46:47 +0000  IDEDistributionItem init <DVTFilePath:0x600016ab2bc0:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftos.dylib'>
+2023-05-21 15:46:47 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x600016ab2bc0:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app/Frameworks/libswiftos.dylib'>
+2023-05-21 15:46:47 +0000  IDEDistributionItem init <DVTFilePath:0x600016aa9d50:'/var/folders/rm/nlqhkv6959j71g5zmt4b5pz40000gn/T/XcodeDistPipeline.~~~ozSAi6/Root/Payload/Bitacoras.app'>
+2023-05-21 15:46:47 +0000  Processing step: IDEDistributionCreateManifestStep

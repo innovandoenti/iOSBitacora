@@ -112,7 +112,7 @@ class Login_TableViewController: UITableViewController, UITextFieldDelegate {
                 
                 queue.tasks +=~ { result, next in
                     
-                    let wsURL = "http://intranet.aerotron.com.mx/apps/json.aspx?asp=verificausuariopiloto&usuario=\(self.txtUser.text!)&contrasena=\(self.txtPass.text!)"
+                    let wsURL = "https://webbitacora.innovandoenti.com/json.aspx?asp=verificausuariopiloto&usuario=\(self.txtUser.text!)&contrasena=\(self.txtPass.text!)"
                     
                     let url_temp = wsURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlHostAllowed) // stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)
                     let url = URL(string: url_temp!)

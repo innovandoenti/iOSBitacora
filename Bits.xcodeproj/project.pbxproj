@@ -10,10 +10,6 @@
 		1AB547CC208A32F7006D4BF1 /* TaxiAereoMatriculas+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB547CB208A32F7006D4BF1 /* TaxiAereoMatriculas+CoreDataProperties.swift */; };
 		286E5C912592610500F4A248 /* Bitacoras.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA487BE11B434ACA0057EFCC /* Bitacoras.xcdatamodeld */; };
 		286E5C922592612500F4A248 /* Bitacoras.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA487BE11B434ACA0057EFCC /* Bitacoras.xcdatamodeld */; };
-		286E5C95259B9EF200F4A248 /* Another Flight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 286E5C94259B9EF200F4A248 /* Another Flight.otf */; };
-		286E5C99259BB55000F4A248 /* launch-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 286E5C98259BB55000F4A248 /* launch-logo.png */; };
-		286E5C9B259BD40F00F4A248 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286E5C9A259BD40F00F4A248 /* AlertView.swift */; };
-		286E5C9D259BD50B00F4A248 /* AlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 286E5C9C259BD50B00F4A248 /* AlertView.xib */; };
 		286E5CA5259BD6B800F4A248 /* Success.png in Resources */ = {isa = PBXBuildFile; fileRef = 286E5CA4259BD6B700F4A248 /* Success.png */; };
 		286E5CA7259BD6BC00F4A248 /* Failure.png in Resources */ = {isa = PBXBuildFile; fileRef = 286E5CA6259BD6BC00F4A248 /* Failure.png */; };
 		286E5CA9259BDFDA00F4A248 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286E5CA8259BDFDA00F4A248 /* Login.swift */; };
@@ -24,6 +20,9 @@
 		5D6D43CE1F23C4520069F57A /* Vuelos+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6D43CC1F23C4520069F57A /* Vuelos+CoreDataClass.swift */; };
 		5D6D43CF1F23C4520069F57A /* Vuelos+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6D43CD1F23C4520069F57A /* Vuelos+CoreDataProperties.swift */; };
 		5D710BF01ECCDA1200B8D9CD /* Bitacoras+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D710BEF1ECCDA1200B8D9CD /* Bitacoras+CoreDataProperties.swift */; };
+		AC42EF732A0983E8001EC797 /* UIAlertView+Blocks.h in Sources */ = {isa = PBXBuildFile; fileRef = DA7EC50D1BD534A9007ED2CE /* UIAlertView+Blocks.h */; };
+		AC42EF7C2A0995CF001EC797 /* AlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC42EF7A2A0995CE001EC797 /* AlertView.xib */; };
+		AC42EF7D2A0995CF001EC797 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC42EF7B2A0995CF001EC797 /* AlertView.swift */; };
 		DA0346BB1CE53E360011855A /* TVC_AvionesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0346BA1CE53E360011855A /* TVC_AvionesTableViewController.swift */; };
 		DA0346BD1CE6297A0011855A /* TVC_AvionesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0346BC1CE6297A0011855A /* TVC_AvionesTableViewCell.swift */; };
 		DA1073F11CF0A17400974DB4 /* TVC_InformacionVueloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1073F01CF0A17400974DB4 /* TVC_InformacionVueloViewController.swift */; };
@@ -153,7 +152,6 @@
 /* Begin PBXFileReference section */
 		1AB547CA208A3256006D4BF1 /* Bitacoras 18.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Bitacoras 18.xcdatamodel"; sourceTree = "<group>"; };
 		1AB547CB208A32F7006D4BF1 /* TaxiAereoMatriculas+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TaxiAereoMatriculas+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		286E5C94259B9EF200F4A248 /* Another Flight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Another Flight.otf"; path = "../../../../../Downloads/another_flight/Another Flight.otf"; sourceTree = "<group>"; };
 		286E5C98259BB55000F4A248 /* launch-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "launch-logo.png"; path = "../../../../Downloads/launch-logo.png"; sourceTree = "<group>"; };
 		286E5C9A259BD40F00F4A248 /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertView.swift; path = ../../../../Downloads/CustomAlert/CustomAlert/AlertView.swift; sourceTree = "<group>"; };
 		286E5C9C259BD50B00F4A248 /* AlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AlertView.xib; path = ../../../../Downloads/CustomAlert/CustomAlert/AlertView.xib; sourceTree = "<group>"; };
@@ -169,6 +167,8 @@
 		5D6D43CC1F23C4520069F57A /* Vuelos+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Vuelos+CoreDataClass.swift"; path = "../Vuelos+CoreDataClass.swift"; sourceTree = "<group>"; };
 		5D6D43CD1F23C4520069F57A /* Vuelos+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Vuelos+CoreDataProperties.swift"; path = "../Vuelos+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5D710BEF1ECCDA1200B8D9CD /* Bitacoras+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bitacoras+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AC42EF7A2A0995CE001EC797 /* AlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertView.xib; sourceTree = "<group>"; };
+		AC42EF7B2A0995CF001EC797 /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		DA00B97C1CB46C3300B9160B /* Bitacoras 9.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Bitacoras 9.xcdatamodel"; sourceTree = "<group>"; };
 		DA00B9A11CB47C9400B9160B /* Bitacoras 10.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Bitacoras 10.xcdatamodel"; sourceTree = "<group>"; };
 		DA0346BA1CE53E360011855A /* TVC_AvionesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TVC_AvionesTableViewController.swift; path = BItacoras/TVC_AvionesTableViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -342,12 +342,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		286E5C93259B9ED700F4A248 /* fonts */ = {
+		AC42EF742A09956F001EC797 /* CustomAlert */ = {
 			isa = PBXGroup;
 			children = (
-				286E5C94259B9EF200F4A248 /* Another Flight.otf */,
+				AC42EF7B2A0995CF001EC797 /* AlertView.swift */,
+				AC42EF7A2A0995CE001EC797 /* AlertView.xib */,
 			);
-			path = fonts;
+			name = CustomAlert;
 			sourceTree = "<group>";
 		};
 		DA487BB01B434A910057EFCC = {
@@ -377,7 +378,7 @@
 		DA487BBB1B434A910057EFCC /* Bitacoras */ = {
 			isa = PBXGroup;
 			children = (
-				286E5C93259B9ED700F4A248 /* fonts */,
+				AC42EF742A09956F001EC797 /* CustomAlert */,
 				DA4B81081D903481003A20E7 /* Bitacoras.entitlements */,
 				DAA2AC761BF27B0A00F25689 /* PopDatePicker */,
 				DA7EC5161BD53870007ED2CE /* AFNetworking */,
@@ -670,6 +671,7 @@
 				TargetAttributes = {
 					DA487BB81B434A910057EFCC = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 699QRPV6HD;
 						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -693,6 +695,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -733,16 +736,14 @@
 				DA487C161B434C600057EFCC /* passenger_filled-32.png in Resources */,
 				DA487C081B434C600057EFCC /* airplane_filled-32.png in Resources */,
 				DA487C0B1B434C600057EFCC /* airplane_take_off-32.png in Resources */,
-				286E5C9D259BD50B00F4A248 /* AlertView.xib in Resources */,
+				AC42EF7C2A0995CF001EC797 /* AlertView.xib in Resources */,
 				DA487C0A1B434C600057EFCC /* airplane_take_off_filled-50.png in Resources */,
 				DA487C171B434C600057EFCC /* passenger-32.png in Resources */,
 				DA1EBE031DAD328400C16447 /* synced_ok.png in Resources */,
 				DA487C021B434C600057EFCC /* 111-user.png in Resources */,
-				286E5C95259B9EF200F4A248 /* Another Flight.otf in Resources */,
 				286E5CA5259BD6B800F4A248 /* Success.png in Resources */,
 				DAA93D7C1BC6C1E800EA034F /* bullish-25.png in Resources */,
 				DA487C0F1B434C600057EFCC /* customs_officer-32.png in Resources */,
-				286E5C99259BB55000F4A248 /* launch-logo.png in Resources */,
 				DA487C141B434C600057EFCC /* lock_32.png in Resources */,
 				DA358F291CB886730081102F /* twitterscreen.PNG in Resources */,
 				DA8944B01B4D85880005FE7E /* Default-568h@2x.png in Resources */,
@@ -774,10 +775,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC42EF732A0983E8001EC797 /* UIAlertView+Blocks.h in Sources */,
 				5D59C7D11EC4DCEE005C78C8 /* AvionesAsignados+CoreDataProperties.swift in Sources */,
 				5D59C7CD1EC4DC66005C78C8 /* Pilotos+CoreDataProperties.swift in Sources */,
 				5D59C7D01EC4DCEE005C78C8 /* AvionesAsignados+CoreDataClass.swift in Sources */,
 				DA7EC5651BD53FC5007ED2CE /* AFHTTPRequestOperation.m in Sources */,
+				AC42EF7D2A0995CF001EC797 /* AlertView.swift in Sources */,
 				DA487C2B1B434C9E0057EFCC /* VariablesGlobales.swift in Sources */,
 				DA7EC56C1BD53FC5007ED2CE /* AFURLResponseSerialization.m in Sources */,
 				5D6D43CE1F23C4520069F57A /* Vuelos+CoreDataClass.swift in Sources */,
@@ -819,7 +822,6 @@
 				DAE4D3161CBADDAD00F28528 /* LauncViewController.swift in Sources */,
 				DA0346BD1CE6297A0011855A /* TVC_AvionesTableViewCell.swift in Sources */,
 				DAECAD441BC80D4E0000172B /* Jet_Instrumentos_TableViewController.swift in Sources */,
-				286E5C9B259BD40F00F4A248 /* AlertView.swift in Sources */,
 				DA6F80EC1B4AF300005DBCC0 /* BitacorasViewController.swift in Sources */,
 				DA8DE5551CBEB75A00C3A66E /* Turbo_BiMotor_Instrumentos_TableViewController.swift in Sources */,
 				DA487C301B43516F0057EFCC /* Login_TableViewController.swift in Sources */,
@@ -1014,7 +1016,7 @@
 				CODE_SIGN_ENTITLEMENTS = Bitacoras/Bitacoras.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 699QRPV6HD;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1027,7 +1029,7 @@
 					"$(PROJECT_DIR)/Bitacoras",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = mx.aerotron.Bitacoras;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovandoenti.bitacora;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1047,7 +1049,7 @@
 				CODE_SIGN_ENTITLEMENTS = Bitacoras/Bitacoras.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 699QRPV6HD;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1060,7 +1062,7 @@
 					"$(PROJECT_DIR)/Bitacoras",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = mx.aerotron.Bitacoras;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovandoenti.bitacora;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
